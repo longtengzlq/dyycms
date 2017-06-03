@@ -1,0 +1,170 @@
+    {include file="common/header"}
+	<!-- /头部 -->
+	
+	<div class="main-container container-fluid">
+		<div class="page-container">
+		 <!-- Page Sidebar -->
+            
+                <!-- Page Sidebar Header-->
+                    {include file="common/left" /}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="{:url('index/index')}">{$Think.lang.system}</a>
+                        </li>
+                        <li>
+                            <a href="{:url('admin/lst')}">{$Think.lang.administrator}</a>
+                        </li>
+                        <li class="active">{$Think.lang.add}
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">{$Think.lang.edit}</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" action="{:url('admin/edit')}" method="post">
+                        <input class="form-control" id="id" placeholder="" name="id"  value="{$user.id}" type="hidden">
+                        <div class="form-group">
+                            <label for="username" class="col-sm-2 control-label no-padding-right">{$Think.lang.username}</label>
+                            <div class="col-sm-6">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="username" required=""  type="text" value="{$user.username}" class="form-control">
+                                    <i class="fa fa-user bg-darkorange"></i>
+                                </span>
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="col-sm-2 control-label no-padding-right">{$Think.lang.password}</label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+                                    <input name="password" required="" type="text" value="{$user.password}" class="form-control ">
+                                    <i class="glyphicon glyphicon-lock bg-pink"></i>
+                                 </span>
+                                <!--<input class="form-control" id="password" placeholder="" name="password" required="" type="text">-->
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div>                          
+                        <div class="form-group">
+                            <label for="status" class="col-sm-2 control-label no-padding-right" >{$Think.lang.enabled}</label>
+                            <div class="col-sm-6">
+                                <label>
+                                    <input class="checkbox-slider colored-success "  id='status'  name='status' {if condition="$user.status == 1"}checked="checked"{/if}type="checkbox">
+                                    <span class="text" style="margin-top:5px"></span>
+                                </label>
+                            </div>
+                            
+                        </div>
+                          
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label no-padding-right">{$Think.lang.email}</label>
+                            <div class="col-sm-6">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="email" required=""  value="{$user.email}" type="text" class="form-control">
+                                    <i class="fa fa-envelope bg-orange"></i>
+                                </span>                                
+                            </div>
+                        </div> 
+                        
+                        <div class="form-group">
+                            <label for="QQ" class="col-sm-2 control-label no-padding-right">{$Think.lang.QQ}</label>
+                            <div class="col-sm-6">
+                               <span class="input-icon icon-right inverted">
+                                    <input name="QQ" required=""  value="{$user.QQ}" type="text" class="form-control">
+                                    <i class="fa fa-qq bg-warning white"></i>
+                                </span>                                   
+                            </div>
+                        </div> 
+                        
+                        <div class="form-group">
+                            <label for="telephone" class="col-sm-2 control-label no-padding-right">{$Think.lang.telephone}</label>
+                            <div class="col-sm-6">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="telephone" required=""  value="{$user.telephone}" type="text" class="form-control">
+                                    <i class="fa fa-phone bg-info white"></i>
+                                </span>                                   
+                            </div>
+                        </div> 
+                        
+                        <div class="form-group">
+                            <label for="address" class="col-sm-2 control-label no-padding-right">{$Think.lang.address}</label>
+                            <div class="col-sm-6">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="address" required=""  value="{$user.address}" type="text" class="form-control">
+                                    <i class="fa fa-home bg-success white"></i>
+                                </span>  
+                            </div>
+                        </div> 
+                        
+                         <div class="form-group">
+                            <label for="expiry_time" class="col-sm-2 control-label no-padding-right">{$Think.lang.expiry_time}</label>
+                            <div class="col-sm-6">
+                                <div>
+                                    <div class="input-group">
+                                        <input class="form-control date-picker" id="expiry_time" name='expiry_time' value="{$user.expiry_time|date=\"Y-m-d\",###}" type="text" data-date-format="yyyy-mm-dd">
+                                                <span class="input-group-addon">
+                                                    <i class="fa fa-calendar "></i>
+                                                </span>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="form-group">
+                            <label for="authority" class="col-sm-2 control-label no-padding-right">{$Think.lang.authority}</label>
+                            <div class="col-sm-6">                                
+                               <select class="form-control" id="authority" name="authority" style="border-radius:0px;">
+                                    <option value="Default" {if condition="$user.autority == 'Default'"}selected{/if}>Default</option>                                    
+                                    <option value="Test">Test</option>                                    
+                                </select>
+                            </div>
+                             <p class="help-block col-sm-4 red">* 暂时不做</p>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-blue">{$Think.lang.save_info}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+
+    <script src="__JS__/bootstrap-datepicker.js"></script>
+    <script>
+        $('.date-picker').datepicker();
+    </script>
+
+
+</body></html>

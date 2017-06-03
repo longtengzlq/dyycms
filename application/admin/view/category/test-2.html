@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>我的博客</title>
+    <meta name="description" content="Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Basic Styles-->
+    <link href="__CSS__/bootstrap.css" rel="stylesheet">
+    <link href="__CSS__/font-awesome.css" rel="stylesheet">
+    <link href="__CSS__/weather-icons.css" rel="stylesheet">
+    <link href="__CSS__/ion.calendar.css" rel="stylesheet" >
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="__CSS__/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__CSS__/demo.css" rel="stylesheet">
+    <link href="__CSS__/typicons.css" rel="stylesheet">
+    <link href="__CSS__/animate.css" rel="stylesheet">
+    <script src="__JS__/ueditor/ueditor.config.js"></script>
+    <script src="__JS__/ueditor/ueditor.all.min.js"></script>
+    <script src="__JS__/ueditor/lang/zh-cn/zh-cn.js"></script>
+   <script src="__JS__/skins.min.js"></script>
+   	
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-container">
+            <!-- Navbar Barnd -->
+            <div class="navbar-header pull-left">
+                <a href="#" class="navbar-brand">
+                    <small>
+                            <img src="__IMG__/logo.png" alt="">
+                        </small>
+                </a>
+            </div>
+            <!-- /Navbar Barnd -->
+            <!-- Sidebar Collapse -->
+            <div class="sidebar-collapse" id="sidebar-collapse">
+                <i class="collapse-icon fa fa-bars"></i>
+            </div>
+            <!-- /Sidebar Collapse -->
+            <!-- Account Area and Settings -->
+            <div class="navbar-header pull-right">
+                <div class="navbar-account">
+                    <ul class="account-area">
+                        <li><a class="login-area " style='padding: auto'  href="{:url($current_action,array('lang'=>'zh-cn'))}">简体中文</a>
+                            <a class="login-area " href="{:url($current_action,array('lang'=>'en-us'))}">English</a></li>
+                        <li>
+                            <a class="login-area dropdown-toggle" data-toggle="dropdown">
+                                <div class="avatar" title="View your public profile">
+                                    <img src="__IMG__/adam-jansen.jpg">
+                                </div>
+                                <section>
+                                    <h2><span class="profile"><span>简体中文{$Think.session.username}</span></span></h2>
+                                </section>
+                            </a>
+                            
+                            
+                            <!--Login Area Dropdown-->
+                            <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
+                                
+                                <li class="username"><a>{session.username}</a></li>
+                                <li class="dropdown-footer">
+                                    <a href="{:url('index/logout')}">
+                                            退出登录
+                                        </a>
+                                </li>
+                                <li class="dropdown-footer">
+                                    <a href="{:url('index/edit',array('id'=>$Request.session.uid))}">
+                                            修改密码
+                                        </a>
+                                </li>
+                            </ul>
+                            <!--/Login Area Dropdown-->
+                        </li>
+                        <!-- /Account Area -->
+                        <!--Note: notice that setting div must start right after account area list.
+                            no space must be between these elements-->
+                        <!-- Settings -->
+                    </ul>
+                </div>
+            </div>
+            <!-- /Account Area and Settings -->
+        </div>
+    </div>
+</div>
+
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			            <!-- Page Sidebar -->
+           {include file="common/left"}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li>
+                        <a href="{:url('index/index')}">{$Think.lang.system}</a>
+                    </li>
+                                        <li class="active">{$Think.lang.category_list}</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+               
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+    <script src="__JS__/skins.min.js"></script>
+   	   
+	<script type="text/javascript" src="__JS__/zTree/js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="__JS__/zTree/js/jquery.ztree.core.js"></script>
+	<!--  <script type="text/javascript" src="__JS__/jquery.ztree.excheck.js"></script>
+	  <script type="text/javascript" src="__JS__/jquery.ztree.exedit.js"></script>-->alendar.css" rel="stylesheet" >
+
+<SCRIPT type="text/javascript">
+		<!--
+		var setting = {
+			view: {
+				dblClickExpand: false,
+                                selectedMulti: false,
+                                
+			},
+			data: {
+				simpleData: {
+					enable: true,
+                                        idKey: "id",
+                                        pIdKey: "pid",
+                                        rootPId: null				
+                                        },
+                                key: {
+                                        name: "cate_name",
+                                        
+                                        }
+			},
+                       
+			callback: {
+				beforeClick: beforeClick,
+				onClick: onClick
+			}
+		};
+
+		var zNodes =<?php echo json_encode($cate);?>
+
+
+		function beforeClick(treeId, treeNode) {
+			var check = true;
+			return check;
+		}
+		
+		function onClick(e, treeId, treeNode) {
+			var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
+			nodes = zTree.getSelectedNodes(),
+			v = "";
+			nodes.sort(function compare(a,b){return a.id-b.id;});
+
+			for (var i=0, l=nodes.length; i<l; i++) {
+				v += nodes[i].cate_name + ",";
+			}
+			if (v.length > 0 ) v = v.substring(0, v.length-1);
+
+			var cityObj = $("#citySel");
+			cityObj.attr("value", v);
+                        
+                        hideMenu();
+		}
+
+		function showMenu() {
+           
+			var cityObj = $("#citySel");
+         
+			var cityOffset = $("#cate_name").offset();
+			//$("#menuContent").css({left:cityOffset.left + "px", top:cityOffset.top + cityObj.outerHeight() + "px"}).slideDown("fast");
+			$("#menuContent").slideDown("fast");
+
+			$("body").bind("mousedown", onBodyDown);
+                        
+                   
+		}
+		function hideMenu() {
+			$("#menuContent").fadeOut("fast");
+			$("body").unbind("mousedown", onBodyDown);
+		}
+		function onBodyDown(event) {
+			if (!(event.target.id == "menuBtn" || event.target.id == "menuContent" || $(event.target).parents("#menuContent").length>0)) {
+				hideMenu();
+			}
+		}
+
+		$(document).ready(function(){
+			var tree=$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+                        tree.expandAll(true);
+                        
+		});
+		//-->
+	</SCRIPT>
+	
+
+</body></html>

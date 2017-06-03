@@ -1,0 +1,47 @@
+    {include file="common/header" /}
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			            <!-- Page Sidebar -->
+           {include file="common/left"}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li>
+                        <a href="{:url('index/index')}">{$Think.lang.system}</a>
+                    </li>
+                                        <li class="active">{$Think.lang.category_list}</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    {volist name='sort_data' id='cate'}
+                        
+                    {if condition="$cate['level'] neq '0'"}
+                      <?php echo str_repeat('|---',$cate['level']);?>{$cate.cate_name}
+                        {else /}
+                        {$cate.cate_name}                       
+                     {/if}
+                     </br>
+                    {/volist}
+
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+    
+
+
+</body></html>

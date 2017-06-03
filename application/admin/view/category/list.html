@@ -1,0 +1,212 @@
+    {include file="common/header" /}
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			            <!-- Page Sidebar -->
+           {include file="common/left"}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li>
+                        <a href="{:url('index/index')}">{$Think.lang.system}</a>
+                    </li>
+                                        <li class="active">{$Think.lang.category_list}</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<button type="button" tooltip="{$Think.lang.add}" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '{:url('category/add',array('language_id'=>intval($language_id)))}'"> <i class="fa fa-plus"></i> {$Think.lang.add}
+</button>
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-body">
+                <div class="flip-scroll">
+                    <form id="myform" action="" method="post">
+                            
+                    <table class="table table-bordered table-hover ">
+                        <thead class="">
+                            <tr>
+                                <th class="text-center" style="vertical-align: middle;;font-size: 13px">
+                                    <label >
+                                            <input type="checkbox" class="colored-success"   id='check_all'>
+                                            <span id="check-2" class="text"></span>
+                                         </label>
+
+                                </th>
+                                <th class="text-center" style="vertical-align: middle">{$Think.lang.id}</th>
+                                <th class="text-center" style="vertical-align: middle"><a href="" style='color:inherit'>{$Think.lang.sort}</a></th>                                
+                                <th class="text-center" style="vertical-align: middle">{$Think.lang.category_name}</th>
+                                <th class="text-center" style="vertical-align: middle">{$Think.lang.category_status}</th>
+                                <th class="text-center" style="vertical-align: middle">{$Think.lang.category_recommond}</th>
+                                <th class="text-center" style="vertical-align: middle">{$Think.lang.category_lang}</th>                               
+                                <th class="text-center" style="vertical-align: middle">{$Think.lang.operation}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            {volist name="$sort_cates" id="vo"}
+                            <tr>
+                                <td align="center" style='vertical-align: middle;'>
+                                         <label >
+                                                    <input name="checkbox[]" dataid="id-{$vo.dataid}"  type="checkbox"  class="colored-success  checkbox-parent {if condition="$vo['level'] neq 0"} checkbox-child {/if} " data-tog='ss'  value='{$vo.id}'>
+                                                    <span id="check-2 " class="text"></span>
+                                                </label> 
+                                </td>
+                                <td align="center" style='vertical-align: middle;;font-size: 13px'>{$vo.id}</td>
+                                <td align="center"  class="col-sm-1" style='vertical-align: middle;font-size: 13px'>
+                                    <input type="text" class="form-control col-sm-2 text-center" name='sort[{$vo.id}]'  value=" {$vo.sort}"  placeholder="Default Input">
+                                  </td>
+                                
+                                <td align="center"  style='vertical-align: middle;font-size: 13px;text-align: left'>
+                                    
+                                        <?php if($vo['level']>0) { echo str_repeat('&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;',$vo['level']-1).'&nbsp;&nbsp;&nbsp; |---';}?>{$vo.cate_name}
+                                    
+                                </td>
+                                <td align="center"  style='vertical-align: middle;font-size: 13px'>
+                                    <label >
+                                         <input class="checkbox-slider colored-success " style="left: inherit" id='status_{$vo.id}'   onclick="set_status({$vo.id},this)"   name='status' {if condition="$vo.status == 1"} checked="checked" {/if}type="checkbox">
+                                        <span class="text" style="margin-bottom: -13px"></span>
+                                    </label>
+                                </td>
+                                 <td align="center"  style='vertical-align: middle;font-size: 13px'>
+                                    <label >
+                                         <input class="checkbox-slider colored-success " style="left: inherit" id='recommond_{$vo.id}'   onclick="set_status({$vo.id},this)"   name='is_recommond' {if condition="$vo.is_recommond == 1"} checked="checked" {/if}type="checkbox">
+                                        <span class="text" style="margin-bottom: -13px"></span>
+                                    </label>
+                                </td>
+                                 <td align="center"  style='vertical-align: middle;font-size: 13px'>{$vo.language.brief_name}</td>
+                                
+                                <td align="center" class="buttons-preview"  style='vertical-align: middle;font-size: 13px'>
+                                    <a href="{:url('category/edit',array('id'=>$vo['id'],'language_id'=>$vo['language_id']))}" class="btn btn-azure btn-m " style="margin-bottom: -1px;">
+                                        <i class="fa fa-edit"></i> {$Think.lang.edit}
+                                    </a>
+                            
+                                    <a href="#" onClick="warning('{$Think.lang.delete_confirm}', '{:url(\'category/del\',array(\'id\'=>$vo[\'id\'],\'language_id\'=>$vo[\'language_id\']))}')" class="btn btn-darkorange  btn-m" style="margin-bottom: -1px;">
+                                        <i class="fa fa-trash-o"></i> {$Think.lang.delete}
+                                    </a>
+                                </td>
+                            </tr>
+                             {/volist}   
+                        </tbody>
+                  
+                    </table>
+                       
+                    </form>
+                </div>
+                <div  style="display: block">
+                <div style="padding-top: 5px; display: inline-block ;">                           
+              <!--      <a  onclick='(function(){$("form").attr("action","{:url(\"delMuti\",array(\"language_id\"=>\"1\"))}");;$("#myform").submit();})();' class="btn btn-darkorange">删除</a>
+                  -->
+                  <a  onclick='del_arr()' class="btn btn-darkorange">{$Think.lang.delete}</a>
+                  <a onclick="sort_arr()" class="btn btn-azure">{$Think.lang.sort}</a>
+                             
+                </div>
+                <div style="padding-top: 5px;display: inline-block ; float: right; ">
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+<script src="__JS__/jquery_002.js"></script>
+	    <!--Basic Scripts-->
+ <script src="__JS__/bootstrap.js"></script>
+   
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+    <script>
+        $("#check_all").click(function(){           
+         $(':input:checkbox[data-tog="ss"]').prop('checked',this.checked);             
+        });
+        
+        function del_arr(){
+            if($(":input:checkbox:checked").length>0){               
+                $("form").attr("action","{:url('delMuti',array('language_id'=>$language_id))}");
+                $("#myform").submit();
+            }else{
+                alert('{$Think.lang.no_selected_checkbox}');
+            }
+        }
+        function sort_arr(){            
+                $("form").attr("action","{:url('resort',array('language_id'=>$language_id))}");
+                $("#myform").submit();
+        }
+         function set_status(id,obj){            
+            var status=false;
+            if($('#'+obj.id).attr('checked')=='checked'){
+                status=true;
+            }          
+            if(status){
+                $('#'+obj.id).removeAttr('checked');                 
+               set_remote_status(id,obj.name,0);
+            }else{
+                $('#'+obj.id).attr('checked','checked');
+                set_remote_status(id,obj.name,1);
+            }
+            
+        }
+        function set_remote_status(id,field_name,field_value){  
+            
+            $.ajax({
+                url:"{:url('updateStatus')}",
+                data:{'id':id,'field_name':field_name,'field_value':field_value},
+                success:function(msg){
+                },
+                error:function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(errorThrown);
+                },
+            });
+            
+        }
+        $(function () {
+    //动态选择框，上下级选中状态变化
+    $('input.checkbox-parent').on('change', function () {
+        var dataid = $(this).attr("dataid");
+        $('input[dataid^=' + dataid + ']').prop('checked', $(this).is(':checked'));
+    });
+    $('input.checkbox-child').on('change', function () {
+        var dataid = $(this).attr("dataid");
+        dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+        var parent = $('input[dataid=' + dataid + ']');
+        if ($(this).is(':checked')) {
+            parent.prop('checked', true);
+            //循环到顶级
+            while (dataid.lastIndexOf("-") != 2) {
+                dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+                parent = $('input[dataid=' + dataid + ']');
+                parent.prop('checked', true);
+            }
+        } else {
+            //父级
+            if ($('input[dataid^=' + dataid + '-]:checked').length == 0) {
+                parent.prop('checked', false);
+                //循环到顶级
+                while (dataid.lastIndexOf("-") != 2) {
+                    dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+                    parent = $('input[dataid=' + dataid + ']');
+                    if ($('input[dataid^=' + dataid + '-]:checked').length == 0) {
+                        parent.prop('checked', false);
+                    }
+                }
+            }
+        }
+    });
+});
+    </script>
+
+
+</body></html>

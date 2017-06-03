@@ -1,0 +1,88 @@
+    {include file="common/header" /}
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			            <!-- Page Sidebar -->
+           {include file="common/left"}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li>
+                        <a href="#">系统</a>
+                    </li>
+                                        <li class="active">用户管理</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<button type="button" tooltip="添加用户" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '{:url('index/add')}'"> <i class="fa fa-plus"></i> 添加管理员
+</button>
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-body">
+                <div class="flip-scroll">
+                    <table class="table table-bordered table-hover">
+                        <thead class="">
+                            <tr>
+                                <th class="text-center">ID</th>
+                                <th class="text-center">用户名称</th>
+                                <th class="text-center">注册时间</th>
+                                <th class="text-center">注册IP</th>
+                                <th class="text-center">最近登录时间</th>
+                                <th class="text-center">最近登录IP</th>
+                                <th class="text-center">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {volist name="results" id="vo"}
+                            <tr>
+                                <td align="center">{$vo.id}</td>
+                                <td align="center">{$vo.name}</td>
+                                <td align="center">{$vo.regtime|date="Y-m-d",###}</td>
+                                 <td align="center">{$vo.reg_IP}</td>
+                                <td align="center">{$vo.last_login_time|date="Y-m-d",###}</td>
+                                <td align="center">{$vo.last_login_IP}</td>
+                                <td align="center">
+                                    <a href="{:url('index/edit',array('id'=>$vo['id']))}" class="btn btn-primary btn-sm shiny">
+                                        <i class="fa fa-edit"></i> 编辑
+                                    </a>
+                                    <a href="#" onClick="warning('确实要删除吗', '{:url(\'index/del\',array('id'=>$vo['id']))}')" class="btn btn-danger btn-sm shiny">
+                                        <i class="fa fa-trash-o"></i> 删除
+                                    </a>
+                                </td>
+                            </tr>
+                             {/volist}   
+                                                    </tbody>
+                    </table>
+                    {$results->render()}
+                </div>
+                <div>
+                	                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{$Think.lang.hello}
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+    
+
+
+</body></html>

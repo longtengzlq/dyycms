@@ -1,0 +1,242 @@
+
+	{include file='common/header'/}
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			            <!-- Page Sidebar -->
+            {include file="common/left"/}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li class="active">控制面板</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    <form class="form-horizontal" role="form" action="" enctype="multipart/form-data"  method="post">
+                        <input name="id"  value="1" type="hidden">
+                        <div class="form-group">
+                            <label for="site_name" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_title}</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" id="site_name" placeholder="" name="site_name" required="" type="text">
+                            </div>
+                            <p class="help-block col-sm-4 red">* 必填</p>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="site_domain" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_domain}</label>
+                            <div class="col-sm-4">
+                                <input class="form-control" id="site_domain" placeholder="" name="site_domain" required="" type="text">
+                            </div>
+                            <label for="site_domain" class="col-sm-2 control-label no-padding-left" style="text-align:left">例如：http://www.mlcms.com/</label>
+                            <p class="help-block col-sm-4 red">* 必填</p>
+                        </div>
+                        
+                         <div class="form-group">
+                            <label for="site_switch" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_switch}</label>
+                            <div class="col-sm-6">
+                                <label>
+                                    <input class="checkbox-slider colored-success " id='site_switch' name="site_switch" type="checkbox">
+                                    <span class="text"></span>
+                                </label>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="site_keywords" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_keywords}</label>
+                            <div class="col-sm-6">
+                                 <input class="form-control" id="site_keywords" placeholder="" name="site_keywords"  type="text">
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="site_desciption" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_desciption}</label>
+                            <div class="col-sm-6">
+                                <textarea name='site_desciption' id='site_desciption' class="form-control" rows="3" placeholder=""></textarea>
+                               
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="site_templet" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_templet}</label>
+                            <div class="col-sm-6">
+                                
+                               <select class="form-control" id="site_templet" name="site_templet" style="border-radius:0px;">
+                                    <option value="Default">Default</option>
+                                    
+                                    <option value="Test">Test</option>
+                                    
+                                </select>
+                               
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="upload_size" class="col-sm-2 control-label no-padding-right">{$Think.lang.upload_size}</label>
+                            <div class="col-sm-4">
+                                <input class="form-control" id="upload_size" placeholder="" name="upload_size" required="" type="text">
+                            </div>
+                            <p class="help-block col-sm-2 ">KB    默认为2048KB</p>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="upload_type" class="col-sm-2 control-label no-padding-right">{$Think.lang.upload_type}</label>
+                            <div class="col-sm-4">
+                                <input class="form-control" id="upload_type" placeholder="" name="upload_type" required="" type="text">
+                            </div>
+                            <p class="help-block col-sm-2 ">类型中间用“|”线隔开</p>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="GD_test" class="col-sm-2 control-label no-padding-right">{$Think.lang.GD_test}</label>
+                            <div class="col-sm-6">
+                                <label>
+                                    <input class="checkbox-slider slider-icon colored-darkorange" id='GD_test' name="GD_test" type="checkbox">
+                                    <span class="text"></span>
+                                </label>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="GD_test_switch" class="col-sm-2 control-label no-padding-right">{$Think.lang.GD_test_switch}</label>
+                            <div class="col-sm-6">
+                                <label>
+                                    <input class="checkbox-slider colored-success" id='GD_test_switch' name="GD_test_switch" type="checkbox">
+                                    <span class="text"></span>
+                                </label>
+                            </div>
+                            
+                        </div>
+                        
+                         <div class="form-group">
+                            <label for="watermart_condition" class="col-sm-2 control-label no-padding-right">{$Think.lang.watermart_condition}</label>
+                            <div class="col-sm-6">
+                                <input class="form-control" id="watermart_condition" placeholder="" name="watermart_condition"  type="text">
+                            </div>
+                           
+                        </div>
+                        
+                         <div class="form-group">
+                            <label for="watermark_image" class="col-sm-2 control-label no-padding-right">{$Think.lang.watermark_image}</label>
+                            <div class="col-sm-4">
+                                <input class="form-control" id="watermark_image" placeholder="" name="watermark_image"  type="text">
+                            </div>
+                            
+                        </div>
+                        
+                         <div class="form-group">
+                            <label for="watermark_transparency" class="col-sm-2 control-label no-padding-right">{$Think.lang.watermark_transparency}</label>
+                            <div class="col-sm-4">
+                                <input class="form-control" id="watermark_transparency" placeholder="" name="watermark_transparency"  type="text">
+                            </div>
+                            
+                        </div>
+                        
+                         <div class="form-group">
+                            <label for="watermark_position" class="col-sm-2 control-label no-padding-right">{$Think.lang.watermark_position}</label>
+                            <div class="col-sm-6">
+                                <div class="control-group">
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio" value="1" class="colored-blue">
+                                                        <span class="text"> 左上</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio" value="2" class="colored-danger">
+                                                        <span class="text"> 中上</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio" value="3" class="colored-success">
+                                                        <span class="text"> 右上</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio" value="4" class="colored-blue">
+                                                        <span class="text"> 左中</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio" value="5" class="colored-danger">
+                                                        <span class="text"> 中</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio" value="6" class="colored-success">
+                                                        <span class="text"> 右中</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio"  value="7" class="colored-blue">
+                                                        <span class="text"> 左下</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio" value="8" class="colored-danger">
+                                                        <span class="text"> 中下</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio col-sm-4">
+                                                    <label>
+                                                        <input name="watermark_position" type="radio" value="9" checked="checked" class="colored-success">
+                                                        <span class="text"> 右下</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                            </div>
+
+                        </div>
+                        
+                       
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">保存信息</button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    
+				
+                </div>
+                
+
+               
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+    
+
+
+</body></html>

@@ -1,0 +1,176 @@
+    {include file="common/header"}
+	<!-- /头部 -->
+	
+	<div class="main-container container-fluid">
+		<div class="page-container">
+		 <!-- Page Sidebar -->
+            
+                <!-- Page Sidebar Header-->
+                    {include file="common/left" /}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="{:url('index/index','')}">{$Think.lang.system}</a>
+                        </li>
+                        <li>
+                            <a href="{:url('category/lst','')}">{$Think.lang.category}</a>
+                        </li>
+                        <li class="active">{$Think.lang.add}
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">{$Think.lang.category_add}</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" action="{:url('category/add')}" method="post">
+                        <div class="form-group">
+                            <label for="cate_name" class="col-sm-2 control-label no-padding-right">{$Think.lang.category_name}</label>
+                            <div class="col-sm-6">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="cate_name" required=""  type="text" class="form-control">
+                                    <i class="fa fa-bars bg-darkorange"></i>
+                                </span>
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div>
+                        
+                        <div class="form-group">
+                            
+                            <label for="language_name" class="col-sm-2 control-label no-padding-right">{$Think.lang.category_lang}</label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+                                    <input name="language_name" required=""  type="text" disabled="disabled"  value="&nbsp;&nbsp;{$lang.brief_name} "   class="form-control">
+                                    <i class="fa fa-language bg-orange"></i>
+                                </span>
+                                <input name="language_id" type="hidden"   value="{$lang.id} ">  
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div>   
+
+                        <div class="form-group">
+                            <label for="pid" class="col-sm-2 control-label no-padding-right">{$Think.lang.category_pid}</label>
+                            <div class="col-sm-6">  
+                                <select class="form-control" id="authority" name="pid" style="border-radius:0px;">
+                                    <option value="0">{$Think.lang.category_top}</option> 
+                                    {volist name='cates' id='cate'}
+                                        <option value="{$cate.id}" >{$cate.cate_name}</option>
+                                    {/volist}
+                                </select>
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div>     
+                        
+                        <div class="form-group">
+                            <label for="pid" class="col-sm-2 control-label no-padding-right">{$Think.lang.category_pid}</label>
+                            <div class="col-sm-6">  
+                                 <div class="widget-body">
+                                    <div id="MyTree2" class="tree tree-plus-minus">
+                                        <div class="tree-folder" style="display: none;">
+                                            <div class="tree-folder-header">
+                                                <i class="fa fa-folder"></i>
+                                                <div class="tree-folder-name"></div>
+                                            </div>
+                                            <div class="tree-folder-content">
+                                            </div>
+                                            <div class="tree-loader" style="display: none;"></div>
+                                        </div>
+                                        <div class="tree-item" style="display: none;">
+                                            <i class="tree-dot"></i>
+                                            <div class="tree-item-name"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div> 
+                        
+                        
+                        
+                       
+                        
+                        
+                        
+                        
+                       
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-blue">{$Think.lang.save_info}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+
+    <script src="__JS__/bootstrap-datepicker.js"></script>
+    <script>
+        $('.date-picker').datepicker();
+    </script>
+<script src="__JS__/tree-custom.min.js"></script>
+    <script src="__JS__/treeview-init.js"></script>
+<?php 
+    $data_s=array(
+        '0'=>array(
+            'name'=>'myfirst',
+             'type'=> 'folder',
+             'additionalParameters'=>array('id'=>'F11',) 
+        ),
+         '1'=>array(
+            'name'=>'second',
+             'type'=> 'folder',
+             'additionalParameters'=>array('id'=>'F2',) 
+        ),
+         '2'=>array(
+            'name'=>'three',
+             'type'=> 'folder',
+             'additionalParameters'=>array('id'=>'3',) 
+        ),
+         '3'=>array(
+            'name'=>'four',
+             'type'=> 'item',
+             'additionalParameters'=>array('id'=>'3'
+             ), 
+        ),
+    
+    );
+?>
+
+    <script>
+       
+        jQuery(document).ready(function () {
+            UITree.init('<?php echo json_encode($data_s)?>');
+        });
+    </script>
+
+</body></html>

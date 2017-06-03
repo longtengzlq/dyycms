@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>我的博客</title>
+    <meta name="description" content="Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Basic Styles-->
+    <link href="__CSS__/bootstrap.css" rel="stylesheet">
+    <link href="__CSS__/font-awesome.css" rel="stylesheet">
+    <link href="__CSS__/weather-icons.css" rel="stylesheet">
+    <link href="__CSS__/ion.calendar.css" rel="stylesheet" >
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="__CSS__/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__CSS__/demo.css" rel="stylesheet">
+    <link href="__CSS__/typicons.css" rel="stylesheet">
+    <link href="__CSS__/animate.css" rel="stylesheet">
+
+   	
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-container">
+            <!-- Navbar Barnd -->
+            <div class="navbar-header pull-left">
+                <a href="#" class="navbar-brand">
+                    <small>
+                            <img src="__IMG__/logo.png" alt="">
+                        </small>
+                </a>
+            </div>
+            <!-- /Navbar Barnd -->
+            <!-- Sidebar Collapse -->
+            <div class="sidebar-collapse" id="sidebar-collapse">
+                <i class="collapse-icon fa fa-bars"></i>
+            </div>
+            <!-- /Sidebar Collapse -->
+            <!-- Account Area and Settings -->
+            <div class="navbar-header pull-right">
+                <div class="navbar-account">
+                    <ul class="account-area">
+                        <li><a class="login-area " style='padding: auto'  href="{:url($current_action,array('lang'=>'zh-cn'))}">
+                                <div style="height: 45px;line-height: 45px;padding: 0px;margin: 0px;margin-top: -10px; color: white;">    简体中文</div>
+                            </a>
+                            <a class="login-area " href="{:url($current_action,array('lang'=>'en-us'))}">
+                                <div style="height: 45px;line-height: 45px;padding: 0px;margin: 0px;margin-top: -10px; color: white;">  English</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="login-area dropdown-toggle" data-toggle="dropdown">
+                                <div class="avatar" title="View your public profile">
+                                    <img src="__IMG__/adam-jansen.jpg">
+                                </div>
+                                <section>
+                                    <h2><span class="profile"><span>{$login_username}</span></span></h2>
+                                </section>
+                            </a>
+                            
+                            
+                            <!--Login Area Dropdown-->
+                            <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area ">
+                                
+                                <li class="username"><a>{session.username}</a></li>
+                                <li class="dropdown-footer" style="text-align: center">
+                                    <a href="{:url('login/logout')}">
+                                            {$Think.lang.logouts}
+                                        </a>
+                                </li>
+                                <li class="dropdown-footer" style="text-align: center">
+                                    <a href="{:url('index/edit',array('id'=>$Request.session.uid))}">
+                                            {$Think.lang.change_password}
+                                        </a>
+                                </li>
+                            </ul>
+                            <!--/Login Area Dropdown-->
+                        </li>
+                        <!-- /Account Area -->
+                        <!--Note: notice that setting div must start right after account area list.
+                            no space must be between these elements-->
+                        <!-- Settings -->
+                    </ul>
+                </div>
+            </div>
+            <!-- /Account Area and Settings -->
+        </div>
+    </div>
+</div>
+
+	<!-- /头部 -->

@@ -1,0 +1,220 @@
+    {include file="common/header" /}
+	<div class="main-container container-fluid">
+		<div class="page-container">
+			            <!-- Page Sidebar -->
+           {include file="common/left"}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                                        <li>
+                        <a href="{:url('index/index')}">{$Think.lang.system}</a>
+                    </li>
+                                        <li class="active">{$Think.lang.auth_rule_list}</li>
+                                        </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<button type="button" tooltip="{$Think.lang.add}" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '{:url('authRule/add')}'"> 
+    <i class="fa fa-plus"></i> {$Think.lang.add}
+</button>
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-body">
+                <div class="flip-scroll">
+                     <form id="myform" action=""  method="post">
+                    <table class="table table-bordered table-hover ">
+                        <thead class="">
+                            <tr>
+                                <th class="text-center" style="vertical-align: middle;;font-size: 13px;padding-bottom: 0px">
+                                    <label >
+                                            <input type="checkbox" class="colored-success"   id='check_all'>
+                                            <span id="check-2" class="text"></span>
+                                         </label>
+
+                                </th>
+                                <th class="text-center">{$Think.lang.id}</th>
+                                <th class="text-center">{$Think.lang.auth_rule_name}</th>
+                                <th class="text-center">{$Think.lang.auth_rule_title}</th>
+                                <th class="text-center">{$Think.lang.status}</th>
+                                <th class="text-center">{$Think.lang.status}</th>
+                                <th class="text-center">{$Think.lang.auth_rules_condition}</th>
+                                <th class="text-center">{$Think.lang.operation}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {volist name="results" id="vo"}
+                            
+                            <tr>
+                                <td align="center" style='vertical-align: middle;padding-bottom: 0px'>
+                                         <label >
+                                                    <input name="checkbox[]" dataid="id-{$vo.dataid}"  type="checkbox"  class="colored-success  checkbox-parent {if condition="$vo['level'] neq 0"} checkbox-child {/if} " data-tog='ss'  value='{$vo.id}'>
+                                                    <span id="check-2 " class="text"></span>
+                                                </label> 
+                                </td>
+                                <td align="center" style='vertical-align: middle;'>{$vo.id}</td>                               
+                                <td align="center"  style='vertical-align: middle; text-align: left;'>
+                                      <?php if($vo['level']>0) { echo str_repeat('&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;',$vo['level']-1).'&nbsp;&nbsp;&nbsp; |---';}?>{$vo.name}
+                                    
+                                    
+                                </td>
+                                <td align="center"  style='vertical-align: middle;text-align: left'>
+                                    <?php if($vo['level']>0) { echo str_repeat('&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;',$vo['level']-1).'&nbsp;&nbsp;&nbsp; |---';}?>{$vo.title}
+                                </td>
+                               
+                                <td align="center"   style='vertical-align: middle;'> 
+                                   
+                                        <label style="margin-bottom: -5px;">
+                                            <input class="checkbox-slider colored-success " style="left: inherit"  onclick="set_status({$vo.id},this)"  id='status_{$vo.id}' data-tog='sdfaf'  name='status' {if condition="$vo.status == 1"}checked="checked"{/if} type="checkbox">
+                                            <span class="text" style="margin-bottom: 0px"></span>
+                                        </label>
+                                </td>
+                                 
+                                <td align="center"   style='vertical-align: middle;'> 
+                                   
+                                        <label style="margin-bottom: -5px;">
+                                            <input class="checkbox-slider colored-success " style="left: inherit"  onclick="set_status({$vo.id},this)"  id='type_{$vo.id}' data-tog='sdfaf'  name='type' {if condition="$vo.type == 1"}checked="checked"{/if} type="checkbox">
+                                            <span class="text" style="margin-bottom: 0px"></span>
+                                        </label>
+                                </td>
+                                 <td align="center"  style='vertical-align: middle;'>{$vo.condition}</td>
+                                <td align="center" class="buttons-preview"  style='vertical-align: middle;'>
+                                    <a href="{:url('authRule/edit',array('id'=>$vo['id']))}" class="btn btn-azure btn-m " style="margin-bottom: -1px;">
+                                        <i class="fa fa-edit"></i> {$Think.lang.edit}
+                                    </a>
+                                    <a href="#" onClick="warning('{$Think.lang.delete_confirm}', '{:url(\'authRule/del\',array('id'=>$vo['id']))}')" class="btn btn-darkorange  btn-m" style="margin-bottom: -1px;">
+                                        <i class="fa fa-trash-o"></i> {$Think.lang.delete}
+                                    </a>
+                                </td>
+                            </tr>
+                             {/volist}   
+                        </tbody>
+                        
+                    </table>
+                    </form>
+                </div>
+                
+                <div  style="display: block">
+                    <div style="padding-top: 5px; display: inline-block ;">                           
+                        <!--      
+                        <a  onclick='(function(){$("form").attr("action","{:url(\"delMuti\",array(\"language_id\"=>\"1\"))}");;$("#myform").submit();})();' class="btn btn-darkorange">删除</a>
+                        -->
+                        <a  onclick='del_arr()' class="btn btn-darkorange">{$Think.lang.delete}</a>
+                      <!--  <a onclick="sort_arr()" class="btn btn-azure">{$Think.lang.sort}</a>-->
+                             
+                    </div>
+                    <div style="padding-top: 5px;display: inline-block ; float: right; ">
+                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+    
+      <script>
+       
+    $("#check_all").click(function(){           
+         $(":input:checkbox[data-tog='ss']").prop('checked',this.checked);             
+        });
+       
+        function del_arr(){
+            if($(":input:checkbox:checked[data-tog='ss']").length>0){   
+                $("form").attr("action","{:url('delMuti',array('language_id'=>$language_id))}");
+                $("#myform").submit();
+            }else{
+                alert('{$Think.lang.no_selected_checkbox}');
+            }
+        }
+        function sort_arr(){            
+                $("form").attr("action","{:url('resort',array('language_id'=>intval($language_id)))}");
+                $("#myform").submit();
+        }
+        
+         function set_status(id,obj){            
+            var status=false;
+            if($('#'+obj.id).attr('checked')=='checked'){
+                status=true;
+            }          
+            if(status){
+                $('#'+obj.id).removeAttr('checked');                 
+               set_remote_status(id,obj.name,0);
+            }else{
+                $('#'+obj.id).attr('checked','checked');
+                set_remote_status(id,obj.name,1);
+            }
+            
+        }
+        function set_remote_status(id,field_name,field_value){     
+            
+            $.ajax({
+              url:"{:url('updateStatus')}",
+                data:{'id':id,'field_name':field_name,'field_value':field_value},
+                success:function(msg){
+                },
+                error:function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(errorThrown)
+                },
+            });
+            
+        }
+        
+       $(function () {
+    //动态选择框，上下级选中状态变化
+    $('input.checkbox-parent').on('change', function () {
+        var dataid = $(this).attr("dataid");
+        $('input[dataid^=' + dataid + ']').prop('checked', $(this).is(':checked'));
+    });
+    $('input.checkbox-child').on('change', function () {
+        var dataid = $(this).attr("dataid");
+        dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+        var parent = $('input[dataid=' + dataid + ']');
+        if ($(this).is(':checked')) {
+            parent.prop('checked', true);
+            //循环到顶级
+            while (dataid.lastIndexOf("-") != 2) {
+                dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+                parent = $('input[dataid=' + dataid + ']');
+                parent.prop('checked', true);
+            }
+        } else {
+            //父级
+            if ($('input[dataid^=' + dataid + '-]:checked').length == 0) {
+                parent.prop('checked', false);
+                //循环到顶级
+                while (dataid.lastIndexOf("-") != 2) {
+                    dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+                    parent = $('input[dataid=' + dataid + ']');
+                    if ($('input[dataid^=' + dataid + '-]:checked').length == 0) {
+                        parent.prop('checked', false);
+                    }
+                }
+            }
+        }
+    });
+});
+
+    </script>
+
+
+</body></html>

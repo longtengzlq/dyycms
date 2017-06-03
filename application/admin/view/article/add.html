@@ -1,0 +1,203 @@
+    {include file="common/header"}
+	<!-- /头部 -->
+	
+	<div class="main-container container-fluid">
+		<div class="page-container">
+		 <!-- Page Sidebar -->
+            
+                <!-- Page Sidebar Header-->
+                    {include file="common/left" /}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="{:url('index/index','')}">{$Think.lang.system}</a>
+                        </li>
+                        <li>
+                            <a href="{:url('article/lst','')}">{$Think.lang.article}</a>
+                        </li>
+                        <li class="active">{$Think.lang.add}
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">{$Think.lang.category_add}</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" enctype="multipart/form-data" action="{:url('article/add')} "   method="post">
+                        <div class="form-group">
+                            <label for="title" class="col-sm-2 control-label no-padding-right">{$Think.lang.title}</label>
+                            <div class="col-sm-6">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="title" required=""  type="text" class="form-control">
+                                    <i class="fa fa-paper-plane bg-danger"></i>
+                                </span>
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div>
+                         <div class="form-group">
+                            <label for="category_id" class="col-sm-2 control-label no-padding-right">{$Think.lang.category_name}</label>
+                            <div class="col-sm-6">  
+
+                                <select class="form-control" id="authority" name="category_id" style="border-radius:0px;">
+                                   <option value="0" >Top Category</option>
+                                    {volist name='sort_cates' id='cate'}
+                                        <option value="{$cate.id}" > <?php if($cate['level']>0) { echo str_repeat('|&nbsp;&nbsp;&nbsp; &nbsp;',$cate['level']-1).'|---';}?>{$cate.cate_name}</option>
+                                    {/volist}
+                                </select>
+                            </div>
+                        </div> 
+                        
+                        <div class="form-group">
+                            <label for="author" class="col-sm-2 control-label no-padding-right">{$Think.lang.author}</label>
+                            <div class="col-sm-6">
+                               
+                                <span class="input-icon icon-right inverted">
+                                    <input name="author"  type="text" class="form-control">
+                                    <i class="fa fa-user bg-darkorange"></i>
+                                </span>
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="key_words" class="col-sm-2 control-label no-padding-right">{$Think.lang.key_word}</label>
+                            <div class="col-sm-6">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="key_words" name='key_words'   type="text" class="form-control">
+                                    <i class="fa fa-file-word-o bg-orange"></i>
+                                </span>
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="description" class="col-sm-2 control-label no-padding-right">{$Think.lang.description}</label>
+                            <div class="col-sm-6">
+                                <textarea name="description" rows="3" class="form-control"></textarea>                                
+                            </div>
+                        </div>
+                         <div class="form-group">                            
+                            <label for="language_id" class="col-sm-2 control-label no-padding-right">{$Think.lang.category_lang}</label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+
+                                    <input name="language_name"  type="text" disabled="disabled"  value="&nbsp;&nbsp;{$lang[intval($language_id)]['brief_name']} "   class="form-control">
+                                    <i class="fa fa-language  btn-maroon"></i>
+                                </span>
+                                <input name="language_id" type="hidden"   value="{$language_id} ">  
+                            </div>
+                        </div>   
+                        <div class="form-group">
+                            <label for="thumb" class="col-sm-2 control-label no-padding-right">{$Think.lang.thumb}</label>
+                            <div class="col-sm-6">
+                                 <input id="thumb" placeholder="建议上传缩略图"  name="thumb"  type="file"  style="margin-top: 5px">
+                                   
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
+                            </div>
+                        </div>
+                       
+                         
+                       
+                        <div class="form-group">
+                            <label for="content" class="col-sm-2 control-label no-padding-right">{$Think.lang.content}</label>
+                            <div class="col-sm-7" id='content' name='content'>
+                            </div>
+                          
+                        </div>
+                       
+                        
+                        <div class="form-group">
+                            <label for="status" class="col-sm-2 control-label no-padding-right" >{$Think.lang.art_status}</label>
+                            <div class="col-sm-6">
+                                <label>
+                                    <input class="checkbox-slider colored-success "  id='status'  name='status' type="checkbox">
+                                    <span class="text" style="margin-top:5px"></span>
+                                </label>
+                            </div>                             
+                        </div>
+                       <div class="form-group">
+                            <label for="release_date" class="col-sm-2 control-label no-padding-right">{$Think.lang.release_date}</label>
+                            <div class="col-sm-6">
+                                
+                                <span class="input-icon icon-right inverted">
+                                    <input class="form-control date-picker" name="release_date"  data-date-format="yyyy-mm-dd"  type="text" >
+                                    <i class="fa fa-calendar bg-success"></i>
+                                </span>
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
+                            </div>
+                        </div>
+                          
+                       <div class="form-group">
+                           <label for="is_recommend" class="col-sm-2 control-label no-padding-right" >{$Think.lang.is_recommond}</label>
+                            <div class="col-sm-6">
+                                <label>
+                                    <input class="checkbox-slider colored-success "  id='is_recommend'  name='is_recommend' type="checkbox">
+                                    <span class="text" style="margin-top:5px"></span>
+                                </label>
+                            </div>                             
+                        </div>
+                        <div class="form-group">
+                             <label for="can_comment" class="col-sm-2 control-label no-padding-right" >{$Think.lang.can_comment}</label>
+                            <div class="col-sm-6">
+                                <label>
+                                    <input class="checkbox-slider colored-success "  id='can_comment'  name='can_comment' type="checkbox">
+                                    <span class="text" style="margin-top:5px"></span>
+                                </label>
+                            </div> 
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-blue">{$Think.lang.save_info}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+        <script src="__JS__/bootstrap-datepicker.js"></script>
+        <!--UEditor Scripts-->
+    <script src="__JS__/ueditor/ueditor.config.js"></script>
+    <script src="__JS__/ueditor/ueditor.all.min.js"></script>
+    <script src="__JS__/ueditor/lang/zh-cn/zh-cn.js"></script>
+   <script src="__JS__/skins.min.js"></script>
+   
+
+    <script>
+        $('.date-picker').datepicker();
+    </script>
+
+    <script type="text/javascript">
+
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    UE.getEditor('content',{initialFrameWidth:null,initialFrameHeight:400,});
+    </script>
+</body></html>
