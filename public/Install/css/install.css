@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 body{min-width:1200px;}
-.mlcms_step div{font-size:16px; margin:0px;padding:0px;display:inline-block;width:10.985%;height:60px;text-align:center;line-height:60px;}
+.mlcms_step div{font-size:16px; margin:0px;padding:0px;display:inline-block;width:13.46%;height:60px;text-align:center;line-height:60px;}
 .mlcms_step div.done{background-color:#a0d468; color:white;}
 
 .mlcms_step div.current{background-color:#53a93f;color:white;display:inline-block;}

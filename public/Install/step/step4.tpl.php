@@ -107,7 +107,6 @@
 			</div><div class="arrow-right done"></div><div class="arrow-re-right current"></div><div class="current">第四步
 			</div><div class="arrow-right current"></div><div class="arrow-re-right last"></div><div class="last">第五步
 			</div><div class="arrow-right last"></div><div class="arrow-re-right last"></div><div class="last">第六步
-			</div><div class="arrow-right last"></div><div class="arrow-re-right last"></div><div class="last">第七步
 			</div>
 		</div>
 	</div>
@@ -197,7 +196,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-            <input type="hidden" name="step" value="6">
+            <input type="hidden" name="step" value="5">
            </form>
                                         </div>
 </div>

@@ -17,7 +17,7 @@ use think\Db;
 use think\Config;
 $rq= Request::instance();
 $step = trim($rq->param('step')) ? trim($rq->param('step')) : 1;
-$sqlstr = file_get_contents('mlcms2.sql');
+$sqlstr = file_get_contents('mlcms.sql');
 
 //整理创建数据库文件
 //$sqlstr = file_get_contents('phpcms_db.sql');
@@ -72,7 +72,7 @@ switch ($step) {
         extract($dbcfg);
         include "step/step".$step.".tpl.php";
         break;
-      
+   /*   
     case 5: //配置帐号 （MYSQL帐号、管理员帐号、）
 		$info=$rq->param();
                // print_r($info);
@@ -97,7 +97,9 @@ switch ($step) {
                 fclose($filehandle);
                 include "step/step".$step.".tpl.php";    
         break; 
-    case 6:
+    * 
+    */
+    case 5:
         if($rq->post('adminname')==''||$rq->post('adminpsw')==''){
             
             echo 'username and  password can`t be null;';
@@ -179,7 +181,7 @@ switch ($step) {
             
         }
         break;
-    case 7: //完成安装
+    case 6: //完成安装
         //安装完成后新建install.lock文件
         $installfile = fopen('install.lock', 'w+') or die('unopen the file');
         fwrite($installfile, '');

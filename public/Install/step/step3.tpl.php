@@ -12,7 +12,6 @@
 			</div><div class="arrow-right current"></div><div class="arrow-re-right last"></div><div class="last">第四步
 			</div><div class="arrow-right last"></div><div class="arrow-re-right last"></div><div class="last">第五步
 			</div><div class="arrow-right last"></div><div class="arrow-re-right last"></div><div class="last">第六步
-			</div><div class="arrow-right last"></div><div class="arrow-re-right last"></div><div class="last">第七步
 			</div>
 		</div>
 	</div>
