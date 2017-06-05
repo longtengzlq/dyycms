@@ -1,4 +1,8 @@
-DROP TABLE IF EXISTS `mlcms_admin`;
+
+--
+-- 表的结构 `mlcms_admin`
+--
+
 CREATE TABLE `mlcms_admin` (
   `id` int(11) NOT NULL COMMENT '管理员ID',
   `username` varchar(50) CHARACTER SET utf8 NOT NULL COMMENT '用户名',
@@ -321,19 +325,6 @@ INSERT INTO `mlcms_setting` (`id`, `site_name`, `site_domain`, `site_switch`, `s
 (1, '我的网站bb', 'http://www.a.com', 1, '关键字', '描述', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 7, 'ch', 1),
 (2, 'abc', 'http://www.a.com', 1, 'keywords', 'description', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 6, 'en', 2);
 
--- --------------------------------------------------------
-
---
--- 表的结构 `my`
---
-
-CREATE TABLE `my` (
-  `id` int(4) NOT NULL,
-  `name` int(11) NOT NULL,
-  `address` int(11) NOT NULL,
-  `phone` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 --
 -- Indexes for dumped tables
 --
@@ -345,58 +336,6 @@ ALTER TABLE `mlcms_admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `mlcms_article`
---
-ALTER TABLE `mlcms_article`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `mlcms_auth_group`
---
-ALTER TABLE `mlcms_auth_group`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `mlcms_auth_group_access`
---
-ALTER TABLE `mlcms_auth_group_access`
-  ADD UNIQUE KEY `uid_group_id` (`uid`,`group_id`),
-  ADD KEY `uid` (`uid`),
-  ADD KEY `group_id` (`group_id`);
-
---
--- Indexes for table `mlcms_auth_rule`
---
-ALTER TABLE `mlcms_auth_rule`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `name` (`name`);
-
---
--- Indexes for table `mlcms_category`
---
-ALTER TABLE `mlcms_category`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `id` (`id`);
-
---
--- Indexes for table `mlcms_language`
---
-ALTER TABLE `mlcms_language`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `mlcms_links`
---
-ALTER TABLE `mlcms_links`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `mlcms_setting`
---
-ALTER TABLE `mlcms_setting`
-  ADD PRIMARY KEY (`id`);
-
---
 -- 在导出的表使用AUTO_INCREMENT
 --
 
@@ -404,39 +343,7 @@ ALTER TABLE `mlcms_setting`
 -- 使用表AUTO_INCREMENT `mlcms_admin`
 --
 ALTER TABLE `mlcms_admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员ID', AUTO_INCREMENT=8;
---
--- 使用表AUTO_INCREMENT `mlcms_article`
---
-ALTER TABLE `mlcms_article`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '文章ID', AUTO_INCREMENT=43;
---
--- 使用表AUTO_INCREMENT `mlcms_auth_group`
---
-ALTER TABLE `mlcms_auth_group`
-  MODIFY `id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键', AUTO_INCREMENT=17;
---
--- 使用表AUTO_INCREMENT `mlcms_auth_rule`
---
-ALTER TABLE `mlcms_auth_rule`
-  MODIFY `id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键', AUTO_INCREMENT=47;
---
--- 使用表AUTO_INCREMENT `mlcms_category`
---
-ALTER TABLE `mlcms_category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '栏目ID', AUTO_INCREMENT=75;
---
--- 使用表AUTO_INCREMENT `mlcms_language`
---
-ALTER TABLE `mlcms_language`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '语言ID', AUTO_INCREMENT=4;
---
--- 使用表AUTO_INCREMENT `mlcms_links`
---
-ALTER TABLE `mlcms_links`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '友情链接ID', AUTO_INCREMENT=9;
---
--- 使用表AUTO_INCREMENT `mlcms_setting`
---
-ALTER TABLE `mlcms_setting`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '网站ID', AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员ID', AUTO_INCREMENT=2;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -17,7 +17,7 @@ use think\Db;
 use think\Config;
 $rq= Request::instance();
 $step = trim($rq->param('step')) ? trim($rq->param('step')) : 1;
-$sqlstr = file_get_contents('mlcms.sql');
+$sqlstr = file_get_contents('admin.sql');
 
 //整理创建数据库文件
 //$sqlstr = file_get_contents('phpcms_db.sql');
@@ -170,7 +170,7 @@ switch ($step) {
                 $arr['n'] = 999999;
                 $db = Db::connect($db_dsn);
                 $insert_admin="INSERT INTO `".$tableName = str_ireplace('mlcms_', $tablepre, 'mlcms_admin')."` (`username`, `password`, `create_time`, `status`,`language_id`) VALUES( '".$admin_name."', '".md5($admin_password)."', ". time().", '1',1);";
-                $db->execute($insert_admin);
+                $db->execute($insert_admin);                
                 $arr['msg'] = '恭喜您！数据库安装完成！即将开始使用MLCMS系统！';
                 echo json_encode($arr);
                 exit;
