@@ -255,6 +255,7 @@ switch ($step) {
                     $qstr = "CREATE DATABASE ".$dbname;
                     if(mysqli_query($dblink, $qstr)){
                         $arr['msg'] = 'dbhost='.$dbhost.'&dbusernmae='.$dbusername.'&dbpsw='.$dbpsw.'&dbport='.$dbport.'&dbname='.$dbname.'&数据库创建成功';
+                         $arr['n'] = 2;
                     }else{
                         $arr['msg'] = 'dbhost='.$dbhost.'&dbusernmae='.$dbusername.'&dbpsw='.$dbpsw.'&dbport='.$dbport.'&dbname='.$dbname.'&数据库创建失败';
                     }

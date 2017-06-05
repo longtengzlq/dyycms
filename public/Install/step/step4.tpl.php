@@ -207,7 +207,7 @@
             <a href="javascript:self.location=document.referrer;"  onclick="" style="margin-left:  30px;"   class="btn btn-success">
                 上一步
             </a>
-            <a style="margin-left:  30px;"   class="btn btn-success"  href="javascript:void(0);" onclick="if(window.n!=999999){alert('请确保数据库配置正确！');}else{if(window.dbexite==1){save_cfg();$('#install').submit();}};return false;" >下一步</a>
+            <a style="margin-left:  30px;"   class="btn btn-success"  href="javascript:void(0);" onclick="if(window.n!=999999){alert('请确保数据库配置正确！');}else{if(window.dbexite!=0){save_cfg();$('#install').submit();}};return false;" >下一步</a>
 
         </div>
     </div>
@@ -315,7 +315,10 @@
                             console.log('不要覆盖元数据');
                             return false;
                         }
-                    }else{
+                    }else if(msg.n==2){
+                             window.dbexite=msg.n;
+                            console.log('创建新数据库+window.dbexite'+window.dbexite);
+                        }else{
                         console.log('数据库不存在！'+msg.msg);
                     }
                 },

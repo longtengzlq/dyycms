@@ -9,7 +9,13 @@ class Index extends Base
     public function index()
     {
         
-        $rec_cate= db('category')->where(array('language_id'=>'1','is_recommond'=>1))->limit(8)->select();
+        try {
+            $rec_cate= db('category')->where(array('language_id'=>'1','is_recommond'=>1))->limit(8)->select();
+        } catch (Exception $exc) {
+            echo 'sssss';
+        }
+
+        
         $foot_cate= db('category')->where(array('language_id'=>'1','is_footer'=>1,'pid'=>0))->select();
         $this->sort_cate($foot_cate);
         $this->assign('rec_cate',$rec_cate);
