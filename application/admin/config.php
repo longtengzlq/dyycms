@@ -28,6 +28,7 @@ return [
         '__IMG__'=> '/static/admin/images',
         '__JS__'=> '/static/admin/js',
         '__CSS__'=> '/static/admin/style',
+        '__THIRD__'=> '/static/third',
         
     ],
    

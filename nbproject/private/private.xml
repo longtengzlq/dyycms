@@ -3,39 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/myweb/TP/application/admin/controller/Base.php</file>
-            <file>file:/C:/myweb/TP/application/admin/model/Setting.php</file>
-            <file>file:/C:/myweb/TP/application/admin/model/Links.php</file>
-            <file>file:/C:/myweb/TP/public/Install/step/step6.tpl.php</file>
-            <file>file:/C:/myweb/TP/application/admin/model/Admin.php</file>
-            <file>file:/C:/myweb/TP/public/Install/step/step7.tpl.php</file>
-            <file>file:/C:/myweb/TP/application/admin/model/Category.php</file>
             <file>file:/C:/myweb/TP/application/index/controller/Index.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/AuthRule.php</file>
-            <file>file:/C:/myweb/TP/application/admin/model/Article.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/Admin.php</file>
-            <file>file:/C:/myweb/TP/application/admin/model/AuthGroup.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/Index.php</file>
-            <file>file:/C:/myweb/TP/application/admin/model/AuthRule.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/Auth.php</file>
-            <file>file:/C:/myweb/TP/application/index/view/common/header-test.html</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/AuthGroup.php</file>
-            <file>file:/C:/myweb/TP/application/index/controller/Second.php</file>
-            <file>file:/C:/myweb/TP/application/dbtest.php</file>
-            <file>file:/C:/myweb/TP/public/Install/step/step1.tpl.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/Login.php</file>
-            <file>file:/C:/myweb/TP/application/index/controller/Base.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/Setting.php</file>
-            <file>file:/C:/myweb/TP/public/Install/step/step2.tpl.php</file>
-            <file>file:/C:/myweb/TP/application/admin/config.php</file>
-            <file>file:/C:/myweb/TP/public/Install/css/install.css</file>
-            <file>file:/C:/myweb/TP/application/database.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/Article.php</file>
+            <file>file:/C:/myweb/TP/public/Install/step.ini.php</file>
             <file>file:/C:/myweb/TP/public/Install/step/step5.tpl.php</file>
-            <file>file:/C:/myweb/TP/public/Install/step/step4.tpl.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/AuthGroupAccess.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/Category.php</file>
-            <file>file:/C:/myweb/TP/application/admin/controller/Links.php</file>
+            <file>file:/C:/myweb/TP/public/Install/index.php</file>
         </group>
     </open-files>
 </project-private>
