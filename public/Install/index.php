@@ -136,7 +136,11 @@ switch ($step) {
                         } else {
                             if (strpos($sql,'INSERT INTO' ) !== false) {
                                 $sql_str_exe = strstr($sql,'INSERT INTO' );
-                            }
+                            }else if(strpos($sql,'DROP TABLE' ) !== false){
+                                $sql_str_exe = strstr($sql,'DROP TABLE' );
+                            }else if(strpos($sql,'ALTER TABLE' )!==false){
+                                $sql_str_exe = strstr($sql,'ALTER TABLE' );
+                            }else{}
                         }
                         
                         $sql_str_exe = str_ireplace('mlcms_', $tablepre, $sql_str_exe);
@@ -170,9 +174,18 @@ switch ($step) {
                 $arr['n'] = 999999;
                 $db = Db::connect($db_dsn);
                 $insert_admin="INSERT INTO `".$tableName = str_ireplace('mlcms_', $tablepre, 'mlcms_admin')."` (`username`, `password`, `create_time`, `status`,`language_id`) VALUES( '".$admin_name."', '".md5($admin_password)."', ". time().", '1',1);";
-                $db->execute($insert_admin);                
-                $arr['msg'] = '恭喜您！数据库安装完成！即将开始使用MLCMS系统！';
-                echo json_encode($arr);
+               
+                try {
+                    $db->execute($insert_admin);
+                     $arr['msg'] = '恭喜您！数据库安装完成！即将开始使用MLCMS系统！';
+               
+                } catch (Exception $exc) {
+                    //echo $exc->getTraceAsString();
+                    $arr['msg']="添加管理员失败！";
+                } finally {
+                   echo json_encode($arr);  
+                }
+                 
                 exit;
             }
         } catch (Exception $exc) {

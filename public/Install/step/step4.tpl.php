@@ -163,7 +163,7 @@
                                                                 <div class="col-sm-4">
                                                                     <input type="text" class="form-control" name="dbname" id="dbname" onblur="dbexites()" value="<?php echo $database; ?>"   placeholder="数据库名">
                                                                 </div>
-                                                                <label for="dbname"  class="col-sm-5 control-label no-padding-right" style="text-align: left;"></label>
+                                                                <label for="dbname" id="dbname-tips"  class="col-sm-5 control-label no-padding-right" style="text-align: left;"></label>
                                                     </div>
                                                     
                                                      <div class="form-group">
@@ -190,9 +190,9 @@
                                                     <div class="form-group">
                                                                 <label for="adminpswcf" class="col-sm-3 control-label no-padding-right">管理员密码确认：</label>
                                                                 <div class="col-sm-4">
-                                                                    <input type="text" class="form-control"  name="adminpswcf" value=""  placeholder="密码确认">
+                                                                    <input type="text" class="form-control"  name="adminpswcf" value="" onblur="check_password()"  placeholder="密码确认">
                                                                 </div>
-                                                                <label for="adminpswcf" class="col-sm-5 control-label no-padding-right" style="text-align: left;"></label>
+                                                                <label for="adminpswcf" class="col-sm-5 control-label no-padding-right" id="pswcnf"  style="text-align: left;"></label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -207,7 +207,7 @@
             <a href="javascript:self.location=document.referrer;"  onclick="" style="margin-left:  30px;"   class="btn btn-success">
                 上一步
             </a>
-            <a style="margin-left:  30px;"   class="btn btn-success"  href="javascript:void(0);" onclick="if(window.n!=999999){alert('请确保数据库配置正确！');}else{if(window.dbexite!=0){save_cfg();$('#install').submit();}};return false;" >下一步</a>
+            <a style="margin-left:  30px;"   class="btn btn-success"  href="javascript:void(0);" onclick="if(window.n!=999999){alert('请确保数据库配置正确！');}else{if(window.dbexite!=0&&check_password()){save_cfg();$('#install').submit();}};return false;" >下一步</a>
 
         </div>
     </div>
@@ -216,75 +216,17 @@
 
 
 
-<!--
-
-<form id="install" action="index.php" method="post">
-   
-<table>
-    <tr>
-        <th class="col1">类项</th>
-        <th class="col2">数据</th>
-        <th class="col3">提示</th>
-      
-    </tr>
-    <tr>
-        <td>数据库地址</td>
-        <td><input type="text" name="dbhost" onblur="notice_change(this)" value="<?php echo $hostname; ?>"></td>
-        <td></td>
-    
-    </tr>
-    <tr>
-        <td>用户名</td>
-        <td><input type="text" name="dbusername" onblur="notice_change(this);" value="<?php echo $username?>"></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>密码</td>
-        <td><input type="text" name="dbpsw" onblur="notice_change(this);" value= "<?php echo $password?>"></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>数据库端口</td>
-        <td><input type="text" name="dbport"  onblur="notice_change(this);if(window.n!=99999){testdb();} " value= "<?php echo $hostport?>"></td>
-        
-        <td id="tips"></td>
-    </tr>
-    <tr>
-        <td>数据库名</td>
-        <td><input type="text" name="dbname"  onblur="dbexites()" value="<?php echo $database; ?> " ></td>
-        <td id="tips"></td>
-    </tr>
-    <tr>
-        <td>表前缀</td>
-        <td><input type="text" name="tablepre" value="ML_"></td>
-        <td id="tips"></td>
-    </tr>
-    <tr>
-        <td>管理员用户名</td>
-        <td><input type="text" name="adminname" ></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>管理员密码</td>
-        <td><input type="text" name="adminpsw"></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>管理员密码确认</td>
-        <td><input type="text" name="adminpswcf"></td>
-        <td></td>
-    </tr>
-   
-</table>
- <input type="hidden" name="step" value="5">
-    <a href="javascript:void(0);" onclick="if(window.n!=999999){alert('请确保数据库配置正确！');}else{if(window.dbexite==1){$('#install').submit();}};return false;" >下一步</button>>
-
-    </form>
--->
-
-
 <script>
-                       
+       function check_password(){
+           
+           if($("input[name='adminpswcf']").val()==$("input[name='adminpsw']").val()){
+               $('#pswcnf').append('密码一致');
+               return true;
+           }else{
+               $('#pswcnf').append('密码不同');
+               return false;
+           }
+       }                
        function dbexites(){
         var dbcon={
             dbhost:$("input[name='dbhost']").val(),
@@ -294,10 +236,11 @@
             dbname:$("input[name='dbname']").val(),
         }
         if($("input[name='dbname']").val()==''){       
-            alert('请输入数据库名');
+           $('#dbname-tips').empty().append('请输入数据名称');
             $("input[name='dbname']").focus();
             return false;
         }else{
+            $('#dbname-tips').empty();
             var url="?step=dbexites";
             $.ajax({
                 type:"post",

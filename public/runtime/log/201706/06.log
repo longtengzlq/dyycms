@@ -1,0 +1,2988 @@
+[ 2017-06-06T08:24:08+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.039350s][吞吐率：25.41req/s] [内存消耗：1,261.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:24:46+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.030612s][吞吐率：32.67req/s] [内存消耗：1,261.23kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.034596s][吞吐率：28.91req/s] [内存消耗：1,258.50kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.024838s][吞吐率：40.26req/s] [内存消耗：1,270.07kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.012208s][吞吐率：81.91req/s] [内存消耗：1,271.00kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.076220s][吞吐率：13.12req/s] [内存消耗：1,257.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.039479s][吞吐率：25.33req/s] [内存消耗：1,266.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.016070s][吞吐率：62.23req/s] [内存消耗：1,226.95kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.021534s][吞吐率：46.44req/s] [内存消耗：1,265.32kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.011395s][吞吐率：87.76req/s] [内存消耗：1,225.62kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.024457s][吞吐率：40.89req/s] [内存消耗：1,268.52kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.011495s][吞吐率：87.00req/s] [内存消耗：1,233.17kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.012087s][吞吐率：82.73req/s] [内存消耗：1,267.97kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.023068s][吞吐率：43.35req/s] [内存消耗：1,228.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.016948s][吞吐率：59.00req/s] [内存消耗：1,266.78kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:09+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.020351s][吞吐率：49.14req/s] [内存消耗：1,226.20kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.012240s][吞吐率：81.70req/s] [内存消耗：1,268.04kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.022480s][吞吐率：44.48req/s] [内存消耗：1,226.48kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.016504s][吞吐率：60.59req/s] [内存消耗：1,270.85kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.026072s][吞吐率：38.36req/s] [内存消耗：1,227.13kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.011853s][吞吐率：84.37req/s] [内存消耗：1,258.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.011756s][吞吐率：85.06req/s] [内存消耗：1,258.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.012778s][吞吐率：78.26req/s] [内存消耗：1,180.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.015574s][吞吐率：64.21req/s] [内存消耗：1,258.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.013533s][吞吐率：73.89req/s] [内存消耗：1,270.07kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.012439s][吞吐率：80.39req/s] [内存消耗：1,271.00kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.031696s][吞吐率：31.55req/s] [内存消耗：1,257.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.012999s][吞吐率：76.93req/s] [内存消耗：1,266.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.011342s][吞吐率：88.17req/s] [内存消耗：1,226.95kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.012247s][吞吐率：81.65req/s] [内存消耗：1,265.32kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.011187s][吞吐率：89.39req/s] [内存消耗：1,225.62kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.012225s][吞吐率：81.80req/s] [内存消耗：1,268.52kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.011412s][吞吐率：87.63req/s] [内存消耗：1,233.17kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.012094s][吞吐率：82.69req/s] [内存消耗：1,267.97kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.019646s][吞吐率：50.90req/s] [内存消耗：1,228.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.012169s][吞吐率：82.18req/s] [内存消耗：1,266.78kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.013583s][吞吐率：73.62req/s] [内存消耗：1,226.20kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.012384s][吞吐率：80.75req/s] [内存消耗：1,268.04kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.019922s][吞吐率：50.20req/s] [内存消耗：1,226.48kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.012194s][吞吐率：82.01req/s] [内存消耗：1,270.85kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.018968s][吞吐率：52.72req/s] [内存消耗：1,227.13kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.011803s][吞吐率：84.72req/s] [内存消耗：1,258.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.011815s][吞吐率：84.64req/s] [内存消耗：1,258.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:25:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.012298s][吞吐率：81.31req/s] [内存消耗：1,180.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:35:54+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.039579s][吞吐率：25.27req/s] [内存消耗：1,261.36kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.014878s][吞吐率：67.21req/s] [内存消耗：1,258.25kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.012267s][吞吐率：81.52req/s] [内存消耗：1,269.85kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.012360s][吞吐率：80.91req/s] [内存消耗：1,270.78kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.053810s][吞吐率：18.58req/s] [内存消耗：1,256.93kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.028551s][吞吐率：35.02req/s] [内存消耗：1,265.98kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.011169s][吞吐率：89.53req/s] [内存消耗：1,226.79kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.012317s][吞吐率：81.19req/s] [内存消耗：1,265.10kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.011420s][吞吐率：87.57req/s] [内存消耗：1,225.38kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.012498s][吞吐率：80.01req/s] [内存消耗：1,268.30kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.011758s][吞吐率：85.05req/s] [内存消耗：1,233.02kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.012437s][吞吐率：80.40req/s] [内存消耗：1,267.75kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.048438s][吞吐率：20.64req/s] [内存消耗：1,227.96kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.027262s][吞吐率：36.68req/s] [内存消耗：1,266.56kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.020257s][吞吐率：49.37req/s] [内存消耗：1,226.04kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.028503s][吞吐率：35.08req/s] [内存消耗：1,267.82kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.018874s][吞吐率：52.98req/s] [内存消耗：1,226.19kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.012533s][吞吐率：79.79req/s] [内存消耗：1,270.62kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.018855s][吞吐率：53.04req/s] [内存消耗：1,226.83kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.023083s][吞吐率：43.32req/s] [内存消耗：1,258.25kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.011755s][吞吐率：85.07req/s] [内存消耗：1,258.25kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:36:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.011839s][吞吐率：84.47req/s] [内存消耗：1,179.96kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:38:53+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.042342s][吞吐率：23.62req/s] [内存消耗：1,261.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.013133s][吞吐率：76.14req/s] [内存消耗：1,258.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.012633s][吞吐率：79.16req/s] [内存消耗：1,270.07kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.012377s][吞吐率：80.80req/s] [内存消耗：1,271.00kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.051782s][吞吐率：19.31req/s] [内存消耗：1,257.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.012655s][吞吐率：79.02req/s] [内存消耗：1,266.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.011675s][吞吐率：85.65req/s] [内存消耗：1,226.95kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.012499s][吞吐率：80.01req/s] [内存消耗：1,265.32kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.011415s][吞吐率：87.60req/s] [内存消耗：1,225.62kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.012534s][吞吐率：79.78req/s] [内存消耗：1,268.52kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.011651s][吞吐率：85.83req/s] [内存消耗：1,233.17kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.012381s][吞吐率：80.77req/s] [内存消耗：1,267.97kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.027232s][吞吐率：36.72req/s] [内存消耗：1,228.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.012342s][吞吐率：81.02req/s] [内存消耗：1,266.78kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.019082s][吞吐率：52.41req/s] [内存消耗：1,226.20kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.012545s][吞吐率：79.71req/s] [内存消耗：1,268.04kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.020951s][吞吐率：47.73req/s] [内存消耗：1,226.48kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.012208s][吞吐率：81.91req/s] [内存消耗：1,270.85kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.019087s][吞吐率：52.39req/s] [内存消耗：1,227.13kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.011894s][吞吐率：84.08req/s] [内存消耗：1,258.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.011704s][吞吐率：85.44req/s] [内存消耗：1,258.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:39:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.012044s][吞吐率：83.03req/s] [内存消耗：1,180.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:40:26+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.043510s][吞吐率：22.98req/s] [内存消耗：1,261.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:42:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.030897s][吞吐率：32.37req/s] [内存消耗：1,261.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:42:26+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.029511s][吞吐率：33.89req/s] [内存消耗：1,258.48kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:42:27+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.029890s][吞吐率：33.46req/s] [内存消耗：1,270.16kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:42:27+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.035993s][吞吐率：27.78req/s] [内存消耗：1,271.08kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:43:40+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：73.006656s][吞吐率：0.01req/s] [内存消耗：1,262.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:43:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.013017s][吞吐率：76.82req/s] [内存消耗：1,266.23kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:45:02+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.031701s][吞吐率：31.54req/s] [内存消耗：1,261.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T08:51:18+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：355.080304s][吞吐率：0.00req/s] [内存消耗：1,263.47kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:30+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：551.496438s][吞吐率：0.00req/s] [内存消耗：1,275.35kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.033627s][吞吐率：29.74req/s] [内存消耗：1,270.91kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.059941s][吞吐率：16.68req/s] [内存消耗：1,257.38kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.029234s][吞吐率：34.21req/s] [内存消耗：1,266.43kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.011631s][吞吐率：85.98req/s] [内存消耗：1,227.19kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.012357s][吞吐率：80.93req/s] [内存消耗：1,265.55kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.011342s][吞吐率：88.17req/s] [内存消耗：1,225.84kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.012434s][吞吐率：80.42req/s] [内存消耗：1,268.76kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.011781s][吞吐率：84.88req/s] [内存消耗：1,233.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.012197s][吞吐率：81.99req/s] [内存消耗：1,268.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.056494s][吞吐率：17.70req/s] [内存消耗：1,228.36kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.012134s][吞吐率：82.41req/s] [内存消耗：1,267.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.019340s][吞吐率：51.71req/s] [内存消耗：1,226.44kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.012186s][吞吐率：82.06req/s] [内存消耗：1,268.27kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.019334s][吞吐率：51.72req/s] [内存消耗：1,226.64kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.012172s][吞吐率：82.16req/s] [内存消耗：1,271.07kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.019344s][吞吐率：51.70req/s] [内存消耗：1,227.28kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.015215s][吞吐率：65.72req/s] [内存消耗：1,264.74kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.011795s][吞吐率：84.78req/s] [内存消耗：1,260.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:00:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.012019s][吞吐率：83.20req/s] [内存消耗：1,178.44kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:06+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.040644s][吞吐率：24.60req/s] [内存消耗：1,261.23kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.020487s][吞吐率：48.81req/s] [内存消耗：1,258.70kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.020509s][吞吐率：48.76req/s] [内存消耗：1,270.30kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.020114s][吞吐率：49.72req/s] [内存消耗：1,271.23kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.029425s][吞吐率：33.98req/s] [内存消耗：1,257.38kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.021699s][吞吐率：46.09req/s] [内存消耗：1,266.43kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.017861s][吞吐率：55.99req/s] [内存消耗：1,227.19kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.020859s][吞吐率：47.94req/s] [内存消耗：1,265.55kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.017323s][吞吐率：57.73req/s] [内存消耗：1,225.84kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.020554s][吞吐率：48.65req/s] [内存消耗：1,268.76kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.017896s][吞吐率：55.88req/s] [内存消耗：1,233.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.020872s][吞吐率：47.91req/s] [内存消耗：1,268.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.029527s][吞吐率：33.87req/s] [内存消耗：1,228.36kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.020442s][吞吐率：48.92req/s] [内存消耗：1,267.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.019857s][吞吐率：50.36req/s] [内存消耗：1,226.44kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.020604s][吞吐率：48.53req/s] [内存消耗：1,268.27kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.025499s][吞吐率：39.22req/s] [内存消耗：1,226.64kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.020652s][吞吐率：48.42req/s] [内存消耗：1,271.07kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.025482s][吞吐率：39.24req/s] [内存消耗：1,227.28kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.020667s][吞吐率：48.39req/s] [内存消耗：1,264.74kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.020066s][吞吐率：49.84req/s] [内存消耗：1,260.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:01:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.020229s][吞吐率：49.43req/s] [内存消耗：1,178.44kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:07:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.037247s][吞吐率：26.85req/s] [内存消耗：1,269.75kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:10:24+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：157.375953s][吞吐率：0.01req/s] [内存消耗：1,238.44kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:11:50+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：85.508903s][吞吐率：0.01req/s] [内存消耗：1,243.57kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:12:44+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：54.239045s][吞吐率：0.02req/s] [内存消耗：1,244.37kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:12:55+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：10.339851s][吞吐率：0.10req/s] [内存消耗：1,270.79kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：9.013528s][吞吐率：0.11req/s] [内存消耗：1,240.46kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：16.128020s][吞吐率：0.06req/s] [内存消耗：1,240.56kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:28+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：7.394604s][吞吐率：0.14req/s] [内存消耗：1,237.69kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：6.568320s][吞吐率：0.15req/s] [内存消耗：1,239.06kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:37+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：1.950925s][吞吐率：0.51req/s] [内存消耗：1,240.19kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:44+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：6.367214s][吞吐率：0.16req/s] [内存消耗：1,246.75kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:45+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.536222s][吞吐率：1.86req/s] [内存消耗：1,239.80kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:46+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：1.036380s][吞吐率：0.96req/s] [内存消耗：1,241.61kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:47+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.638959s][吞吐率：1.57req/s] [内存消耗：1,238.81kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:48+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.744536s][吞吐率：1.34req/s] [内存消耗：1,237.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:49+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.510396s][吞吐率：1.96req/s] [内存消耗：1,239.84kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:50+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.523838s][吞吐率：1.91req/s] [内存消耗：1,239.98kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:50+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.429524s][吞吐率：2.33req/s] [内存消耗：1,238.91kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:51+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.623150s][吞吐率：1.60req/s] [内存消耗：1,240.57kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:52+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.413477s][吞吐率：2.42req/s] [内存消耗：1,234.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:13:59+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：6.634001s][吞吐率：0.15req/s] [内存消耗：1,236.46kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:00+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.754124s][吞吐率：1.33req/s] [内存消耗：1,236.46kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:01+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=20
+[ log ] www.tp.com/install/index.php?step=install&n=20 [运行时间：0.442177s][吞吐率：2.26req/s] [内存消耗：1,236.49kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:01+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=21
+[ log ] www.tp.com/install/index.php?step=install&n=21 [运行时间：0.360897s][吞吐率：2.77req/s] [内存消耗：1,233.52kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:02+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=22
+[ log ] www.tp.com/install/index.php?step=install&n=22 [运行时间：0.351061s][吞吐率：2.85req/s] [内存消耗：1,233.36kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:25+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=23
+[ log ] www.tp.com/install/index.php?step=install&n=23 [运行时间：23.002811s][吞吐率：0.04req/s] [内存消耗：1,236.56kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:27+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=24
+[ log ] www.tp.com/install/index.php?step=install&n=24 [运行时间：2.025095s][吞吐率：0.49req/s] [内存消耗：1,236.46kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:28+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=25
+[ log ] www.tp.com/install/index.php?step=install&n=25 [运行时间：0.681175s][吞吐率：1.47req/s] [内存消耗：1,236.46kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:29+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=26
+[ log ] www.tp.com/install/index.php?step=install&n=26 [运行时间：0.590693s][吞吐率：1.69req/s] [内存消耗：1,236.46kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:30+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=27
+[ log ] www.tp.com/install/index.php?step=install&n=27 [运行时间：0.552100s][吞吐率：1.81req/s] [内存消耗：1,233.44kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=28
+[ log ] www.tp.com/install/index.php?step=install&n=28 [运行时间：0.504932s][吞吐率：1.98req/s] [内存消耗：1,233.44kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=29
+[ log ] www.tp.com/install/index.php?step=install&n=29 [运行时间：4.771585s][吞吐率：0.21req/s] [内存消耗：1,236.68kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:37+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=30
+[ log ] www.tp.com/install/index.php?step=install&n=30 [运行时间：0.693216s][吞吐率：1.44req/s] [内存消耗：1,236.68kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=31
+[ log ] www.tp.com/install/index.php?step=install&n=31 [运行时间：2.525615s][吞吐率：0.40req/s] [内存消耗：1,236.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:45+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=32
+[ log ] www.tp.com/install/index.php?step=install&n=32 [运行时间：5.618548s][吞吐率：0.18req/s] [内存消耗：1,236.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:14:52+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=33
+[ log ] www.tp.com/install/index.php?step=install&n=33 [运行时间：6.510076s][吞吐率：0.15req/s] [内存消耗：1,236.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:25:50+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=34
+[ log ] www.tp.com/install/index.php?step=install&n=34 [运行时间：657.474303s][吞吐率：0.00req/s] [内存消耗：1,238.64kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:26:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=35
+[ log ] www.tp.com/install/index.php?step=install&n=35 [运行时间：29.411555s][吞吐率：0.03req/s] [内存消耗：1,239.04kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:28:24+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.033734s][吞吐率：29.64req/s] [内存消耗：1,269.75kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:28:53+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：18.401520s][吞吐率：0.05req/s] [内存消耗：1,238.07kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:28:59+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：5.829252s][吞吐率：0.17req/s] [内存消耗：1,241.48kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：5.550053s][吞吐率：0.18req/s] [内存消耗：1,282.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:07+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：1.831585s][吞吐率：0.55req/s] [内存消耗：1,329.05kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:08+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：1.031113s][吞吐率：0.97req/s] [内存消耗：1,277.73kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:10+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：1.131674s][吞吐率：0.88req/s] [内存消耗：1,278.61kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:16+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：6.246290s][吞吐率：0.16req/s] [内存消耗：1,276.83kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:18+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：1.333523s][吞吐率：0.75req/s] [内存消耗：1,276.31kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：1.237175s][吞吐率：0.81req/s] [内存消耗：1,280.07kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:21+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：1.034363s][吞吐率：0.97req/s] [内存消耗：1,289.13kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:25+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：4.047282s][吞吐率：0.25req/s] [内存消耗：1,279.55kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:27+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：1.033030s][吞吐率：0.97req/s] [内存消耗：1,280.59kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:28+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：1.043635s][吞吐率：0.96req/s] [内存消耗：1,278.35kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:29+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：1.243853s][吞吐率：0.80req/s] [内存消耗：1,277.33kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:31+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.930856s][吞吐率：1.07req/s] [内存消耗：1,279.65kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:32+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：1.042112s][吞吐率：0.96req/s] [内存消耗：1,277.72kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:33+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.944411s][吞吐率：1.06req/s] [内存消耗：1,282.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:34+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.929407s][吞吐率：1.08req/s] [内存消耗：1,278.76kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.929434s][吞吐率：1.08req/s] [内存消耗：1,276.60kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:37+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：1.205645s][吞吐率：0.83req/s] [内存消耗：1,236.46kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:38+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.928507s][吞吐率：1.08req/s] [内存消耗：1,276.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:40+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=20
+[ log ] www.tp.com/install/index.php?step=install&n=20 [运行时间：0.922647s][吞吐率：1.08req/s] [内存消耗：1,276.06kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=21
+[ log ] www.tp.com/install/index.php?step=install&n=21 [运行时间：0.930117s][吞吐率：1.08req/s] [内存消耗：1,276.55kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:42+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=22
+[ log ] www.tp.com/install/index.php?step=install&n=22 [运行时间：1.043423s][吞吐率：0.96req/s] [内存消耗：1,276.24kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:43+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=23
+[ log ] www.tp.com/install/index.php?step=install&n=23 [运行时间：0.942070s][吞吐率：1.06req/s] [内存消耗：1,276.18kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:45+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=24
+[ log ] www.tp.com/install/index.php?step=install&n=24 [运行时间：1.045214s][吞吐率：0.96req/s] [内存消耗：1,276.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:46+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=25
+[ log ] www.tp.com/install/index.php?step=install&n=25 [运行时间：0.943524s][吞吐率：1.06req/s] [内存消耗：1,276.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:47+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=26
+[ log ] www.tp.com/install/index.php?step=install&n=26 [运行时间：0.928213s][吞吐率：1.08req/s] [内存消耗：1,276.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:49+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=27
+[ log ] www.tp.com/install/index.php?step=install&n=27 [运行时间：1.256019s][吞吐率：0.80req/s] [内存消耗：1,236.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:50+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=28
+[ log ] www.tp.com/install/index.php?step=install&n=28 [运行时间：0.873065s][吞吐率：1.15req/s] [内存消耗：1,236.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:51+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=29
+[ log ] www.tp.com/install/index.php?step=install&n=29 [运行时间：0.940657s][吞吐率：1.06req/s] [内存消耗：1,236.68kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:52+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=30
+[ log ] www.tp.com/install/index.php?step=install&n=30 [运行时间：0.949906s][吞吐率：1.05req/s] [内存消耗：1,236.68kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:54+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=31
+[ log ] www.tp.com/install/index.php?step=install&n=31 [运行时间：1.284786s][吞吐率：0.78req/s] [内存消耗：1,236.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:29:55+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=32
+[ log ] www.tp.com/install/index.php?step=install&n=32 [运行时间：0.885480s][吞吐率：1.13req/s] [内存消耗：1,236.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:30:00+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=33
+[ log ] www.tp.com/install/index.php?step=install&n=33 [运行时间：5.049122s][吞吐率：0.20req/s] [内存消耗：1,236.66kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:32:28+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=34
+[ log ] www.tp.com/install/index.php?step=install&n=34 [运行时间：146.882649s][吞吐率：0.01req/s] [内存消耗：1,238.37kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:33:23+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=35
+[ log ] www.tp.com/install/index.php?step=install&n=35 [运行时间：55.326369s][吞吐率：0.02req/s] [内存消耗：1,239.13kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:04+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.033313s][吞吐率：30.02req/s] [内存消耗：1,269.56kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:12+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.044900s][吞吐率：22.27req/s] [内存消耗：1,233.10kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.105819s][吞吐率：9.45req/s] [内存消耗：1,238.26kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.027385s][吞吐率：36.52req/s] [内存消耗：1,279.39kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.015913s][吞吐率：62.84req/s] [内存消耗：1,325.77kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.014832s][吞吐率：67.42req/s] [内存消耗：1,274.52kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.014890s][吞吐率：67.16req/s] [内存消耗：1,275.34kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.014654s][吞吐率：68.24req/s] [内存消耗：1,273.61kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.014664s][吞吐率：68.19req/s] [内存消耗：1,273.09kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.014871s][吞吐率：67.25req/s] [内存消耗：1,276.82kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.015016s][吞吐率：66.60req/s] [内存消耗：1,285.88kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.014747s][吞吐率：67.81req/s] [内存消耗：1,276.27kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.014950s][吞吐率：66.89req/s] [内存消耗：1,277.31kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.014825s][吞吐率：67.45req/s] [内存消耗：1,275.09kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.014818s][吞吐率：67.49req/s] [内存消耗：1,274.05kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.014847s][吞吐率：67.35req/s] [内存消耗：1,276.35kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.014718s][吞吐率：67.94req/s] [内存消耗：1,274.44kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.014860s][吞吐率：67.29req/s] [内存消耗：1,279.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.014832s][吞吐率：67.42req/s] [内存消耗：1,275.46kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.014679s][吞吐率：68.12req/s] [内存消耗：1,273.37kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.166555s][吞吐率：6.00req/s] [内存消耗：1,233.19kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.024076s][吞吐率：41.54req/s] [内存消耗：1,272.78kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=20
+[ log ] www.tp.com/install/index.php?step=install&n=20 [运行时间：0.014974s][吞吐率：66.78req/s] [内存消耗：1,272.83kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=21
+[ log ] www.tp.com/install/index.php?step=install&n=21 [运行时间：0.015050s][吞吐率：66.45req/s] [内存消耗：1,273.27kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=22
+[ log ] www.tp.com/install/index.php?step=install&n=22 [运行时间：0.014878s][吞吐率：67.21req/s] [内存消耗：1,272.96kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=23
+[ log ] www.tp.com/install/index.php?step=install&n=23 [运行时间：0.014981s][吞吐率：66.75req/s] [内存消耗：1,272.95kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=24
+[ log ] www.tp.com/install/index.php?step=install&n=24 [运行时间：0.014925s][吞吐率：67.00req/s] [内存消耗：1,272.78kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=25
+[ log ] www.tp.com/install/index.php?step=install&n=25 [运行时间：0.014929s][吞吐率：66.98req/s] [内存消耗：1,272.78kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=26
+[ log ] www.tp.com/install/index.php?step=install&n=26 [运行时间：0.014869s][吞吐率：67.25req/s] [内存消耗：1,272.78kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=27
+[ log ] www.tp.com/install/index.php?step=install&n=27 [运行时间：0.216397s][吞吐率：4.62req/s] [内存消耗：1,233.39kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=28
+[ log ] www.tp.com/install/index.php?step=install&n=28 [运行时间：0.191933s][吞吐率：5.21req/s] [内存消耗：1,233.39kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=29
+[ log ] www.tp.com/install/index.php?step=install&n=29 [运行时间：0.040144s][吞吐率：24.91req/s] [内存消耗：1,233.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=30
+[ log ] www.tp.com/install/index.php?step=install&n=30 [运行时间：0.027945s][吞吐率：35.78req/s] [内存消耗：1,233.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=31
+[ log ] www.tp.com/install/index.php?step=install&n=31 [运行时间：0.239329s][吞吐率：4.18req/s] [内存消耗：1,233.39kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=32
+[ log ] www.tp.com/install/index.php?step=install&n=32 [运行时间：0.173818s][吞吐率：5.75req/s] [内存消耗：1,233.39kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=33
+[ log ] www.tp.com/install/index.php?step=install&n=33 [运行时间：0.178338s][吞吐率：5.61req/s] [内存消耗：1,233.39kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=34
+[ log ] www.tp.com/install/index.php?step=install&n=34 [运行时间：0.155609s][吞吐率：6.43req/s] [内存消耗：1,233.39kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:34:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=35
+[ log ] www.tp.com/install/index.php?step=install&n=35 [运行时间：0.024489s][吞吐率：40.83req/s] [内存消耗：1,233.80kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:41:28+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.038201s][吞吐率：26.18req/s] [内存消耗：1,269.55kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:41:55+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：14.999968s][吞吐率：0.07req/s] [内存消耗：1,236.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:42:26+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：30.572632s][吞吐率：0.03req/s] [内存消耗：1,241.57kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:42:29+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：2.341045s][吞吐率：0.43req/s] [内存消耗：1,282.74kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:42:30+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：1.242204s][吞吐率：0.81req/s] [内存消耗：1,329.13kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T09:48:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：332.664620s][吞吐率：0.00req/s] [内存消耗：1,279.83kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.015874s][吞吐率：63.00req/s] [内存消耗：1,258.70kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.014858s][吞吐率：67.30req/s] [内存消耗：1,230.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.014451s][吞吐率：69.20req/s] [内存消耗：1,231.02kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.015550s][吞吐率：64.31req/s] [内存消耗：1,317.63kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.013940s][吞吐率：71.74req/s] [内存消耗：1,227.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.015544s][吞吐率：64.33req/s] [内存消耗：1,267.23kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.013825s][吞吐率：72.33req/s] [内存消耗：1,226.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.015123s][吞吐率：66.12req/s] [内存消耗：1,264.98kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.013950s][吞吐率：71.68req/s] [内存消耗：1,228.96kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.015478s][吞吐率：64.61req/s] [内存消耗：1,277.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.014498s][吞吐率：68.98req/s] [内存消耗：1,228.55kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.015311s][吞吐率：65.31req/s] [内存消耗：1,269.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.013994s][吞吐率：71.46req/s] [内存消耗：1,227.57kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.015176s][吞吐率：65.89req/s] [内存消耗：1,266.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.014070s][吞吐率：71.07req/s] [内存消耗：1,228.61kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.015275s][吞吐率：65.47req/s] [内存消耗：1,266.41kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.013745s][吞吐率：72.75req/s] [内存消耗：1,230.92kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.015081s][吞吐率：66.31req/s] [内存消耗：1,267.43kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.175083s][吞吐率：5.71req/s] [内存消耗：1,225.20kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.026766s][吞吐率：37.36req/s] [内存消耗：1,260.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:03+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.021552s][吞吐率：46.40req/s] [内存消耗：1,225.81kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:00:44+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.027092s][吞吐率：36.91req/s] [内存消耗：1,261.50kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:00+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.031245s][吞吐率：32.01req/s] [内存消耗：1,261.50kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.014450s][吞吐率：69.20req/s] [内存消耗：1,258.70kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.013362s][吞吐率：74.84req/s] [内存消耗：1,230.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.014672s][吞吐率：68.16req/s] [内存消耗：1,231.02kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.015981s][吞吐率：62.57req/s] [内存消耗：1,317.63kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.013320s][吞吐率：75.08req/s] [内存消耗：1,227.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.014914s][吞吐率：67.05req/s] [内存消耗：1,267.23kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.013116s][吞吐率：76.24req/s] [内存消耗：1,226.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.015103s][吞吐率：66.21req/s] [内存消耗：1,264.98kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.013237s][吞吐率：75.55req/s] [内存消耗：1,228.96kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.015066s][吞吐率：66.37req/s] [内存消耗：1,277.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.013181s][吞吐率：75.87req/s] [内存消耗：1,228.55kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.015053s][吞吐率：66.43req/s] [内存消耗：1,269.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.013176s][吞吐率：75.90req/s] [内存消耗：1,227.57kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.014747s][吞吐率：67.81req/s] [内存消耗：1,266.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.013007s][吞吐率：76.88req/s] [内存消耗：1,228.61kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.014879s][吞吐率：67.21req/s] [内存消耗：1,266.41kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.013062s][吞吐率：76.56req/s] [内存消耗：1,230.92kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.014841s][吞吐率：67.38req/s] [内存消耗：1,267.43kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.014673s][吞吐率：68.15req/s] [内存消耗：1,264.75kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.014103s][吞吐率：70.91req/s] [内存消耗：1,260.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:01:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.014377s][吞吐率：69.55req/s] [内存消耗：1,178.42kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:02:58+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.034792s][吞吐率：28.74req/s] [内存消耗：1,261.54kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:03:16+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：6.084274s][吞吐率：0.16req/s] [内存消耗：1,262.00kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:03:29+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：12.571925s][吞吐率：0.08req/s] [内存消耗：1,233.45kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:03:44+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：13.972417s][吞吐率：0.07req/s] [内存消耗：1,234.23kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:04:43+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：58.979001s][吞吐率：0.02req/s] [内存消耗：1,322.62kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:05:21+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：37.708015s][吞吐率：0.03req/s] [内存消耗：1,232.31kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:05:28+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：6.365793s][吞吐率：0.16req/s] [内存消耗：1,272.23kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:05:46+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：17.611835s][吞吐率：0.06req/s] [内存消耗：1,231.60kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:05:56+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：9.880499s][吞吐率：0.10req/s] [内存消耗：1,270.01kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:07:05+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：68.618433s][吞吐率：0.01req/s] [内存消耗：1,234.14kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:07:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：5.765385s][吞吐率：0.17req/s] [内存消耗：1,282.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:07:21+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：10.103825s][吞吐率：0.10req/s] [内存消耗：1,233.72kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：58.288695s][吞吐率：0.02req/s] [内存消耗：1,287.02kb] [文件加载：18]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:21+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：1.246212s][吞吐率：0.80req/s] [内存消耗：1,232.80kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:22+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.826460s][吞吐率：1.21req/s] [内存消耗：1,271.27kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:24+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.950134s][吞吐率：1.05req/s] [内存消耗：1,233.82kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:25+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.747103s][吞吐率：1.34req/s] [内存消耗：1,271.89kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:26+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：1.048374s][吞吐率：0.95req/s] [内存消耗：1,236.07kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:27+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.721505s][吞吐率：1.39req/s] [内存消耗：1,270.73kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:28+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.722553s][吞吐率：1.38req/s] [内存消耗：1,267.98kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:29+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.624321s][吞吐率：1.60req/s] [内存消耗：1,265.83kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:08:30+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.519092s][吞吐率：1.93req/s] [内存消耗：1,183.63kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:30+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.030786s][吞吐率：32.48req/s] [内存消耗：1,261.50kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.014445s][吞吐率：69.23req/s] [内存消耗：1,258.70kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.013209s][吞吐率：75.71req/s] [内存消耗：1,230.22kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.014132s][吞吐率：70.76req/s] [内存消耗：1,231.02kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.016373s][吞吐率：61.08req/s] [内存消耗：1,317.63kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.013123s][吞吐率：76.20req/s] [内存消耗：1,227.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.014984s][吞吐率：66.74req/s] [内存消耗：1,267.23kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.013007s][吞吐率：76.88req/s] [内存消耗：1,226.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.014877s][吞吐率：67.22req/s] [内存消耗：1,264.98kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.012992s][吞吐率：76.97req/s] [内存消耗：1,228.96kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.015064s][吞吐率：66.38req/s] [内存消耗：1,277.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.013190s][吞吐率：75.81req/s] [内存消耗：1,228.55kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.014742s][吞吐率：67.83req/s] [内存消耗：1,269.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.012958s][吞吐率：77.17req/s] [内存消耗：1,227.57kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.014804s][吞吐率：67.55req/s] [内存消耗：1,266.02kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.013032s][吞吐率：76.73req/s] [内存消耗：1,228.61kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.014678s][吞吐率：68.13req/s] [内存消耗：1,266.41kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.013121s][吞吐率：76.21req/s] [内存消耗：1,230.92kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.015259s][吞吐率：65.53req/s] [内存消耗：1,267.43kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.014604s][吞吐率：68.47req/s] [内存消耗：1,264.75kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.014338s][吞吐率：69.74req/s] [内存消耗：1,260.66kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:10:41+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.014573s][吞吐率：68.62req/s] [内存消耗：1,178.64kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:12:47+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.032871s][吞吐率：30.42req/s] [内存消耗：1,261.54kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:11+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：11.283712s][吞吐率：0.09req/s] [内存消耗：1,263.87kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:12+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.039594s][吞吐率：25.26req/s] [内存消耗：1,230.37kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:12+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.039472s][吞吐率：25.33req/s] [内存消耗：1,231.16kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:12+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.044190s][吞吐率：22.63req/s] [内存消耗：1,317.86kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.031957s][吞吐率：31.29req/s] [内存消耗：1,227.27kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.015594s][吞吐率：64.13req/s] [内存消耗：1,267.50kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.031671s][吞吐率：31.57req/s] [内存消耗：1,226.56kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.033302s][吞吐率：30.03req/s] [内存消耗：1,265.23kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.031981s][吞吐率：31.27req/s] [内存消耗：1,229.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.043065s][吞吐率：23.22req/s] [内存消耗：1,277.91kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.014510s][吞吐率：68.92req/s] [内存消耗：1,228.71kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.026366s][吞吐率：37.93req/s] [内存消耗：1,269.47kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.014582s][吞吐率：68.58req/s] [内存消耗：1,227.73kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:16+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.033141s][吞吐率：30.17req/s] [内存消耗：1,266.28kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:16+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.039636s][吞吐率：25.23req/s] [内存消耗：1,228.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:17+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.015871s][吞吐率：63.01req/s] [内存消耗：1,266.67kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:17+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.032411s][吞吐率：30.85req/s] [内存消耗：1,231.03kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:17+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.017252s][吞吐率：57.96req/s] [内存消耗：1,267.70kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:18+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.033044s][吞吐率：30.26req/s] [内存消耗：1,264.98kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:13:18+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.041692s][吞吐率：23.99req/s] [内存消耗：1,260.88kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:14:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.033698s][吞吐率：29.68req/s] [内存消耗：1,261.54kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:14:38+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：5.457203s][吞吐率：0.18req/s] [内存消耗：1,263.94kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:14:40+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：1.723924s][吞吐率：0.58req/s] [内存消耗：1,235.63kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:14:42+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：1.635258s][吞吐率：0.61req/s] [内存消耗：1,236.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:14:44+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：1.222547s][吞吐率：0.82req/s] [内存消耗：1,323.13kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:14:49+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：5.029575s][吞吐率：0.20req/s] [内存消耗：1,232.55kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:14:51+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：1.724168s][吞吐率：0.58req/s] [内存消耗：1,272.76kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:16+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：24.009016s][吞吐率：0.04req/s] [内存消耗：1,231.83kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:17+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：1.424331s][吞吐率：0.70req/s] [内存消耗：1,270.50kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:19+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：1.120068s][吞吐率：0.89req/s] [内存消耗：1,234.36kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:20+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.924653s][吞吐率：1.08req/s] [内存消耗：1,283.17kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:21+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.821278s][吞吐率：1.22req/s] [内存消耗：1,233.92kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:22+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.920901s][吞吐率：1.09req/s] [内存消耗：1,274.73kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:24+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.920102s][吞吐率：1.09req/s] [内存消耗：1,232.98kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:25+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.921457s][吞吐率：1.09req/s] [内存消耗：1,271.54kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:26+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.923372s][吞吐率：1.08req/s] [内存消耗：1,234.02kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:27+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.923107s][吞吐率：1.08req/s] [内存消耗：1,271.91kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:30+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：1.924947s][吞吐率：0.52req/s] [内存消耗：1,236.27kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：4.633351s][吞吐率：0.22req/s] [内存消耗：1,272.95kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:15:50+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：15.274911s][吞吐率：0.07req/s] [内存消耗：1,270.20kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:16:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：45.322242s][吞吐率：0.02req/s] [内存消耗：1,265.71kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:30+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：53.692428s][吞吐率：0.02req/s] [内存消耗：1,183.69kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:54+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：10.078730s][吞吐率：0.10req/s] [内存消耗：1,263.65kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:55+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.034286s][吞吐率：29.17req/s] [内存消耗：1,230.16kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:55+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.039322s][吞吐率：25.43req/s] [内存消耗：1,230.96kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:55+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.033590s][吞吐率：29.77req/s] [内存消耗：1,317.56kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:56+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.034659s][吞吐率：28.85req/s] [内存消耗：1,226.98kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:56+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.015804s][吞吐率：63.27req/s] [内存消耗：1,267.21kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:56+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.030105s][吞吐率：33.22req/s] [内存消耗：1,226.27kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:57+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.038748s][吞吐率：25.81req/s] [内存消耗：1,264.95kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:57+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.039584s][吞吐率：25.26req/s] [内存消耗：1,228.82kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:57+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.033218s][吞吐率：30.10req/s] [内存消耗：1,277.59kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:58+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.014770s][吞吐率：67.70req/s] [内存消耗：1,228.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:58+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.043296s][吞吐率：23.10req/s] [内存消耗：1,269.18kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:58+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.026113s][吞吐率：38.30req/s] [内存消耗：1,227.45kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:59+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.032782s][吞吐率：30.50req/s] [内存消耗：1,265.99kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:59+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.036701s][吞吐率：27.25req/s] [内存消耗：1,228.49kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:17:59+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.015753s][吞吐率：63.48req/s] [内存消耗：1,266.38kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:18:00+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.032365s][吞吐率：30.90req/s] [内存消耗：1,230.73kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:18:00+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.027964s][吞吐率：35.76req/s] [内存消耗：1,267.41kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:18:00+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.033068s][吞吐率：30.24req/s] [内存消耗：1,264.70kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:18:00+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.034323s][吞吐率：29.14req/s] [内存消耗：1,260.59kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:20:57+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：175.907143s][吞吐率：0.01req/s] [内存消耗：1,216.00kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.014826s][吞吐率：67.45req/s] [内存消耗：1,258.56kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.014007s][吞吐率：71.39req/s] [内存消耗：1,230.14kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.014257s][吞吐率：70.14req/s] [内存消耗：1,230.94kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.016207s][吞吐率：61.70req/s] [内存消耗：1,317.48kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.013625s][吞吐率：73.39req/s] [内存消耗：1,226.95kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.017145s][吞吐率：58.33req/s] [内存消耗：1,267.09kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.013622s][吞吐率：73.41req/s] [内存消耗：1,226.24kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.015016s][吞吐率：66.60req/s] [内存消耗：1,264.84kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.013852s][吞吐率：72.19req/s] [内存消耗：1,228.80kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.015272s][吞吐率：65.48req/s] [内存消耗：1,277.51kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.013755s][吞吐率：72.70req/s] [内存消耗：1,228.39kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.015041s][吞吐率：66.48req/s] [内存消耗：1,269.05kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.013723s][吞吐率：72.87req/s] [内存消耗：1,227.43kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.015174s][吞吐率：65.90req/s] [内存消耗：1,265.87kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.013667s][吞吐率：73.17req/s] [内存消耗：1,228.47kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.014996s][吞吐率：66.68req/s] [内存消耗：1,266.26kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.013729s][吞吐率：72.84req/s] [内存消耗：1,230.70kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.014978s][吞吐率：66.76req/s] [内存消耗：1,267.28kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.014970s][吞吐率：66.80req/s] [内存消耗：1,264.60kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.014456s][吞吐率：69.18req/s] [内存消耗：1,260.51kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:22:39+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.014699s][吞吐率：68.03req/s] [内存消耗：1,265.55kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:34+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.015617s][吞吐率：64.03req/s] [内存消耗：1,261.38kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:34+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.038363s][吞吐率：26.07req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:34+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.110950s][吞吐率：9.01req/s] [内存消耗：1,232.90kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:34+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.053595s][吞吐率：18.66req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:34+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.103891s][吞吐率：9.63req/s] [内存消耗：1,233.68kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.074129s][吞吐率：13.49req/s] [内存消耗：1,260.08kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.031755s][吞吐率：31.49req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.036855s][吞吐率：27.13req/s] [内存消耗：1,229.80kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.018327s][吞吐率：54.56req/s] [内存消耗：1,229.89kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.017646s][吞吐率：56.67req/s] [内存消耗：1,227.80kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.043482s][吞吐率：23.00req/s] [内存消耗：1,229.09kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.020111s][吞吐率：49.72req/s] [内存消耗：1,228.54kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.017430s][吞吐率：57.37req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.041464s][吞吐率：24.12req/s] [内存消耗：1,231.63kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.029013s][吞吐率：34.47req/s] [内存消耗：1,236.10kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.050416s][吞吐率：19.83req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.118892s][吞吐率：8.41req/s] [内存消耗：1,231.23kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.031187s][吞吐率：32.06req/s] [内存消耗：1,231.03kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.048261s][吞吐率：20.72req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.123622s][吞吐率：8.09req/s] [内存消耗：1,230.24kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.039342s][吞吐率：25.42req/s] [内存消耗：1,229.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=20
+[ log ] www.tp.com/install/index.php?step=install&n=20 [运行时间：0.045538s][吞吐率：21.96req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=21
+[ log ] www.tp.com/install/index.php?step=install&n=21 [运行时间：0.160100s][吞吐率：6.25req/s] [内存消耗：1,231.29kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=22
+[ log ] www.tp.com/install/index.php?step=install&n=22 [运行时间：0.022682s][吞吐率：44.09req/s] [内存消耗：1,229.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=23
+[ log ] www.tp.com/install/index.php?step=install&n=23 [运行时间：0.049873s][吞吐率：20.05req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=24
+[ log ] www.tp.com/install/index.php?step=install&n=24 [运行时间：0.112365s][吞吐率：8.90req/s] [内存消耗：1,233.56kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=25
+[ log ] www.tp.com/install/index.php?step=install&n=25 [运行时间：0.043220s][吞吐率：23.14req/s] [内存消耗：1,229.97kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=26
+[ log ] www.tp.com/install/index.php?step=install&n=26 [运行时间：0.185640s][吞吐率：5.39req/s] [内存消耗：1,227.88kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=27
+[ log ] www.tp.com/install/index.php?step=install&n=27 [运行时间：0.039228s][吞吐率：25.49req/s] [内存消耗：1,263.34kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:24:36+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=28
+[ log ] www.tp.com/install/index.php?step=install&n=28 [运行时间：0.024022s][吞吐率：41.63req/s] [内存消耗：1,228.45kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:13+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=-1
+[ log ] www.tp.com/install/index.php?step=install&n=-1 [运行时间：0.015977s][吞吐率：62.59req/s] [内存消耗：1,261.38kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=0
+[ log ] www.tp.com/install/index.php?step=install&n=0 [运行时间：0.039949s][吞吐率：25.03req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=1
+[ log ] www.tp.com/install/index.php?step=install&n=1 [运行时间：0.096198s][吞吐率：10.40req/s] [内存消耗：1,232.90kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=2
+[ log ] www.tp.com/install/index.php?step=install&n=2 [运行时间：0.063719s][吞吐率：15.69req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=3
+[ log ] www.tp.com/install/index.php?step=install&n=3 [运行时间：0.136075s][吞吐率：7.35req/s] [内存消耗：1,233.68kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=4
+[ log ] www.tp.com/install/index.php?step=install&n=4 [运行时间：0.074547s][吞吐率：13.41req/s] [内存消耗：1,260.08kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=5
+[ log ] www.tp.com/install/index.php?step=install&n=5 [运行时间：0.036352s][吞吐率：27.51req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=6
+[ log ] www.tp.com/install/index.php?step=install&n=6 [运行时间：0.043912s][吞吐率：22.77req/s] [内存消耗：1,229.80kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=7
+[ log ] www.tp.com/install/index.php?step=install&n=7 [运行时间：0.026294s][吞吐率：38.03req/s] [内存消耗：1,229.89kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=8
+[ log ] www.tp.com/install/index.php?step=install&n=8 [运行时间：0.018250s][吞吐率：54.79req/s] [内存消耗：1,227.80kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=9
+[ log ] www.tp.com/install/index.php?step=install&n=9 [运行时间：0.037566s][吞吐率：26.62req/s] [内存消耗：1,229.09kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=10
+[ log ] www.tp.com/install/index.php?step=install&n=10 [运行时间：0.030950s][吞吐率：32.31req/s] [内存消耗：1,228.54kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=11
+[ log ] www.tp.com/install/index.php?step=install&n=11 [运行时间：0.022270s][吞吐率：44.90req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=12
+[ log ] www.tp.com/install/index.php?step=install&n=12 [运行时间：0.044633s][吞吐率：22.40req/s] [内存消耗：1,231.63kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=13
+[ log ] www.tp.com/install/index.php?step=install&n=13 [运行时间：0.039937s][吞吐率：25.04req/s] [内存消耗：1,236.10kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=14
+[ log ] www.tp.com/install/index.php?step=install&n=14 [运行时间：0.049009s][吞吐率：20.40req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=15
+[ log ] www.tp.com/install/index.php?step=install&n=15 [运行时间：0.142193s][吞吐率：7.03req/s] [内存消耗：1,231.23kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=16
+[ log ] www.tp.com/install/index.php?step=install&n=16 [运行时间：0.033178s][吞吐率：30.14req/s] [内存消耗：1,231.03kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=17
+[ log ] www.tp.com/install/index.php?step=install&n=17 [运行时间：0.030578s][吞吐率：32.70req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=18
+[ log ] www.tp.com/install/index.php?step=install&n=18 [运行时间：0.105765s][吞吐率：9.45req/s] [内存消耗：1,230.24kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=19
+[ log ] www.tp.com/install/index.php?step=install&n=19 [运行时间：0.035988s][吞吐率：27.79req/s] [内存消耗：1,229.12kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=20
+[ log ] www.tp.com/install/index.php?step=install&n=20 [运行时间：0.042151s][吞吐率：23.72req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=21
+[ log ] www.tp.com/install/index.php?step=install&n=21 [运行时间：0.112706s][吞吐率：8.87req/s] [内存消耗：1,231.29kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=22
+[ log ] www.tp.com/install/index.php?step=install&n=22 [运行时间：0.022598s][吞吐率：44.25req/s] [内存消耗：1,229.41kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=23
+[ log ] www.tp.com/install/index.php?step=install&n=23 [运行时间：0.039798s][吞吐率：25.13req/s] [内存消耗：1,227.77kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=24
+[ log ] www.tp.com/install/index.php?step=install&n=24 [运行时间：0.120634s][吞吐率：8.29req/s] [内存消耗：1,233.56kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:15+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=25
+[ log ] www.tp.com/install/index.php?step=install&n=25 [运行时间：0.039759s][吞吐率：25.15req/s] [内存消耗：1,229.97kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:16+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=26
+[ log ] www.tp.com/install/index.php?step=install&n=26 [运行时间：0.188712s][吞吐率：5.30req/s] [内存消耗：1,227.88kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:16+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=27
+[ log ] www.tp.com/install/index.php?step=install&n=27 [运行时间：0.029957s][吞吐率：33.38req/s] [内存消耗：1,263.34kb] [文件加载：17]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T10:26:16+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=install&n=28
+[ log ] www.tp.com/install/index.php?step=install&n=28 [运行时间：0.021613s][吞吐率：46.27req/s] [内存消耗：1,228.49kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T14:13:35+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.025717s][吞吐率：38.88req/s] [内存消耗：1,230.65kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T14:13:53+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.036586s][吞吐率：27.33req/s] [内存消耗：1,264.34kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T14:17:40+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.025010s][吞吐率：39.98req/s] [内存消耗：1,264.34kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T14:18:46+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.032879s][吞吐率：30.41req/s] [内存消耗：1,230.73kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T14:18:56+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.037924s][吞吐率：26.37req/s] [内存消耗：1,264.34kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-06T14:26:14+08:00 ] 127.0.0.9 127.0.0.1 POST /install/index.php?step=testdb
+[ log ] www.tp.com/install/index.php?step=testdb [运行时间：0.032895s][吞吐率：30.40req/s] [内存消耗：1,264.31kb] [文件加载：14]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

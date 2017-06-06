@@ -2,6 +2,13 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/myweb/TP/public/Install/admin.sql</file>
+            <file>file:/C:/myweb/TP/public/Install/mlcms.sql</file>
+            <file>file:/C:/myweb/TP/public/Install/step/step5.tpl.php</file>
+            <file>file:/C:/myweb/TP/public/index.php</file>
+            <file>file:/C:/myweb/TP/public/Install/step/step4.tpl.php</file>
+            <file>file:/C:/myweb/TP/public/Install/index.php</file>
+        </group>
     </open-files>
 </project-private>
