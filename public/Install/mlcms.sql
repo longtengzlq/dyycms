@@ -24,8 +24,8 @@ CREATE TABLE `mlcms_admin` (
 --
 -- 表的结构 `mlcms_article`
 --
-
-CREATE TABLE `mlcms_article` (
+DROP TABLE IF EXISTS `mlcms_article`;
+CREATE TABLE  `mlcms_article` (
   `id` int(11) NOT NULL COMMENT '文章ID',
   `title` varchar(50) CHARACTER SET utf8 NOT NULL DEFAULT '文章标题' COMMENT '文章标题',
   `key_words` varchar(100) CHARACTER SET utf8 DEFAULT NULL COMMENT '文章关键字',
@@ -82,7 +82,7 @@ INSERT INTO `mlcms_article` (`id`, `title`, `key_words`, `description`, `thumb`,
 --
 -- 表的结构 `mlcms_auth_group`
 --
-
+DROP TABLE IF EXISTS `mlcms_auth_group`;
 CREATE TABLE `mlcms_auth_group` (
   `id` mediumint(8) UNSIGNED NOT NULL COMMENT '主键',
   `title` char(100) NOT NULL DEFAULT '' COMMENT '用户组中文名称',
@@ -112,7 +112,7 @@ INSERT INTO `mlcms_auth_group` (`id`, `title`, `status`, `rules`) VALUES
 --
 -- 表的结构 `mlcms_auth_group_access`
 --
-
+DROP TABLE IF EXISTS `mlcms_auth_group_access`;
 CREATE TABLE `mlcms_auth_group_access` (
   `uid` mediumint(8) UNSIGNED NOT NULL COMMENT '用户id',
   `group_id` mediumint(8) UNSIGNED NOT NULL COMMENT '用户组id'
@@ -133,7 +133,7 @@ INSERT INTO `mlcms_auth_group_access` (`uid`, `group_id`) VALUES
 --
 -- 表的结构 `mlcms_auth_rule`
 --
-
+DROP TABLE IF EXISTS `mlcms_auth_rule`;
 CREATE TABLE `mlcms_auth_rule` (
   `id` mediumint(8) UNSIGNED NOT NULL COMMENT '主键',
   `name` char(80) NOT NULL DEFAULT '' COMMENT '规则唯一标识',
@@ -199,7 +199,7 @@ INSERT INTO `mlcms_auth_rule` (`id`, `name`, `title`, `type`, `status`, `conditi
 --
 -- 表的结构 `mlcms_category`
 --
-
+DROP TABLE IF EXISTS `mlcms_category`;
 CREATE TABLE `mlcms_category` (
   `id` int(11) NOT NULL COMMENT '栏目ID',
   `cate_name` varchar(20) CHARACTER SET utf8 NOT NULL COMMENT '栏目名称',
@@ -215,7 +215,6 @@ CREATE TABLE `mlcms_category` (
 --
 -- 转存表中的数据 `mlcms_category`
 --
-
 INSERT INTO `mlcms_category` (`id`, `cate_name`, `language_id`, `pid`, `sort`, `type`, `status`, `is_recommond`, `is_footer`) VALUES
 (3, 'Bicycle Classificati', 2, 0, 5, 0, 1, 1, 1),
 (4, 'Road Bicycle', 2, 3, 4, 0, 1, 1, 1),
@@ -242,7 +241,7 @@ INSERT INTO `mlcms_category` (`id`, `cate_name`, `language_id`, `pid`, `sort`, `
 --
 -- 表的结构 `mlcms_language`
 --
-
+DROP TABLE IF EXISTS `mlcms_language`;
 CREATE TABLE `mlcms_language` (
   `id` int(11) NOT NULL COMMENT '语言ID',
   `brief_name` varchar(10) CHARACTER SET utf8 NOT NULL COMMENT '语言简写，用于在首页切换语言种类',
@@ -266,7 +265,7 @@ INSERT INTO `mlcms_language` (`id`, `brief_name`, `detail_name`, `en_name`, `lan
 --
 -- 表的结构 `mlcms_links`
 --
-
+DROP TABLE IF EXISTS `mlcms_links`;
 CREATE TABLE `mlcms_links` (
   `id` int(11) NOT NULL COMMENT '友情链接ID',
   `name` varchar(50) CHARACTER SET utf8 NOT NULL DEFAULT '多语言系统' COMMENT '链接名称',
@@ -292,7 +291,7 @@ INSERT INTO `mlcms_links` (`id`, `name`, `url`, `language_id`, `thumb`, `is_thum
 --
 -- 表的结构 `mlcms_setting`
 --
-
+DROP TABLE IF EXISTS `mlcms_setting`;
 CREATE TABLE `mlcms_setting` (
   `id` int(11) NOT NULL COMMENT '网站ID',
   `site_name` varchar(100) NOT NULL COMMENT '网站名称',
@@ -322,17 +321,6 @@ INSERT INTO `mlcms_setting` (`id`, `site_name`, `site_domain`, `site_switch`, `s
 (2, 'abc', 'http://www.a.com', 1, 'keywords', 'description', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 6, 'en', 2);
 
 -- --------------------------------------------------------
-
---
--- 表的结构 `my`
---
-
-CREATE TABLE `my` (
-  `id` int(4) NOT NULL,
-  `name` int(11) NOT NULL,
-  `address` int(11) NOT NULL,
-  `phone` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
