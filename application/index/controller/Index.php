@@ -38,12 +38,15 @@ class Index extends Base
      public function article(){
        $id=input('id');
        $article=db('article')->where('id',$id)->find($id);
+       
        db('article')->where('id', $id)->setInc('clicks');
        $position= get_position($article['category_id'], 2);
        if($position!=FALSE){
            $this->assign('position',$position);
        }
+       $relates= $this->relates($article['key_words'],$id);
        $this->assign('article',$article);
+       $this->assign('relates',$relates);
         return $this->fetch();
     }
     
@@ -91,6 +94,37 @@ class Index extends Base
         $this->assign('articles',$resuts);
         $this->assign('keyword',$keyword);
         return $this->fetch();
+    }
+    
+    public function relates($key_words,$id){
+            $results=array();
+            $key_words= str_ireplace('，',',', $key_words);
+            $key_arr= explode(',', $key_words);
+            foreach ($key_arr as $key=>$val){
+                $where=array(
+                    'key_words'=>['like','%'.$val.'%'],
+                    'id'=>['neq',$id]
+                );
+                $articles=db('article')->where($where)->order('release_date DESC')->select();
+                $results= array_merge($results, $articles);
+            }
+            $ar=array();
+            foreach ($results as $key => $value) {
+                $temp='';
+                foreach ($value as $k => $v) {
+                    $temp.=$v.'@#';                    
+                }
+                array_push($ar, $temp);                
+            }
+            $results=null;
+            $result= array_unique($ar);
+            $ar=null;
+            $articles=array();
+            foreach ($result as $key => $value) {
+                $ar_tmp=explode('@#', $value);
+                array_push($articles, $ar_tmp);
+            }            
+        return $articles;
     }
 }
  
