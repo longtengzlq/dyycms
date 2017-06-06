@@ -144,7 +144,7 @@ function sort_tree($datas, $pid=0, $level=0, $f_dataid='') {
 
        $cates=array();
         if($type==1){
-            $cate=db('article')->find($id);            
+            $cate=db('article')->where('id',$id)->find();            
             $cates=get_parent($cate['category_id']);
         } else {
             $cates= get_parent(intval($id));
@@ -162,7 +162,7 @@ function sort_tree($datas, $pid=0, $level=0, $f_dataid='') {
         static $arr=array();
         static $k=0;
         $sortcate='';
-        $cate=db('category')->find($id);
+        $cate=db('category')->where('id',$id)->find();
        
         $arr[$k]=$cate;
         if($cate['pid']!=0){
