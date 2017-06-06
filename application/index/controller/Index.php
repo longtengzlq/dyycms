@@ -105,7 +105,7 @@ class Index extends Base
                     'key_words'=>['like','%'.$val.'%'],
                     'id'=>['neq',$id]
                 );
-                $articles=db('article')->where($where)->order('release_date DESC')->select();
+                $articles=db('article')->where($where)->order('release_date DESC')->limit(3)->select();
                 $results= array_merge($results, $articles);
             }
             $ar=array();
