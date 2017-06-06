@@ -8,14 +8,7 @@ class Index extends Base
 {
     public function index()
     {
-        
-        try {
-            $rec_cate= db('category')->where(array('language_id'=>'1','is_recommond'=>1))->limit(8)->select();
-        } catch (Exception $exc) {
-            echo 'sssss';
-        }
-
-        
+        $rec_cate= db('category')->where(array('language_id'=>'1','is_recommond'=>1))->limit(8)->select();
         $foot_cate= db('category')->where(array('language_id'=>'1','is_footer'=>1,'pid'=>0))->select();
         $this->sort_cate($foot_cate);
         $this->assign('rec_cate',$rec_cate);
@@ -36,7 +29,7 @@ class Index extends Base
         $cate_id= input('id');
         $cate=db('category')->select();
         $cate_ids=get_childs_id($cate_id,$cate);
-        $articles=db('article')->where('category_id','in',$cate_ids)->paginate(2);
+        $articles=db('article')->where('category_id','in',$cate_ids)->paginate(10);
         $this->assign('articles',$articles);
         $position= get_position(input('id'), intval(input('type')));
         $this->assign('position',$position);
@@ -44,17 +37,13 @@ class Index extends Base
     }
      public function article(){
        $id=input('id');
-       $article=db('article')->find($id);
+       $article=db('article')->where('id',$id)->find($id);
        db('article')->where('id', $id)->setInc('clicks');
-      
        $position= get_position($article['category_id'], 2);
        if($position!=FALSE){
            $this->assign('position',$position);
        }
-        
-       
        $this->assign('article',$article);
-
         return $this->fetch();
     }
     
@@ -73,6 +62,7 @@ class Index extends Base
         return $this->fetch('');
     }
     protected function sort_cate(&$cates){
+        //同样存在多次读取数据库的弊端，
         foreach ($cates as $key => $value) {
             $childs=db('category')->where(array('language_id'=>1,'pid'=>$value['id'],'is_footer'=>1))->select();
             if(count($childs)!=0){
@@ -93,7 +83,7 @@ class Index extends Base
     }
     public function search(){
         $keyword=input('keyword');
-        $resuts=db('article')->where('title','like','%'.$keyword.'%')->paginate(1);
+        $resuts=db('article')->where('title','like','%'.$keyword.'%')->paginate(10);
         if($resuts){            
         }else{
             $resuts=0;
