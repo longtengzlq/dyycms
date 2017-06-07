@@ -45,6 +45,7 @@
                                 <th class="text-center" style="vertical-align: middle">{$Think.lang.category_status}</th>
                                 <th class="text-center" style="vertical-align: middle">{$Think.lang.category_recommond}</th>
                                 <th class="text-center" style="vertical-align: middle">{$Think.lang.category_lang}</th>                               
+                                <th class="text-center" style="vertical-align: middle">{$Think.lang.model}</th>                               
                                 <th class="text-center" style="vertical-align: middle">{$Think.lang.operation}</th>
                             </tr>
                         </thead>
@@ -80,7 +81,8 @@
                                         <span class="text" style="margin-bottom: -13px"></span>
                                     </label>
                                 </td>
-                                 <td align="center"  style='vertical-align: middle;font-size: 13px'>{$vo.language.brief_name}</td>
+                                 <td align="center"  style='vertical-align: middle;font-size: 13px'>{if condition="$vo.language.id eq 1"}{$Think.lang.CH}{else/}{$Think.lang.EN}{/if}</td>
+                                 <td align="center"  style='vertical-align: middle;font-size: 13px'>{if condition="$lang_type eq 'zh-cn'"}{$vo.modelType.model_ch_name}{else/}{$vo.modelType.model_en_name}{/if}</td>
                                 
                                 <td align="center" class="buttons-preview"  style='vertical-align: middle;font-size: 13px'>
                                     <a href="{:url('category/edit',array('id'=>$vo['id'],'language_id'=>$vo['language_id']))}" class="btn btn-azure btn-m " style="margin-bottom: -1px;">

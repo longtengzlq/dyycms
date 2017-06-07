@@ -154,6 +154,16 @@ return [
     'clicks'=>'Clicks',
     'is_recommond'=>'Is recommond',
     'can_comment'=>'Can comment',
+    
+    //模型管理
+    'model'=>'Model',
+    'model_ch_name'=>'Model CH Name',
+    'model_en_name'=>'Model EN Name',
+    'model_cate_page'=>'Model Category Page',
+    'model_list_page'=>'Model List Page',
+    'model_detail_page'=>'Model Detail Page',
+    'model_manage'=>'Model Manage',
+    'model_list'=>'Model List',
         //友情链接
     'links'=>'Links',
     'ch_links'=>'CH links',

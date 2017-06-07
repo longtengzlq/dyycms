@@ -160,6 +160,18 @@ return [
     'clicks'=>'点击数',
     'is_recommond'=>'是否推荐',
     'can_comment'=>'是否可以评论',
+    //模型管理
+    'model'=>'模型',
+    'model_ch_name'=>'模型中文名称',
+    'model_en_name'=>'模型英文名称',
+    'model_cate_page'=>'模型栏目页',
+    'model_list_page'=>'模型列表页',
+    'model_detail_page'=>'模型详情页',
+    'model_manage'=>'模型管理',
+    'model_list'=>'模型列表',
+    
+    
+    
     //友情链接
     'links'=>'友情链接',
     'ch_links'=>'中文链接',

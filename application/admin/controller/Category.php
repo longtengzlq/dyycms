@@ -12,15 +12,16 @@ class Category extends Base
         parent::_initialize(); 
         $language_id= get_language_id();
         
+        //获取模型数据
+        $models=db('model_type')->select();
+        $this->assign('models',$models);
+        
         //添加栏目时，用于显示栏目所属语种
-        $lang= db('language')->select(); 
-       
+        $lang= db('language')->select();        
         $lang_arr='';
         if($lang){
-            foreach ($lang as $key => $value) {
-                
-            $lang_arr[$value['id']]=$value;
-           
+            foreach ($lang as $key => $value) {                
+            $lang_arr[$value['id']]=$value;           
             }
         }
         unset($lang);
@@ -73,6 +74,8 @@ class Category extends Base
         return $this->fetch('add');
     }
     public function  lst(){
+        $lang_type= \think\Cookie::get('lang','mlcms_');
+        $this->assign('lang_type',$lang_type);
         set_language_id(input('language_id'));
         $language_id= get_language_id();
       //$result=db('category')->alias('c')->join('language l','l.id=c.language_id')->field('c.id,c.cate_name,c.pid,l.brief_name')->paginate(3);
@@ -84,14 +87,16 @@ class Category extends Base
         return $this->fetch('list');
     }
     public  function edit(){
+        
         $id=input('id');
         $language_id= get_language_id();
+        echo $language_id;
         if(request()->isPost()){
             $data= input();
             if($data['id']==$data['pid']){
                 $this->error(\think\Lang::get('pid_neq_id'), url('category/lst',array('language_id'=>input('language_id'))));
             }
-            if(db('category')->update($data)){
+            if(db('category')->update($data)!==false){
                  $this->success(\think\Lang::get('operate_success'), url('category/lst',array('language_id'=>input('language_id'))));
             }else{
                  $this->error(\think\Lang::get('operate_failure'), url('category/lst',array('language_id'=>input('language_id'))));

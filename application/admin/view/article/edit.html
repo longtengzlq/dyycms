@@ -67,7 +67,7 @@
                                 <select class="form-control" id="authority" name="category_id" value="{$results.title}"  style="border-radius:0px;">
                                     <option value="0" >Top Category</option>
                                     {volist name='sort_cates' id='cate'}
-                                        <option value="{$cate.id}"  {if condition='$results.category_id == $cate.id'}checked="checked"{/if}> <?php if($cate['level']>0) { echo str_repeat('|&nbsp;&nbsp;&nbsp; &nbsp;',$cate['level']-1).'|---';}?>{$cate.cate_name}</option>
+                                        <option value="{$cate.id}"  {if condition='$results.category_id == $cate.id'}selected="selected"{/if}> <?php if($cate['level']>0) { echo str_repeat('|&nbsp;&nbsp;&nbsp; &nbsp;',$cate['level']-1).'|---';}?>{$cate.cate_name}</option>
                                     {/volist}
                                 </select>
                             </div>

@@ -1,0 +1,157 @@
+    {include file="common/header"}
+	<!-- /头部 -->
+	
+	<div class="main-container container-fluid">
+		<div class="page-container">
+		 <!-- Page Sidebar -->
+            
+                <!-- Page Sidebar Header-->
+                    {include file="common/left" /}
+            <!-- /Page Sidebar -->
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Page Breadcrumb -->
+                <div class="page-breadcrumbs">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="{:url('index/index','')}">{$Think.lang.system}</a>
+                        </li>
+                        <li>
+                            <a href="{:url('ModelType/lst')}">{$Think.lang.model}</a>
+                        </li>
+                        <li class="active">{$Think.lang.edit}
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Page Breadcrumb -->
+
+                <!-- Page Body -->
+                <div class="page-body">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">{$Think.lang.edit}</span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" enctype="multipart/form-data" action="{:url('ModelType/edit')}" method="post">
+                        <input name="id"  value="{$result.id}"  type="hidden" class="form-control">
+                        <div class="form-group">
+                            <label for="model_ch_name" class="col-sm-2 control-label no-padding-right">{$Think.lang.model_ch_name}</label>
+                            <div class="col-sm-6">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="model_ch_name" required=""  type="text" value="{$result.model_ch_name}" class="form-control">
+                                    <i class="fa fa-bars btn-maroon"></i>
+                                </span>
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="model_en_name" class="col-sm-2 control-label no-padding-right">{$Think.lang.model_en_name}</label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+                                    <input name="model_en_name" required="" type="text" value="{$result.model_ch_name}"  class="form-control ">
+                                    <i class="fa fa-link bg-danger"></i>
+                                 </span>
+                                <!--<input class="form-control" id="password" placeholder="" name="password" required="" type="text">-->
+                            </div>
+                            <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
+                        </div> 
+                        
+                        <div class="form-group">
+                            <label for="model_cate_page" class="col-sm-2 control-label no-padding-right">{$Think.lang.model_cate_page}</label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+                                    <select name="model_category_page" class="col-sm-12" >
+                                        {volist name='cate_file' id='cate'}
+                                            <option value="{$cate}" {if condition="$result.model_category_page  eq $cate"}selected {/if} >{$cate}</option>
+                                        {/volist}
+                                        
+                                    </select>
+                                    
+                                   <!-- <i class="fa fa-language  bg-orange"></i>-->
+                                 </span>
+                                <!--<input class="form-control" id="password" placeholder="" name="password" required="" type="text">-->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="model_list_page" class="col-sm-2 control-label no-padding-right">{$Think.lang.model_list_page}</label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+                                    <select name="model_list_page" class="col-sm-12" >
+                                         {volist name='list_file' id='list'}
+                                            <option value="{$list}" {if condition="$result.model_list_page  eq $list"}selected {/if} >{$list}</option>
+                                        {/volist}
+                                        
+                                        
+                                    </select>
+                                    
+                                   <!-- <i class="fa fa-language  bg-orange"></i>-->
+                                 </span>
+                                <!--<input class="form-control" id="password" placeholder="" name="password" required="" type="text">-->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="model_detail_page" class="col-sm-2 control-label no-padding-right">{$Think.lang.model_detail_page}</label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+                                    <select name="model_detail_page" class="col-sm-12" >
+                                        {volist name='detail_file' id='detail'}
+                                            <option value="{$detail}" {if condition="$result.model_detail_page  eq $detail"}selected {/if} >{$detail}</option>
+                                        {/volist}
+                                    </select>
+                                    
+                                   <!-- <i class="fa fa-language  bg-orange"></i>-->
+                                 </span>
+                                <!--<input class="form-control" id="password" placeholder="" name="password" required="" type="text">-->
+                            </div>
+                        </div>
+                       
+                      <div class="form-group">
+                            <label for="sort" class="col-sm-2 control-label no-padding-right">{$Think.lang.sort}</label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+                                    <input name="sort"  type="text" value='{$result.sort}'  class="form-control ">
+                                    <i class="fa fa-sort-amount-asc bg-pink"></i>
+                                 </span>
+                                <!--<input class="form-control" id="password" placeholder="" name="password" required="" type="text">-->
+                            </div>
+                        </div> 
+                      
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-blue">{$Think.lang.save_info}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+                <!-- /Page Body -->
+            </div>
+            <!-- /Page Content -->
+		</div>	
+	</div>
+
+	    <!--Basic Scripts-->
+    <script src="__JS__/jquery_002.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script src="__JS__/jquery.js"></script>
+    <!--Beyond Scripts-->
+    <script src="__JS__/beyond.js"></script>
+
+    <script src="__JS__/bootstrap-datepicker.js"></script>
+    <script>
+        $('.date-picker').datepicker();
+    </script>
+
+
+</body></html>
