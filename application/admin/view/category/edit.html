@@ -68,7 +68,7 @@
                             <div class="col-sm-6">
                              
                           
-                                <select class="form-control" id="authority" name="pid" style="border-radius:0px;">
+                                <select class="form-control" id="authority"  name="pid" style="border-radius:0px;">
                                     <option value="0">{$Think.lang.category_top}</option> 
                                     {volist name='sort_cates' id='cate'}
                                     <option style="line-height: 20px;height: 20px;" value="{$cate.id}" {if condition='$cate.id == $results.pid'} selected {/if} > <?php if($cate['level']>0) { echo str_repeat('&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;',$cate['level']-1).'&nbsp;&nbsp;&nbsp;|---';}?>{$cate.cate_name}</option>
@@ -77,11 +77,11 @@
                             </div>
                             <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
                         </div>                        
-                       <div class="form-group">
+                       <div class="form-group" >
                             <label for="model_type_id" class="col-sm-2 control-label no-padding-right">{$Think.lang.model}</label>
                             <div class="col-sm-6">  
 
-                                <select class="form-control" id="authority" name="model_type_id" style="border-radius:0px;">
+                                <select class="form-control" id="model_type_id" onchange="display(this)" name="model_type_id" style="border-radius:0px;">
                                     
                                     {volist name='models' id='model'}
                                         <option value="{$model.id}" {if condition="$results.model_type_id eq $model.id"} selected {/if} ><?php if($language_id==1) { ?>{$model.model_ch_name}<?php }else{ ?>
@@ -92,6 +92,13 @@
                             </div>
                             <p class="help-block col-sm-4 red">* {$Think.lang.required}</p>
                         </div> 
+                         
+                         <div class="form-group" id="content_group"  style="display:{if condition='$results.model_type_id eq 3'}  block;{else/}none;{/if}" >
+                            <label for="content" class="col-sm-2 control-label no-padding-right">{$Think.lang.content}</label>
+                            <div class="col-sm-7" id='content' name='content'>
+                            </div>
+                        </div>
+                         
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="submit" class="btn btn-blue">{$Think.lang.save_info}</button>
@@ -111,7 +118,7 @@
 		</div>	
 	</div>
 
-	    <!--Basic Scripts-->
+	  	    <!--Basic Scripts-->
     <script src="__JS__/jquery_002.js"></script>
     <script src="__JS__/bootstrap.js"></script>
     <script src="__JS__/jquery.js"></script>
@@ -121,6 +128,27 @@
     <script src="__JS__/bootstrap-datepicker.js"></script>
     <script>
         $('.date-picker').datepicker();
+    </script>
+<script src="__JS__/tree-custom.min.js"></script>
+    <script src="__JS__/treeview-init.js"></script>
+        <!--UEditor Scripts-->
+    <script src="__THIRD__/ueditor/ueditor.config.js"></script>
+    <script src="__THIRD__/ueditor/ueditor.all.min.js"></script>
+    <script src="__THIRD__/ueditor/lang/zh-cn/zh-cn.js"></script>
+    
+    <script>
+       UE.getEditor('content',{initialFrameWidth:null,initialFrameHeight:400,initialContent:'<?php echo $results["content"]?>'});
+        jQuery(document).ready(function () {
+            UITree.init();
+        });
+       
+        function display(obj){
+            if($("#model_type_id").val()==3){
+                $("#content_group").css('display','block');
+            }else{
+                $("#content_group").css('display','none');
+            };
+        }
     </script>
 
 
