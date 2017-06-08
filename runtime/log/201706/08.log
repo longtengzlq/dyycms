@@ -17304,3 +17304,1163 @@ hink\think-captcha\src\CaptchaController.php ]
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2017-06-08T20:01:59+08:00 ] 127.0.0.9 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.185636s][吞吐率：5.39req/s] [内存消耗：6,064.01kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000767s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/install/index.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/common\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000899s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myweb\TP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\myweb\TP\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'hot_arts',
+  2 => 'sort_cates',
+  3 => 'rec_cate',
+  4 => 'foot_cate',
+  5 => 'latest_arts',
+  6 => 'links',
+  7 => 'rec_arts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000858s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_category` [ RunTime:0.014362s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid`,`type`,`model_type_id` FROM `mlcms_category` WHERE  `status` = 1  AND `language_id` = 1  AND `pid` = 0 [ RunTime:0.000524s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000719s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_article` [ RunTime:0.011889s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `thumb` <> '' ORDER BY zan desc LIMIT 5 [ RunTime:0.000612s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_setting` [ RunTime:0.011092s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_setting` WHERE  `language_id` = 1 [ RunTime:0.000524s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000734s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 53 [ RunTime:0.000517s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000748s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 54 [ RunTime:0.000466s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 55 [ RunTime:0.000393s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 56 [ RunTime:0.000399s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 75 [ RunTime:0.000379s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `is_recommond` = 1 LIMIT 8 [ RunTime:0.000398s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `is_footer` = 1  AND `pid` = 0 [ RunTime:0.000408s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 53  AND `is_footer` = 1 [ RunTime:0.000455s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 54  AND `is_footer` = 1 [ RunTime:0.000434s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 55  AND `is_footer` = 1 [ RunTime:0.000434s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000597s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 56  AND `is_footer` = 1 [ RunTime:0.000422s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 75  AND `is_footer` = 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `is_recommend` = 1  AND `thumb` <> '' LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `is_recommend` = 1  AND `thumb` <> '' LIMIT 0,10 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `thumb` <> '' LIMIT 10 [ RunTime:0.000565s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000931s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_links` [ RunTime:0.011367s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_links` WHERE  `language_id` = 1 LIMIT 6 [ RunTime:0.000385s ]
+[ error ] [8]未定义数组索引: site_description[C:\myweb\TP\runtime\temp\4825aac4a848f56ff90b20a8feafff53.php:8]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:05:17+08:00 ] 127.0.0.9 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.240011s][吞吐率：4.17req/s] [内存消耗：6,063.79kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001004s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/common\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000994s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myweb\TP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\myweb\TP\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'hot_arts',
+  2 => 'sort_cates',
+  3 => 'rec_cate',
+  4 => 'foot_cate',
+  5 => 'latest_arts',
+  6 => 'links',
+  7 => 'rec_arts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001049s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_category` [ RunTime:0.019756s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid`,`type`,`model_type_id` FROM `mlcms_category` WHERE  `status` = 1  AND `language_id` = 1  AND `pid` = 0 [ RunTime:0.000646s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000916s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_article` [ RunTime:0.012641s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `thumb` <> '' ORDER BY zan desc LIMIT 5 [ RunTime:0.000866s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000877s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_setting` [ RunTime:0.011566s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_setting` WHERE  `language_id` = 1 [ RunTime:0.000491s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 53 [ RunTime:0.000502s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000721s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 54 [ RunTime:0.000451s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 55 [ RunTime:0.000486s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 56 [ RunTime:0.000504s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000721s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 75 [ RunTime:0.000648s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `is_recommond` = 1 LIMIT 8 [ RunTime:0.000464s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000796s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `is_footer` = 1  AND `pid` = 0 [ RunTime:0.000514s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 53  AND `is_footer` = 1 [ RunTime:0.000623s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 54  AND `is_footer` = 1 [ RunTime:0.000570s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000967s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 55  AND `is_footer` = 1 [ RunTime:0.000634s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 56  AND `is_footer` = 1 [ RunTime:0.000579s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001048s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 75  AND `is_footer` = 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `is_recommend` = 1  AND `thumb` <> '' LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `is_recommend` = 1  AND `thumb` <> '' LIMIT 0,10 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `thumb` <> '' LIMIT 10 [ RunTime:0.000549s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010206s ] mysql:dbname=admin2;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_links` [ RunTime:0.013880s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_links` WHERE  `language_id` = 1 LIMIT 6 [ RunTime:0.000380s ]
+[ error ] [8]未定义数组索引: site_description[C:\myweb\TP\runtime\temp\4825aac4a848f56ff90b20a8feafff53.php:8]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:12:43+08:00 ] 127.0.0.9 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.056600s][吞吐率：17.67req/s] [内存消耗：4,383.50kb] [文件加载：59]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000822s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/install/index.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/common\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.001037s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\myweb\TP\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:13:28+08:00 ] 127.0.0.9 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.237207s][吞吐率：4.22req/s] [内存消耗：6,263.65kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001106s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/install/index.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/common\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.001435s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myweb\TP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\myweb\TP\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'hot_arts',
+  2 => 'sort_cates',
+  3 => 'rec_cate',
+  4 => 'foot_cate',
+  5 => 'latest_arts',
+  6 => 'links',
+  7 => 'rec_arts',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000870s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_category` [ RunTime:0.014723s ]
+[ sql ] [ SQL ] SELECT `id`,`cate_name`,`pid`,`type`,`model_type_id` FROM `mlcms_category` WHERE  `status` = 1  AND `language_id` = 1  AND `pid` = 0 [ RunTime:0.000530s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_article` [ RunTime:0.016735s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `thumb` <> '' ORDER BY zan desc LIMIT 5 [ RunTime:0.000678s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_setting` [ RunTime:0.011667s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_setting` WHERE  `language_id` = 1 [ RunTime:0.000569s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 53 [ RunTime:0.000492s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000587s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 54 [ RunTime:0.000456s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 55 [ RunTime:0.000460s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 56 [ RunTime:0.000414s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `pid` = 75 [ RunTime:0.000421s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `is_recommond` = 1 LIMIT 8 [ RunTime:0.000456s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000584s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `is_footer` = 1  AND `pid` = 0 [ RunTime:0.000481s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 53  AND `is_footer` = 1 [ RunTime:0.000495s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 54  AND `is_footer` = 1 [ RunTime:0.000421s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 55  AND `is_footer` = 1 [ RunTime:0.000484s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 56  AND `is_footer` = 1 [ RunTime:0.000493s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000594s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `language_id` = 1  AND `pid` = 75  AND `is_footer` = 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `is_recommend` = 1  AND `thumb` <> '' LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `is_recommend` = 1  AND `thumb` <> '' LIMIT 0,10 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_article` WHERE  `language_id` = 1  AND `status` = 1  AND `thumb` <> '' LIMIT 10 [ RunTime:0.000523s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_links` [ RunTime:0.011200s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_links` WHERE  `language_id` = 1 LIMIT 6 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 53 LIMIT 1 [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 60 LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 53 LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 53 LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 53 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 53 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_category` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000295s ]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:13:28+08:00 ] 127.0.0.9 127.0.0.1 GET /static/index/js/jquery.form.js
+[ log ] www.tp.com/static/index/js/jquery.form.js [运行时间：0.037983s][吞吐率：26.33req/s] [内存消耗：2,639.02kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000820s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:13:28+08:00 ] 127.0.0.9 127.0.0.1 GET /static/index/js/jquery.error.js
+[ log ] www.tp.com/static/index/js/jquery.error.js [运行时间：0.039017s][吞吐率：25.63req/s] [内存消耗：2,639.13kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000799s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:13:28+08:00 ] 127.0.0.9 127.0.0.1 GET /static/index/images/loading.gif
+[ log ] www.tp.com/static/index/images/loading.gif [运行时间：0.078499s][吞吐率：12.74req/s] [内存消耗：2,639.23kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001181s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+--
+[ 2017-06-08T20:13:28+08:00 ] 127.0.0.9 127.0.0.1 GET /static/index/images/sitemap-dot.gif
+[ log ] www.tp.com/static/index/images/sitemap-dot.gif [运行时间：0.064409s][吞吐率：15.53req/s] [内存消耗：2,639.28kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000918s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:13:28+08:00 ] 127.0.0.9 127.0.0.1 GET /static/index/images/scroll.png
+[ log ] www.tp.com/static/index/images/scroll.png [运行时间：0.112881s][吞吐率：8.86req/s] [内存消耗：2,638.97kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001246s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:05+08:00 ] 127.0.0.9 127.0.0.1 GET /admin.php
+[ log ] www.tp.com/admin.php [运行时间：0.067488s][吞吐率：14.82req/s] [内存消耗：4,527.60kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000781s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000717s ]
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\myweb\TP\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'setting',
+  1 => 'current_action',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_setting` [ RunTime:0.011516s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_setting` WHERE  `language_id` = 1 [ RunTime:0.000469s ]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:08+08:00 ] 127.0.0.9 127.0.0.1 GET /admin.php/login/login.html
+[ log ] www.tp.com/admin.php/login/login.html [运行时间：0.054097s][吞吐率：18.49req/s] [内存消耗：3,249.09kb] [文件加载：52]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000687s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000632s ]
+[ info ] [ RUN ] app\admin\controller\Login->login[ C:\myweb\TP\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\myweb\TP\public/../application/admin\view\login\login.html [ array (
+  0 => 'current_action',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:08+08:00 ] 127.0.0.9 127.0.0.1 GET /static/admin/style/ion.calendar.css
+[ log ] www.tp.com/static/admin/style/ion.calendar.css [运行时间：0.051009s][吞吐率：19.60req/s] [内存消耗：2,639.27kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001154s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:08+08:00 ] 127.0.0.9 127.0.0.1 GET /static/admin/js/js/beyond.js
+[ log ] www.tp.com/static/admin/js/js/beyond.js [运行时间：0.138468s][吞吐率：7.22req/s] [内存消耗：2,639.73kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001518s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'beyond.js',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:08+08:00 ] 127.0.0.9 127.0.0.1 GET /static/admin/js/skins.min.js
+[ log ] www.tp.com/static/admin/js/skins.min.js [运行时间：0.139626s][吞吐率：7.16req/s] [内存消耗：2,639.25kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001235s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:08+08:00 ] 127.0.0.9 127.0.0.1 GET /admin.php/login/assets/img/favicon.png
+[ log ] www.tp.com/admin.php/login/assets/img/favicon.png [运行时间：0.132517s][吞吐率：7.55req/s] [内存消耗：3,211.97kb] [文件加载：53]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001184s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'favicon.png',
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000968s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:08+08:00 ] 127.0.0.9 127.0.0.1 GET /admin.php/captcha.html
+[ log ] www.tp.com/admin.php/captcha.html [运行时间：0.139336s][吞吐率：7.18req/s] [内存消耗：2,668.17kb] [文件加载：42]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001151s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myweb\TP\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:20+08:00 ] 127.0.0.9 127.0.0.1 POST /admin.php/login/login
+[ log ] www.tp.com/admin.php/login/login [运行时间：0.088521s][吞吐率：11.30req/s] [内存消耗：4,789.06kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000728s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://www.tp.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://www.tp.com/admin.php/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'captcha' => '5z2pg',
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000632s ]
+[ info ] [ RUN ] app\admin\controller\Login->login[ C:\myweb\TP\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\myweb\TP\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000955s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_admin` [ RunTime:0.011582s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_admin` WHERE  `username` = 'admin'  AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000783s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] UPDATE `mlcms_admin`  SET `last_log_time`=1496924060  WHERE  `id` = 1 [ RunTime:0.016543s ]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:23+08:00 ] 127.0.0.9 127.0.0.1 GET /admin.php/admin/index/id/1.html
+[ log ] www.tp.com/admin.php/admin/index/id/1.html [运行时间：0.081343s][吞吐率：12.29req/s] [内存消耗：4,558.98kb] [文件加载：59]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.001065s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/login/login',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; mlcms_lang=zh-cn; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.001027s ]
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->index[ C:\myweb\TP\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] C:\myweb\TP\public/../application/admin\view\admin\index.html [ array (
+  0 => 'setting',
+  1 => 'current_action',
+  2 => 'login_username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_setting` [ RunTime:0.012054s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_setting` WHERE  `language_id` = 1 [ RunTime:0.000521s ]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:23+08:00 ] 127.0.0.9 127.0.0.1 GET /static/admin/style/ion.calendar.css
+[ log ] www.tp.com/static/admin/style/ion.calendar.css [运行时间：0.040767s][吞吐率：24.53req/s] [内存消耗：2,639.16kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000764s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/admin/index/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:23+08:00 ] 127.0.0.9 127.0.0.1 GET /static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ log ] www.tp.com/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.045081s][吞吐率：22.18req/s] [内存消耗：2,639.81kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000779s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'origin' => 'http://www.tp.com',
+  'accept' => '*/*',
+  'referer' => 'http://www.tp.com/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:35+08:00 ] 127.0.0.9 127.0.0.1 GET /admin.php/admin/lst.html
+[ log ] www.tp.com/admin.php/admin/lst.html [运行时间：0.117252s][吞吐率：8.53req/s] [内存消耗：4,820.10kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000779s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/admin/index/id/1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000711s ]
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\myweb\TP\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\myweb\TP\public/../application/admin\view\admin\list.html [ array (
+  0 => 'setting',
+  1 => 'current_action',
+  2 => 'login_username',
+  3 => 'uid',
+  4 => 'results',
+  5 => 'language_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016392s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_setting` [ RunTime:0.011654s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_setting` WHERE  `language_id` = 1 [ RunTime:0.000548s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000783s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_admin` [ RunTime:0.008704s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mlcms_admin` WHERE  `id` <> 1 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_admin` WHERE  `id` <> 1 LIMIT 0,10 [ RunTime:0.000483s ]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:35+08:00 ] 127.0.0.9 127.0.0.1 GET /static/admin/style/ion.calendar.css
+[ log ] www.tp.com/static/admin/style/ion.calendar.css [运行时间：0.033485s][吞吐率：29.86req/s] [内存消耗：2,638.78kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000790s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:44+08:00 ] 127.0.0.9 127.0.0.1 GET /admin.php/admin/lst.html
+[ log ] www.tp.com/admin.php/admin/lst.html [运行时间：0.088638s][吞吐率：11.28req/s] [内存消耗：4,819.93kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000785s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000710s ]
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\myweb\TP\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\myweb\TP\public/../application/admin\view\admin\list.html [ array (
+  0 => 'setting',
+  1 => 'current_action',
+  2 => 'login_username',
+  3 => 'uid',
+  4 => 'results',
+  5 => 'language_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000856s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_setting` [ RunTime:0.011423s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_setting` WHERE  `language_id` = 1 [ RunTime:0.000487s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000864s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_admin` [ RunTime:0.008854s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mlcms_admin` WHERE  `id` <> 1 LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_admin` WHERE  `id` <> 1 LIMIT 0,10 [ RunTime:0.000468s ]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:45+08:00 ] 127.0.0.9 127.0.0.1 GET /static/admin/style/ion.calendar.css
+[ log ] www.tp.com/static/admin/style/ion.calendar.css [运行时间：0.042432s][吞吐率：23.57req/s] [内存消耗：2,638.78kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000925s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:48+08:00 ] 127.0.0.9 127.0.0.1 GET /admin.php/admin/lst.html
+[ log ] www.tp.com/admin.php/admin/lst.html [运行时间：0.087959s][吞吐率：11.37req/s] [内存消耗：4,819.93kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000737s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\LoadLang @module_init [ RunTime:0.000762s ]
+[ info ] [ LANG ] C:\myweb\TP\public/../application/admin/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\myweb\TP\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\myweb\TP\public/../application/admin\view\admin\list.html [ array (
+  0 => 'setting',
+  1 => 'current_action',
+  2 => 'login_username',
+  3 => 'uid',
+  4 => 'results',
+  5 => 'language_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_setting` [ RunTime:0.011717s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_setting` WHERE  `language_id` = 1 [ RunTime:0.000583s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000765s ] mysql:dbname=admin3;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mlcms_admin` [ RunTime:0.009078s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mlcms_admin` WHERE  `id` <> 1 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `mlcms_admin` WHERE  `id` <> 1 LIMIT 0,10 [ RunTime:0.000447s ]
+
+---------------------------------------------------------------
+[ 2017-06-08T20:14:48+08:00 ] 127.0.0.9 127.0.0.1 GET /static/admin/style/ion.calendar.css
+[ log ] www.tp.com/static/admin/style/ion.calendar.css [运行时间：0.032090s][吞吐率：31.16req/s] [内存消耗：2,638.78kb] [文件加载：43]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\CheckLang @app_init [ RunTime:0.000780s ]
+[ info ] [ LANG ] C:\myweb\TP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://www.tp.com/admin.php/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=9279568896; think_var=zh-cn; PHPSESSID=2umm3hqrmpo8b31pcqc74g6sr5; _ga=GA1.2.2109395965.1495721605; _gid=GA1.2.1109655274.1496877040; _gat=1; mlcms_username=admin; mlcms_uid=1; mlcms_lang=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

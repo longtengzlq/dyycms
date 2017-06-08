@@ -1,33 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 4.6.5.2
--- https://www.phpmyadmin.net/
---
--- Host: localhost
--- Generation Time: 2017-06-08 15:05:20
--- 服务器版本： 5.6.10
--- PHP Version: 5.6.29
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `admin`
---
-
--- --------------------------------------------------------
-
---
--- 表的结构 `mlcms_admin`
---
-
 CREATE TABLE `mlcms_admin` (
-  `id` int(11)  COMMENT '管理员ID',
+  `id` int(11) NOT NULL COMMENT '管理员ID',
   `username` varchar(50) CHARACTER SET utf8 NOT NULL COMMENT '用户名',
   `password` varchar(50) NOT NULL COMMENT '密码',
   `create_time` int(11) DEFAULT NULL COMMENT '创建时间',
@@ -47,7 +19,6 @@ CREATE TABLE `mlcms_admin` (
   `language_id` int(1) DEFAULT '1' COMMENT '中英文管理权限'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
 
 --
 -- 表的结构 `mlcms_article`
@@ -250,7 +221,7 @@ INSERT INTO `mlcms_category` (`id`, `cate_name`, `language_id`, `pid`, `sort`, `
 (3, 'Bicycle Classificati', 2, 0, 5, 0, 1, 1, 1, 8, ''),
 (4, 'Road Bicycle', 2, 3, 4, 0, 1, 1, 1, 8, ''),
 (53, '单车分类', 1, 0, 0, 0, 1, 0, 1, 8, ''),
-(54, '骑行装备', 1, 0, 0, 0, 1, 0, 1, 8, ''),
+(54, '骑行装备', 1, 0, 0, 0, 1, 1, 1, 8, ''),
 (55, '单车生活', 1, 0, 0, 1, 1, 1, 1, 1, ''),
 (56, '行业资讯', 1, 0, 0, 2, 1, 0, 1, 3, '<p>这是一个测试单页模型的栏目</p>'),
 (57, '死飞车', 1, 53, 0, 0, 1, 1, 1, 8, ''),
@@ -346,7 +317,8 @@ CREATE TABLE `mlcms_setting` (
   `site_domain` varchar(50) NOT NULL COMMENT '网站域名',
   `site_switch` tinyint(4) NOT NULL DEFAULT '1' COMMENT '网站开启',
   `site_keywords` varchar(150) NOT NULL COMMENT '网站关键词',
-  `site_desciption` varchar(150) NOT NULL COMMENT '网站描述',
+  `site_description` varchar(150) NOT NULL COMMENT '网站描述',
+  `site_copyright` varchar(100) DEFAULT NULL COMMENT '网站版权信息',
   `site_templet` varchar(100) NOT NULL DEFAULT 'default' COMMENT '网站模板',
   `upload_size` int(11) NOT NULL DEFAULT '2048' COMMENT '上传文件大小',
   `upload_type` varchar(150) NOT NULL COMMENT '上传文件类型',
@@ -364,9 +336,9 @@ CREATE TABLE `mlcms_setting` (
 -- 转存表中的数据 `mlcms_setting`
 --
 
-INSERT INTO `mlcms_setting` (`id`, `site_name`, `site_domain`, `site_switch`, `site_keywords`, `site_desciption`, `site_templet`, `upload_size`, `upload_type`, `GD_test`, `GD_test_switch`, `watermart_condition`, `watermark_image`, `watermark_transparency`, `watermark_position`, `site_type`, `language_id`) VALUES
-(1, '我的网站bb', 'http://www.a.com', 1, '关键字', '描述', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 7, 'ch', 1),
-(2, 'abc', 'http://www.a.com', 1, 'keywords', 'description', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 6, 'en', 2);
+INSERT INTO `mlcms_setting` (`id`, `site_name`, `site_domain`, `site_switch`, `site_keywords`, `site_description`, `site_copyright`, `site_templet`, `upload_size`, `upload_type`, `GD_test`, `GD_test_switch`, `watermart_condition`, `watermark_image`, `watermark_transparency`, `watermark_position`, `site_type`, `language_id`) VALUES
+(1, '我的网站bb', 'http://www.a.com', 1, '关键字', '描述', 'Copyright &#169; 2016-2020 慧智互动传媒版权所有&#160;&#160;&#160;<a href=\"www.h5za.com\">京ICP备15019740号', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 7, 'ch', 1),
+(2, 'abc', 'http://www.a.com', 1, 'keywords', 'description', 'Copyright &#169; 2016-2020 HZ5A &#160;&#160;&#160;<a href=\"www.h5za.com\">Jing ICP Number:15019740', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 6, 'en', 2);
 
 --
 -- Indexes for dumped tables
@@ -481,4 +453,6 @@ ALTER TABLE `mlcms_model_type`
 --
 ALTER TABLE `mlcms_setting`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '网站ID', AUTO_INCREMENT=3;
-
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
