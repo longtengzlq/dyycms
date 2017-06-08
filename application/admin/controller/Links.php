@@ -32,6 +32,7 @@ class Links extends Base
                 $info = $file->move(ROOT_PATH . 'public' . DS . 'uploads' . DS . 'images');
                 if($info) {
                     $data['thumb'] = ROOT . 'uploads' . DS . 'images'. DS . $info->getSaveName();
+                    $data['is_thumb']=1;
                 } else {
                     // 上传失败获取错误信息
                     echo $file->getError();
@@ -56,7 +57,7 @@ class Links extends Base
         $language_id= intval(get_language_id());
         
         $this->assign("language_id",$language_id);
-       $results=LinksModel::name('links')->where('language_id','eq',$language_id)->whereOr('language_id','eq','3')->paginate(10);
+       $results=LinksModel::name('links')->where('language_id','eq',$language_id)->paginate(10);
        $this->assign('results',$results);
         return $this->fetch('list');
     }
