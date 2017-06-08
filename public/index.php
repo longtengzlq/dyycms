@@ -17,7 +17,8 @@ define('ROOT','/');
 define('ADMIN_PATH', __DIR__ . '/../application/admin/');
 define('__INDEX_VIEW__',    '../application/index/view/');
 // 加载框架引导文件
-if(!file_exists( __DIR__.'/install/install.lock')){
+$dir=file_exists( __DIR__.'/install/install.lock');
+if(!$dir){
   
     //未安装则跳转至install目录下执行安装操作
     header("location:install/index.php?");
