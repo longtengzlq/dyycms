@@ -15,43 +15,12 @@
     <script type="text/javascript" src="__JS__/voterajax.js"></script>
     <script type="text/javascript" src="__JS__/userregister.js"></script>
 
+    <link rel="stylesheet" href="__CSS__/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="__CSS__/votestyles.css" type="text/css" />
     <link rel="stylesheet" href="__CSS__/voteitup.css" type="text/css" />
     <link rel="stylesheet" href="__CSS__/list.css" type="text/css" />
 </head>
-<body id="list_style_2" class="list_style_2">
-   <script>
- function subForm()
- {
-
- formsearch.submit();
- //form1为form的id
- }
- </script>
-<script type="text/javascript">
-    function showMask() {
-        $("#mask").css("height", $(document).height());
-        $("#mask").css("width", $(document).width());
-        $("#mask").show();
-    }  
-</script>
-<div id="mask" class="mask" onclick="CloseMask()"></div> 
-{include file="../application/index/view/common/header.html" /}
-
-    <div id="wrapper">
-           
-            
-                <div style='display: block;text-align: left;position: relative'>
-
-                    <div class="path" style='display: block;text-align: left;position: relative'><a href='/'>主页</a> >
-                        {volist name='position' id='cate'}
-                        <a href="{:url('artlst',array('id'=>$cate.id,'type'=>2))}">{$cate.cate_name}</a> >
-                        {/volist}
-
-                    </div>
-                    </div>
-               
-    <style type="text/css">
+       <style type="text/css">
         body
         {
             background-image: none;
@@ -62,6 +31,9 @@
             height: 100%;
             text-align: left;
             width: 100%;
+        }
+        #position{
+            float:left;
         }
         #xh_container
         {
@@ -120,6 +92,39 @@
 }
 
     </style>
+<body id="list_style_2" class="list_style_2">
+   <script>
+ function subForm()
+ {
+
+ formsearch.submit();
+ //form1为form的id
+ }
+ </script>
+<script type="text/javascript">
+    function showMask() {
+        $("#mask").css("height", $(document).height());
+        $("#mask").css("width", $(document).width());
+        $("#mask").show();
+    }  
+</script>
+<div id="mask" class="mask" onclick="CloseMask()"></div> 
+{include file="../application/index/view/common/header.html" /}
+
+<div id="position" style='display: block;text-align: left;' >
+
+                    <div class="path" style='display: block;text-align: left; margin-left: -700px;'><a href='/?lang=en-us'>Home</a> >
+                        {volist name='position' id='cate'}
+                        <a href="{:url('artlst',array('id'=>$cate.id,'type'=>2))}">{$cate.cate_name}</a> >
+                        {/volist}
+
+                    </div>
+                    </div>
+    <div id="wrapper">
+           
+
+               
+ 
     <div id="xh_container">
 
         
@@ -134,7 +139,7 @@
                 <div style="margin-left: 14px; line-height: 25px; margin-top: 10px;">
                     <div style="font-size: 12px;color:#cccccc;">{$article.release_date}</div>
                     <div style="font-size: 14px;height:45px;">
-                       <a target="_blank" href="/life/416.html">{$article.title}</a></div>
+                        <a style='color:black' target="_blank" href="{:url('article',array('id'=>$article.id,'type'=>2))}">{$article.title}</a></div>
                     
                 </div>
             </div>
@@ -144,8 +149,7 @@
     <div style="clear: both;">
     </div>
                 <div id="pagination"><div class="wp-pagenavi">
-                <span class="current">1</span><a class="page larger" href='list_2.html'>2</a><a class="page larger" href='list_3.html'>3</a><a class="page larger" href='list_2.html'>下一页</a><a class="page larger" href='list_3.html'>末页</a><span class="pages">共 3 页，36条</span>
-
+               {$articles->render()}
                 </div></div>    
 </div>
 

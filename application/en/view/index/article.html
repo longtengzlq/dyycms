@@ -146,7 +146,7 @@
             <div id="content">
                 <div class="post" id="post-19        563" style="border-right: solid 1px #000000; min-height: 1700px;
                     margin-top: 10px;">
-                    <div class="path"><a href='#'>主页</a> >{volist name='position' id='cate'}
+                    <div class="path"><a href='/'>Home</a> >{volist name='position' id='cate'}
             <a href="{:url('artlst',array('id'=>$cate.id,'type'=>2))}">{$cate.cate_name}</a> >
             {/volist} </div>
                     <div class="single_entry single2_entry">
@@ -205,13 +205,12 @@
                                     &nbsp;&nbsp;猜您喜欢的文章
                                 </div>
                                 <ul class="read" style="list-style-type: none; margin-top: 10px; width: 780px;">
-<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/379.html" target="_blank"><img src="__IMG__/342.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
-<span style="margin: 0px; padding: 0px; margin-top: -5px;">众里寻她千百度，蓦然回首，那景却在，延京深</span></a></li>
-<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/377.html" target="_blank"><img src="__IMG__/336.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
-<span style="margin: 0px; padding: 0px; margin-top: -5px;">周末4+2出行 到北京怀柔喇叭沟门赏红叶</span></a></li>
-<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="/life/363.html" target="_blank"><img src="__IMG__/323.jpg" style="width: 250px; height: 150px; margin-bottom: 0px;" />
-<span style="margin: 0px; padding: 0px; margin-top: -5px;">周末随拍：北京单车生活</span></a></li>
-             
+
+                                    {volist name='relates' id='relate'}
+<li style="margin-left: -10px; margin-right: 16px; margin-top: 20px; height: 180px;"> <a href="{:url('article',array('id'=>$relate[0]))}" target="_blank"><img src="{$relate[4]}" style="width: 250px; height: 150px; margin-bottom: 0px;" />
+<span style="margin: 0px; padding: 0px; margin-top: -5px;">{$relate[1]}</span></a></li>
+
+                                    {/volist}
                                 </ul>
                             </div>
                             <div class="clear">

@@ -52,9 +52,14 @@ class Index extends Base
         return $this->fetch();
     }
     
-     public function page(){
-       
-        return $this->fetch('');
+    public function page() {
+        $cate_id = input('id');
+        $cate = db('category')->where('id', $cate_id)->find();
+        $model=db('model_type')->where('id',$cate['model_type_id'])->find();
+        $this->assign('cate', $cate);
+        $tmp_path = '../../../public/template/';
+        $view_suffix= \think\Config::get('template.view_suffix');
+        return $this->fetch($tmp_path . str_ireplace('.'.$view_suffix,'', $model['model_detail_page']));
     }
      public function imglst(){
         $position= get_position(input('id'), intval(input('type')));

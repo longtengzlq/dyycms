@@ -53,7 +53,7 @@
         </script>
         <div id="mask" class="mask" onclick="CloseMask()"></div> 
        {include file="common/header" /}
-        <div id="xh_wrapper" >
+        <div id="xh_wrapper">
 
             <input type="hidden" id="hdUrlFocus" />
             <div class="xh_h_show">
@@ -82,7 +82,7 @@
                             <div id="focus-right" class="arrow-right"></div></div>
                     </div>
                     <div id="picshow_right">
-                        <a href="/life/416.html" target="_blank">
+                        <a href="#" target="_blank">
                             <img src="__IMG__/1-140206160415Y6.jpg" alt="COACH再度携手王力宏 踩单车演" width="255px" height="420px"></a>
 
                         <div id="picshow_right_cover" onclick="goanewurl()" style="cursor:pointer;position:absolute;top:495px;font-size:14px;width:213px;height:45px;line-height:45px;padding-left:42px;color:#ffffff;zoom:1;background-image:url(__IMG__/focus-left-bg.png); background-repeat:no-repeat; background-color:#01A1ED;"></div>
@@ -106,7 +106,7 @@
                         {volist name='latest_arts' id='art'}
                              <div class="xh_post_h_3 ofh">
                                 <div class="xh_265x265">
-                                    <a target="_blank" href="/life/392.html" title="{$art.title}">
+                                    <a target="_blank" href="{:url('article',array('id'=>$art.id,'type'=>1))}" title="{$art.title}">
                                         <img src="{$art.thumb}" alt="{$art.title}" height="240" width="400"></a></div>
                                 <div class="r ofh">
                                     <h2 class="xh_post_h_3_title ofh">
@@ -118,7 +118,7 @@
                                         <span title="{$art.zan}人赞" class="xh_love"><span class="textcontainer"><span>{$art.zan}</span></span> <span class="bartext"></span></span> <span title="{$art.clicks}人浏览" class="xh_views">{$art.clicks}</span>
                                     </div>
                                 </div>
-                                <span class="cat"><a href="/life/" title="{$art.title}"rel="category tag">{$art.category.cate_name}</a></span>
+                                 <span class="cat"><a href="{:url('index/artlst',array('id'=>$art.category.id,'type'=>2))}" title="{$art.title}"rel="category tag">{$art.category.cate_name}</a></span>
                             </div>
                         {/volist}
                          
@@ -151,7 +151,7 @@
                                         </div>
                                         <div class="widget links">
                                             <h3>
-                                                友情链接</h3>
+                                                Friend Links</h3>
                                             <ul>
                                                 {volist name='links' id='link'}
                                                 

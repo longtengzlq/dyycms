@@ -19,8 +19,18 @@ use think\Request;
 class Base  extends Controller{
     function _initialize() {
         parent::_initialize();
-        $cates=db('category')->field('id,cate_name,pid,type')->where(array('status'=>1,'language_id'=>2,'pid'=>0))->select();
-        $hot_arts= Article::name('article')->where(array('language_id'=>'2','status'=>1))->where('thumb', 'neq', '')->order('zan desc')->limit(5)->select();
+         //取出栏目信息，所有前台页面均需用到故放到Base类中去除
+        try {
+            $cates = db('category')->field('id,cate_name,pid,type,model_type_id')->where(array('status' => 1, 'language_id' => 2, 'pid' => 0))->select();
+        } catch (\Exception $exc) {
+            if(file_exists('/install/install.lock')){
+                unlink('install/install.lock');
+            }
+            $this->error('请先安装系统，或确认数据库配置正确', '/install/index.php');
+        }
+
+        //热门文章推荐
+        $hot_arts= Article::name('article')->where(array('language_id'=>'1','status'=>1))->where('thumb', 'neq', '')->order('zan desc')->limit(5)->select();
          $this->assign('hot_arts',$hot_arts);
         //对顶级栏目进行排序增加其子元素
         $this->sortCates($cates);        
