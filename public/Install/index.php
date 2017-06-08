@@ -173,7 +173,7 @@ switch ($step) {
             } else {
                 $arr['n'] = 999999;
                 $db = Db::connect($db_dsn);
-                $insert_admin="INSERT INTO `".$tableName = str_ireplace('mlcms_', $tablepre, 'mlcms_admin')."` (`username`, `password`, `create_time`, `status`,`language_id`) VALUES( '".$admin_name."', '".md5($admin_password)."', ". time().", '1',1);";
+                $insert_admin="INSERT INTO `".$tableName = str_ireplace('mlcms_', $tablepre, 'mlcms_admin')."` (`id`,`username`, `password`, `create_time`, `status`,`language_id`) VALUES( '1','".$admin_name."', '".md5($admin_password)."', ". time().", '1',1);";
                
                 try {
                     $db->execute($insert_admin);
