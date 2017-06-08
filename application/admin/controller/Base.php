@@ -23,18 +23,22 @@ class  Base extends Controller
         switch ($lang) {
             case 'zh-cn':
                 Lang::load(ADMIN_PATH . 'lang/zh-cn.php');
+                $language_id=1;
                 Cookie::set('lang','zh-cn',['prefix'=>'mlcms_','expire'=>3600]);                
                 break;
             case 'en-us':
                 Lang::load(ADMIN_PATH . 'lang/en-us.php');
+                 $language_id=2;
                 Cookie::set('lang','en-us',['prefix'=>'mlcms_','expire'=>3600]);    
                 break;
             default:
                 Lang::load(ADMIN_PATH . 'lang/' . $default_lang . '.php');
+                 $language_id=1;
                 Cookie::set('lang',$default_lang,['prefix'=>'mlcms_','expire'=>3600]);
                 break;
         }
-       
+        $setting= db('setting')->where('language_id',$language_id)->select();
+        $this->assign('setting', $setting[0]);
         $request= Request::instance();
         $current_action=$request->controller().'/'.$request->action();
         $this->assign("current_action", $current_action);

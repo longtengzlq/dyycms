@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:61:"C:\myweb\TP\public/../application/admin\view\login\login.html";i:1496922680;}*/ ?>
 ﻿<!DOCTYPE html>
 <!--
 Beyond Admin - Responsive Admin Dashboard Template build with Twitter Bootstrap 3
@@ -9,7 +10,7 @@ Purchase: http://wrapbootstrap.com
 <!--Head-->
 <head>
     <meta charset="utf-8" />
-    <title>{$Think.lang.login}</title>
+    <title><?php echo \think\Lang::get('login'); ?></title>
 
     <meta name="description" content="login page" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +37,7 @@ Purchase: http://wrapbootstrap.com
     <div class="login-container animated fadeInDown">
         <form action="login" method='post'>
         <div class="loginbox bg-white">
-            <div class="loginbox-title">{$Think.lang.login}</div>
+            <div class="loginbox-title"><?php echo \think\Lang::get('login'); ?></div>
             <!--
             <div class="loginbox-social">
                 <div class="social-title ">Connect with Your Social Accounts</div>
@@ -65,17 +66,17 @@ Purchase: http://wrapbootstrap.com
             </div>
            <div class="loginbox-textbox">
                     <input class="form-control" style="display: inline-block;width:96px;padding: 0px;" required name="captcha" type="text">
-                    <img src="{:captcha_src()}" onclick="this.src='{:captcha_src()}?'+Math.random();" width="120" style="display: inline-block;padding: 0px; cursor:pointer; height: 34px" alt="captcha" />
+                    <img src="<?php echo captcha_src(); ?>" onclick="this.src='<?php echo captcha_src(); ?>?'+Math.random();" width="120" style="display: inline-block;padding: 0px; cursor:pointer; height: 34px" alt="captcha" />
                
             </div>
             
             
             <div class="loginbox-submit" style="margin-top 10px">
-                <input type="submit" class="btn btn-primary btn-block" value="{$Think.lang.login}">
+                <input type="submit" class="btn btn-primary btn-block" value="<?php echo \think\Lang::get('login'); ?>">
             </div>
             <div class="loginbox-forgot" style="clear: both">
-                <a href="" style=" display: inline-block;width: 40%;text-align: center">{$Think.lang.forgot_password}</a>
-                <a href="register.html" style="display: inline-block;width: 40%;text-align: center">{$Think.lang.sign_up}</a>
+                <a href="" style=" display: inline-block;width: 40%;text-align: center"><?php echo \think\Lang::get('forgot_password'); ?></a>
+                <a href="register.html" style="display: inline-block;width: 40%;text-align: center"><?php echo \think\Lang::get('sign_up'); ?></a>
             </div>
             
         </div>

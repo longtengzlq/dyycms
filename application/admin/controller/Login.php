@@ -73,12 +73,11 @@ class Login  extends Controller
             //设置网站语言ID,目前是系统默认语言，通过应用配置文件config.php读取
             set_language_id();
             //验证码操作
-            /*
+          
             if(!captcha_check(input('captcha'))){
                   $this->error(\think\Lang::get('验证码错误'), url('login/login'));          
             };
-             * 
-             */
+           
              $user=array();
             if($data['username']!=''&&$data['password']!=''){
                 $user['username']=$data['username'];
