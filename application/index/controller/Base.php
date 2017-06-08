@@ -20,18 +20,28 @@ class Base  extends Controller{
     function _initialize() {
         //取出栏目信息，所有前台页面均需用到故放到Base类中去除
         try {
-            $cates = db('category')->field('id,cate_name,pid,type,model_type_id')->where(array('status' => 1, 'language_id' => 1, 'pid' => 0))->select();
+            $system= db('setting')->where(array('language_id'=>'1'))->find();
+           
+           
         } catch (\Exception $exc) {
             if(file_exists('/install/install.lock')){
-                unlink('install/install.lock');
+               // unlink('install/install.lock');
             }
             $this->error('请先安装系统，或确认数据库配置正确', '/install/index.php');
         }
+        $request = Request::instance();
+        if ($system['site_switch'] == 0 && $request->action() != 'building') {
+
+            $this->redirect('building');
+            //定义全局变量，通知所有程序站点关闭，将来所有控制器均要检查站点是否关闭，没有关闭，才开始工作
+            define('SITE_SWITCH', 'OFF');
+        }
+        $cates = db('category')->field('id,cate_name,pid,type,model_type_id')->where(array('status' => 1, 'language_id' => 1, 'pid' => 0))->select();
 
         //热门文章推荐
         $hot_arts= Article::name('article')->where(array('language_id'=>'1','status'=>1))->where('thumb', 'neq', '')->order('zan desc')->limit(5)->select();
-        $system= db('setting')->where(array('language_id'=>'1'))->select();
-        $this->assign('system',$system[0]);
+
+        $this->assign('system',$system);
          $this->assign('hot_arts',$hot_arts);
         //对顶级栏目进行排序增加其子元素
         $this->sortCates($cates);        
