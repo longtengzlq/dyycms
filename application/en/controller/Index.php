@@ -10,6 +10,8 @@ use think\Db;
 class Index extends Base {
 
     public function index() {
+          
+        
         $rec_cate = db('category')->where(array('language_id' => '2', 'is_recommond' => 1))->order('sort DESC')->limit(5)->select();
         $foot_cate = db('category')->where(array('language_id' => '2', 'is_footer' => 1, 'pid' => 0))->select();
         $this->sort_cate($foot_cate);
@@ -150,5 +152,8 @@ class Index extends Base {
     public function test() {
         // $this->fetch('article');
     }
+    public function building(){
+           return $this->fetch(); 
+        }
 
 }
