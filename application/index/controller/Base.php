@@ -20,7 +20,7 @@ class Base  extends Controller{
     function _initialize() {
         //取出栏目信息，所有前台页面均需用到故放到Base类中去除
         try {
-            $cates = db('category')->field('id,cate_name,pid,type')->where(array('status' => 1, 'language_id' => 1, 'pid' => 0))->select();
+            $cates = db('category')->field('id,cate_name,pid,type,model_type_id')->where(array('status' => 1, 'language_id' => 1, 'pid' => 0))->select();
         } catch (\Exception $exc) {
             if(file_exists('/install/install.lock')){
                 unlink('install/install.lock');
