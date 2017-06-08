@@ -84,8 +84,9 @@
                             <label for="site_templet" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_templet}</label>
                             <div class="col-sm-6">                                
                                <select class="form-control" id="site_templet" name="site_templet" style="border-radius:0px;">
-                                    <option value="Default">Default</option>                                    
-                                    <option value="Test">Test</option>                                    
+                                   {volist name='templates' id="template"}
+                                    <option value="{$template}" {if condition="$template eq $or_data.site_templet"} selected{/if}>{$template}</option>   
+                                    {/volist}
                                 </select>                               
                             </div>                            
                         </div>

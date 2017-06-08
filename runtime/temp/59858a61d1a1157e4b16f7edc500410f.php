@@ -1,6 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:62:"C:\myweb\TP\public/../application/admin\view\setting\edit.html";i:1496931060;s:63:"C:\myweb\TP\public/../application/admin\view\common\header.html";i:1496919045;s:61:"C:\myweb\TP\public/../application/admin\view\common\left.html";i:1496908348;}*/ ?>
-
-	<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:62:"C:\myweb\TP\public/../application/admin\view\category\add.html";i:1496882529;s:63:"C:\myweb\TP\public/../application/admin\view\common\header.html";i:1496919045;s:61:"C:\myweb\TP\public/../application/admin\view\common\left.html";i:1496908348;}*/ ?>
+    <!DOCTYPE html>
 <html>
     <head>
     <meta charset="utf-8">
@@ -94,10 +93,14 @@
 </div>
 
 	<!-- /头部 -->
+	<!-- /头部 -->
+	
 	<div class="main-container container-fluid">
 		<div class="page-container">
-			            <!-- Page Sidebar -->
-             <div class="page-sidebar" id="sidebar">
+		 <!-- Page Sidebar -->
+            
+                <!-- Page Sidebar Header-->
+                     <div class="page-sidebar" id="sidebar">
                 <!-- Page Sidebar Header-->
                 <div class="sidebar-header-wrapper">
                     <input class="searchinput" type="text">
@@ -278,232 +281,122 @@
                 <!-- Page Breadcrumb -->
                 <div class="page-breadcrumbs">
                     <ul class="breadcrumb">
-                                        <li class="active"><?php echo \think\Lang::get('system'); ?></li>
-                                        </ul>
+                        <li>
+                            <a href="<?php echo url('index/index',''); ?>"><?php echo \think\Lang::get('system'); ?></a>
+                        </li>
+                        <li>
+                            <a href="<?php echo url('category/lst',''); ?>"><?php echo \think\Lang::get('category'); ?></a>
+                        </li>
+                        <li class="active"><?php echo \think\Lang::get('add'); ?>
+                        </li>
+                    </ul>
                 </div>
                 <!-- /Page Breadcrumb -->
 
                 <!-- Page Body -->
                 <div class="page-body">
-                    <form class="form-horizontal" role="form" action="" enctype="multipart/form-data"  method="post">
-                        <input name='id'  value="<?php echo $or_data['id']; ?>" type="hidden">
+                    
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <div class="widget">
+            <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption"><?php echo \think\Lang::get('category_add'); ?></span>
+            </div>
+            <div class="widget-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" action="<?php echo url('category/add'); ?>" method="post">
                         <div class="form-group">
-                            <label for="site_name" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_title'); ?></label>
+                            <label for="cate_name" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('category_name'); ?></label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="site_name" placeholder="" name="site_name" value="<?php echo $or_data['site_name']; ?>"  type="text">
+                                <span class="input-icon icon-right inverted">
+                                    <input name="cate_name" required=""  type="text" class="form-control">
+                                    <i class="fa fa-bars bg-darkorange"></i>
+                                </span>
+                                <!--<input class="form-control" id="username" placeholder="" name="username" required="" type="text">-->
                             </div>
-                           
+                            <p class="help-block col-sm-4 red">* <?php echo \think\Lang::get('required'); ?></p>
                         </div>
                         
                         <div class="form-group">
-                            <label for="site_domain" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_domain'); ?></label>
-                            <div class="col-sm-3">
-                                <input class="form-control" id="site_domain" placeholder="" name="site_domain" value="<?php echo $or_data['site_domain']; ?>" type="text">
-                            </div>
-                            <label for="site_domain" class="col-sm-3 control-label no-padding-left" style="text-align:left"><?php echo \think\Lang::get('example'); ?>：http://www.mlcms.com/</label>
                             
-                        </div>
+                            <label for="language_name" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('category_lang'); ?></label>
+                            <div class="col-sm-6">  
+                                <span class="input-icon icon-right inverted">
+                                   
+                                    <input name="language_name" required=""  type="text" disabled="disabled"  value="&nbsp;&nbsp;<?php echo $lang[$language_id]['brief_name']; ?> "   class="form-control">
+                                    <i class="fa fa-language bg-orange"></i>
+                                </span>
+                                <input name="language_id" type="hidden"   value="<?php echo $language_id; ?> ">  
+                            </div>
+                            <p class="help-block col-sm-4 red">* <?php echo \think\Lang::get('required'); ?></p>
+                        </div>   
                         
-                         <div class="form-group">
-                            <label for="site_switch" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_switch'); ?></label>
+                        <div class="form-group">
+                           <label for="status" class="col-sm-2 control-label no-padding-right" ><?php echo \think\Lang::get('category_status'); ?></label>
                             <div class="col-sm-6">
                                 <label>
-                                    <input class="checkbox-slider colored-success " id='site_switch' <?php if($or_data['site_switch'] == 1): ?> checked="checked" <?php endif; ?> name="site_switch" type="checkbox">
-                                    <span class="text"></span>
+                                    <input class="checkbox-slider colored-success "  id='is_recommend'  name='status' checked="checked" type="checkbox">
+                                    <span class="text" style="margin-top:5px"></span>
                                 </label>
-                            </div>
-                            
+                            </div>                             
                         </div>
                         <div class="form-group">
-                            <label for="site_switch" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_switch'); ?></label>
+                           <label for="is_recommond" class="col-sm-2 control-label no-padding-right" ><?php echo \think\Lang::get('category_recommond'); ?></label>
                             <div class="col-sm-6">
                                 <label>
-                                    <input class="checkbox-slider colored-success " id='site_switch' <?php if($or_data['site_switch'] == 1): ?> checked="checked" <?php endif; ?> name="site_switch" type="checkbox">
-                                    <span class="text"></span>
+                                    <input class="checkbox-slider colored-success "  id='is_recommend'  name='is_recommond' checked="checked" type="checkbox">
+                                    <span class="text" style="margin-top:5px"></span>
                                 </label>
-                            </div>
-                            
+                            </div>                             
                         </div>
+
                         <div class="form-group">
-                            <label for="site_keywords" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_keywords'); ?></label>
-                            <div class="col-sm-6">
-                                 <input class="form-control" id="site_keywords" placeholder=""  name="site_keywords"  value="<?php echo $or_data['site_keywords']; ?>" type="text">
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="site_description" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_desciption'); ?></label>
-                            <div class="col-sm-6">
-                                <textarea name='site_description' id='site_desciption' class="form-control" rows="3"  placeholder="<?php echo $or_data['site_description']; ?>"></textarea>
-                               
-                            </div>
-                            
-                        </div>
-                        <div class="form-group">
-                            <label for="site_copyright" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('copyright'); ?></label>
-                            <div class="col-sm-6">
-                                <textarea name='site_copyright' id='site_desciption' class="form-control" rows="3" value='<?php echo $or_data['site_copyright']; ?>' placeholder='<?php echo $or_data['site_copyright']; ?>'></textarea>
-                               
-                            </div>
-                            
-                        </div>
-                        <div class="form-group">
-                            <label for="site_templet" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_templet'); ?></label>
-                            <div class="col-sm-6">                                
-                               <select class="form-control" id="site_templet" name="site_templet" style="border-radius:0px;">
-                                   <?php if(is_array($templates) || $templates instanceof \think\Collection || $templates instanceof \think\Paginator): $i = 0; $__LIST__ = $templates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$template): $mod = ($i % 2 );++$i;?>
-                                    <option value="<?php echo $template; ?>" <?php if($template == $or_data['site_templet']): ?> selected<?php endif; ?>><?php echo $template; ?></option>   
+                            <label for="pid" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('category_pid'); ?></label>
+                            <div class="col-sm-6">  
+
+                                <select class="form-control" id="authority" name="pid" style="border-radius:0px;">
+                                    <option value="0"><?php echo \think\Lang::get('category_top'); ?></option> 
+                                    <?php if(is_array($sort_cates) || $sort_cates instanceof \think\Collection || $sort_cates instanceof \think\Paginator): $i = 0; $__LIST__ = $sort_cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cate): $mod = ($i % 2 );++$i;?>
+                                        <option value="<?php echo $cate['id']; ?>" > <?php if($cate['level']>0) { echo str_repeat('&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;',$cate['level']-1).'&nbsp;&nbsp;&nbsp; |---';}?><?php echo $cate['cate_name']; ?></option>
                                     <?php endforeach; endif; else: echo "" ;endif; ?>
-                                </select>                               
-                            </div>                            
-                        </div>
-                        
+                                </select>
+                            </div>
+                            <p class="help-block col-sm-4 red">* <?php echo \think\Lang::get('required'); ?></p>
+                        </div>   
                         <div class="form-group">
-                            <label for="upload_size" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('upload_size'); ?></label>
-                            <div class="col-sm-3">
-                                <input class="form-control" id="upload_size" placeholder="" name="upload_size" value="<?php echo $or_data['upload_size']; ?>"  type="text">
-                            </div>
-                            <p class="help-block col-sm-3 ">KB，    <?php echo \think\Lang::get('default'); ?> 2048 KB(2M )</p>
-                            
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="upload_type" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('upload_type'); ?></label>
-                            <div class="col-sm-3">
-                                <input class="form-control" id="upload_type" placeholder="" name="upload_type" value="<?php echo $or_data['upload_type']; ?>"  type="text">
-                            </div>
-                            <p class="help-block col-sm-3 "><?php echo \think\Lang::get('set_type_msg'); ?></p>
-                            
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="GD_test" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('GD_test'); ?></label>
-                            <div class="col-sm-6">
-                                <label>
-                                    <input class="checkbox-slider slider-icon colored-darkorange" id='GD_test' name="GD_test"  <?php if($or_data['GD_test'] == 1): ?> checked="checked" <?php endif; ?> type="checkbox">
-                                    <span class="text"></span>
-                                </label>
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="GD_test_switch" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('GD_test_switch'); ?></label>
-                            <div class="col-sm-6">
-                                <label>
-                                    <input class="checkbox-slider colored-success" id='GD_test_switch' name="GD_test_switch" <?php if($or_data['GD_test_switch'] == 1): ?> checked="checked" <?php endif; ?> type="checkbox">
-                                    <span class="text"></span>
-                                </label>
-                            </div>
-                            
-                        </div>
-                        
-                         <div class="form-group">
-                            <label for="watermart_condition" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('watermart_condition'); ?></label>
-                            <div class="col-sm-6">
-                                <input class="form-control" id="watermart_condition" placeholder="" name="watermart_condition"  value="<?php echo $or_data['watermart_condition']; ?>"  type="text">
-                            </div>
-                           
-                        </div>
-                        
-                         <div class="form-group">
-                            <label for="watermark_image" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('watermark_image'); ?></label>
-                            <div class="col-sm-3">
-                                <input class="form-control" id="watermark_image" placeholder="" name="watermark_image" value="<?php echo $or_data['watermark_image']; ?>"    type="text">
-                            </div>
-                            
-                        </div>
-                        
-                         <div class="form-group">
-                            <label for="watermark_transparency" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('watermark_transparency'); ?></label>
-                            <div class="col-sm-3">
-                                <input class="form-control" id="watermark_transparency" placeholder="" name="watermark_transparency"  value="<?php echo $or_data['watermark_transparency']; ?>"  type="text">
-                            </div>
-                            
-                        </div>
-                        
-                         <div class="form-group">
-                            <label for="watermark_position" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('watermark_position'); ?></label>
-                            <div class="col-sm-6">
-                                <div class="control-group">
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio" value="1" <?php if($or_data['watermark_position'] == 1): ?> checked="checked" <?php endif; ?> class="colored-blue">
-                                                        <span class="text"> <?php echo \think\Lang::get('left_up'); ?></span>
-                                                    </label>
-                                                </div>
+                            <label for="model_type_id" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('model'); ?></label>
+                            <div class="col-sm-6">  
 
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio" value="2"  <?php if($or_data['watermark_position'] == 2): ?> checked="checked" <?php endif; ?> class="colored-danger">
-                                                        <span class="text"> <?php echo \think\Lang::get('center_up'); ?></span>
-                                                    </label>
-                                                </div>
-
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio" value="3" <?php if($or_data['watermark_position'] == 3): ?> checked="checked" <?php endif; ?> class="colored-success">
-                                                        <span class="text"> <?php echo \think\Lang::get('right_up'); ?></span>
-                                                    </label>
-                                                </div>
-
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio" value="4" <?php if($or_data['watermark_position'] == 4): ?> checked="checked" <?php endif; ?> class="colored-blue">
-                                                        <span class="text"> <?php echo \think\Lang::get('left_center'); ?></span>
-                                                    </label>
-                                                </div>
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio" value="5" <?php if($or_data['watermark_position'] == 5): ?> checked="checked" <?php endif; ?> class="colored-danger">
-                                                        <span class="text"> <?php echo \think\Lang::get('center'); ?></span>
-                                                    </label>
-                                                </div>
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio" value="6" <?php if($or_data['watermark_position'] == 6): ?> checked="checked" <?php endif; ?> class="colored-success">
-                                                        <span class="text"> <?php echo \think\Lang::get('right_center'); ?></span>
-                                                    </label>
-                                                </div>
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio"  value="7" <?php if($or_data['watermark_position'] == 7): ?> checked="checked" <?php endif; ?> class="colored-blue">
-                                                        <span class="text"> <?php echo \think\Lang::get('bottom_left'); ?></span>
-                                                    </label>
-                                                </div>
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio" value="8" <?php if($or_data['watermark_position'] == 8): ?> checked="checked" <?php endif; ?> class="colored-danger">
-                                                        <span class="text"> <?php echo \think\Lang::get('bottom_center'); ?></span>
-                                                    </label>
-                                                </div>
-                                                <div class="radio col-sm-4">
-                                                    <label>
-                                                        <input name="watermark_position" type="radio" value="9" <?php if($or_data['watermark_position'] == 9): ?> checked="checked" <?php endif; ?>  class="colored-success">
-                                                        <span class="text"> <?php echo \think\Lang::get('bottom_right'); ?></span>
-                                                    </label>
-                                                </div>
-                                            </div>
+                                <select class="form-control" id="model_type_id" onchange="display(this)" name="model_type_id" style="border-radius:0px;">
+                                    
+                                    <?php if(is_array($models) || $models instanceof \think\Collection || $models instanceof \think\Paginator): $i = 0; $__LIST__ = $models;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$model): $mod = ($i % 2 );++$i;?>
+                                        <option value="<?php echo $model['id']; ?>" > <?php if($language_id==1) { ?><?php echo $model['model_ch_name']; }else{ ?>
+                                            <?php echo $model['model_en_name']; }?></option>
+                                    <?php endforeach; endif; else: echo "" ;endif; ?>
+                                </select>
                             </div>
-
+                            <p class="help-block col-sm-4 red">* <?php echo \think\Lang::get('required'); ?></p>
+                        </div> 
+                        
+                         <div class="form-group" id="content_group"  style="display: none;">
+                            <label for="content" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('content'); ?></label>
+                            <div class="col-sm-7" id='content' name='content'>
+                            </div>
                         </div>
                         
-                       
-
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-default"><?php echo \think\Lang::get('save_info'); ?></button>
+                                <button type="submit" class="btn btn-blue"><?php echo \think\Lang::get('save_info'); ?></button>
                             </div>
                         </div>
-                        
                     </form>
-                    
-				
                 </div>
-                
+            </div>
+        </div>
+    </div>
+</div>
 
-               
+                </div>
                 <!-- /Page Body -->
             </div>
             <!-- /Page Content -->
@@ -516,7 +409,30 @@
     <script src="__JS__/jquery.js"></script>
     <!--Beyond Scripts-->
     <script src="__JS__/beyond.js"></script>
-    
 
+    <script src="__JS__/bootstrap-datepicker.js"></script>
+    <script>
+        $('.date-picker').datepicker();
+    </script>
+<script src="__JS__/tree-custom.min.js"></script>
+    <script src="__JS__/treeview-init.js"></script>
+        <!--UEditor Scripts-->
+    <script src="__THIRD__/ueditor/ueditor.config.js"></script>
+    <script src="__THIRD__/ueditor/ueditor.all.min.js"></script>
+    <script src="__THIRD__/ueditor/lang/zh-cn/zh-cn.js"></script>
+    <script>
+         UE.getEditor('content',{initialFrameWidth:null,initialFrameHeight:400,});
+        jQuery(document).ready(function () {
+            UITree.init();
+        });
+       
+        function display(obj){
+            if($("#model_type_id").val()==3){
+                $("#content_group").css('display','block');
+            }else{
+                $("#content_group").css('display','none');
+            };
+        }
+    </script>
 
 </body></html>
