@@ -9,11 +9,14 @@ class ModelType extends Base
 {
     function _initialize() {
         parent::_initialize();
-        if(is_dir('./template/model_type')){
+        $language_id= get_language_id();
+       $templet= db('setting')->field('site_templet')->where('language_id',$language_id)->find();
+       $templet_path='template/'. $templet['site_templet'];
+        if(is_dir($templet_path)){
              $cate_file=array();
              $list_file=array();
              $detail_file=array();
-             $files= scandir('./template/model_type');
+             $files= scandir($templet_path);
              $cat_str='/^category.*/';
              $list_str='/^list.*/';
              $detail_str='/^detail.*/';
@@ -37,7 +40,7 @@ class ModelType extends Base
     }
      public function add()
     {    
-         
+        
          
          if(request()->isPOST()){
             $data=input();
