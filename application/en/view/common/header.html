@@ -10,7 +10,7 @@
                 <div id="navi">
 
                     <ul id="jsddm">
-                        <li><a class="navi_home" href="/">Home</a></li>
+                        <li><a class="navi_home" href="/?lang=en-us">Home</a></li>
 
                         {volist name="sort_cates" id="vo"}
                         <li><a href="{if condition='$vo.model_type_id eq 8' }{:url('index/artlst',array('id'=>$vo.id,'type'=>2))}{elseif condition='$vo.model_type_id eq 1'}{:url('index/imglst',array('id'=>$vo.id,'type'=>2))}{else/}{:url('index/page',array('id'=>$vo.id,'type'=>1))}{/if}">{$vo.cate_name}</a>

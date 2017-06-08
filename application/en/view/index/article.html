@@ -146,7 +146,7 @@
             <div id="content">
                 <div class="post" id="post-19        563" style="border-right: solid 1px #000000; min-height: 1700px;
                     margin-top: 10px;">
-                    <div class="path"><a href='/'>Home</a> >{volist name='position' id='cate'}
+                    <div class="path"><a href='/?lang=en-us'>Home</a> >{volist name='position' id='cate'}
             <a href="{:url('artlst',array('id'=>$cate.id,'type'=>2))}">{$cate.cate_name}</a> >
             {/volist} </div>
                     <div class="single_entry single2_entry">
@@ -154,12 +154,12 @@
                             <div class="title_container">
                                 <h2 class="title single_title">
                                     <span>{$article.title}</span><span class="title_date"></span></h2>
-                                <p class="single_info">时间：{$article.release_date|date="Y-m-d",###}&nbsp;&nbsp;&nbsp;编辑：{$article.editor}</p>
+                                <p class="single_info">Date：{$article.release_date|date="Y-m-d",###}&nbsp;&nbsp;&nbsp;Editor：{$article.editor}</p>
                         </div>
                             <div class="div-content">
                                
                                 <p>
-                                    <p>（本文作者：{$article.author}）</p>
+                                    <p>（Autor：{$article.author}）</p>
 <p>
 {$article.content}                                        
 </p><p></p><p class="pagepage"></p>
@@ -192,7 +192,7 @@
                                         </table>
                                     </div>
                                     <div style="float: right; width: 60px; font-size: 12px;">
-                                        分享至：</div>
+                                        Shtare To:</div>
                                     <div style="clear: both;">
                                     </div>
                                 </div>
@@ -202,7 +202,7 @@
                             <div id="ctl00_ctl00_ContentPlaceHolder1_contentPlace_divRead">
                                 <div style="text-align: left; wid        th: 100%; border-bottom: solid 1px #e0e0e0; padding-bottom: 4px;
                                     color: Black; vertical-align: middle; font-weight: bold;">
-                                    &nbsp;&nbsp;猜您喜欢的文章
+                                    &nbsp;&nbsp;May be you likes
                                 </div>
                                 <ul class="read" style="list-style-type: none; margin-top: 10px; width: 780px;">
 
