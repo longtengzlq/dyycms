@@ -30,6 +30,8 @@ class Base  extends Controller{
 
         //热门文章推荐
         $hot_arts= Article::name('article')->where(array('language_id'=>'1','status'=>1))->where('thumb', 'neq', '')->order('zan desc')->limit(5)->select();
+        $system= db('setting')->where(array('language_id'=>'1'))->select();
+        $this->assign('system',$system[0]);
          $this->assign('hot_arts',$hot_arts);
         //对顶级栏目进行排序增加其子元素
         $this->sortCates($cates);        

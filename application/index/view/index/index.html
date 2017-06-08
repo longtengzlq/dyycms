@@ -3,9 +3,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
-        <title>童老师ThinkPHP5交流群：484519446</title>
-        <meta name="description" content="童老师ThinkPHP5交流群：484519446" />
-        <meta name="keywords" content="童老师ThinkPHP5交流群：484519446" />
+        <title>{$system.site_name}</title>
+        <meta name="description" content="{$system.site_description}" />
+        <meta name="keywords" content="{$system.site_keywords}" />
 
         <link rel="stylesheet" type="text/css" media="all" href="__CSS__/style.css" />
         <script type="text/javascript" src="__JS__/jquery-1.4.1.min.js"></script>
@@ -52,7 +52,7 @@
             }
         </script>
         <div id="mask" class="mask" onclick="CloseMask()"></div> 
-       {include file="../application/index/view/common/header.html" /}
+       {include file="common/header" /}
         <div id="xh_wrapper">
 
             <input type="hidden" id="hdUrlFocus" />
@@ -245,6 +245,7 @@
                                         </div>
                                         <div id="footer_wrap">
                                             <div id="footer">
+                                                <!--
                                                 <div class="footer_navi">
                                                     <ul id="menu-%e5%b0%be%e9%83%a8%e5%af%bc%e8%88%aa" class="menu">
                                                         <li id="menu-item-156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156">
@@ -255,9 +256,9 @@
                                                             <a href="/tougao.html">我要投稿</a></li>
                                                     </ul>
                                                 </div>
-                                                <div class="footer_info">
-                                                    <span class="legal">Copyright &#169; 2016-2020 qq群：484519446 版权所有&#160;&#160;&#160;<a href="#">
-                                                            琼ICP备******号</a>&#160;&#160;&#160;
+                                                -->
+                                                <div class="footer_info text-center">
+                                                    <span class="legal">{$system.site_copyright}</span>
 
                                                 </div>
                                             </div>
