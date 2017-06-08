@@ -13,11 +13,11 @@
                         <li><a class="navi_home" href="/">首页</a></li>
 
                         {volist name="sort_cates" id="vo"}
-                        <li><a href="{if condition='$vo.type eq 0' }{:url('index/artlst',array('id'=>$vo.id,'type'=>2))}{elseif condition='$vo.type eq 1'}{:url('index/imglst',array('id'=>$vo.id,'type'=>2))}{else/}{:url('index/page',array('id'=>$vo.id,'type'=>1))}{/if}">{$vo.cate_name}</a>
+                        <li><a href="{if condition='$vo.model_type_id eq 8' }{:url('index/artlst',array('id'=>$vo.id,'type'=>2))}{elseif condition='$vo.model_type_id eq 1'}{:url('index/imglst',array('id'=>$vo.id,'type'=>2))}{else/}{:url('index/page',array('id'=>$vo.id,'type'=>1))}{/if}">{$vo.cate_name}</a>
                              {if condition="$vo['children'] neq 0"}
                             <ul>
                                 <?php foreach($vo['children'] as $k=>$value){?>
-                                <li><a href="{if condition='$value.type eq 0' }{:url('index/artlst',array('id'=>$value.id,'type'=>2))}{elseif condition='$value.type eq 1'}{:url('index/imglst',array('id'=>$value.id,'type'=>2))}{else/}{:url('index/page',array('id'=>$value.id,'type'=>1))}{/if}">{$value.cate_name}</a></li>                                  
+                                <li><a href="{if condition='$value.model_type_id eq 8' }{:url('index/artlst',array('id'=>$value.id,'type'=>2))}{elseif condition='$value.model_type_id eq 1'}{:url('index/imglst',array('id'=>$value.id,'type'=>2))}{else/}{:url('index/page',array('id'=>$value.id,'type'=>1))}{/if}">{$value.cate_name}</a></li>                                  
                                 <?php }?>
                             </ul>
                             {/if} 
