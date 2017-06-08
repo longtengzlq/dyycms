@@ -47,15 +47,9 @@ class Setting extends Base
          $or_data = '';
          set_language_id();
          $language_id= get_language_id();
-         switch ( $language_id){
-             case '1':
-                 $or_data= db('setting')->where(array('site_type'=>'ch'))->find();  
-                 break;
-             case '2':
-                 $or_data= db('setting')->where(array('site_type'=>'en'))->find();  
-                 break;
-        }
-        
+         $or_data= db('setting')->where(array('language_id'=>$language_id))->find();  
+         
+         $data['language_id']=$or_data['language_id'];
         if (request()->isPost()) {
             $data = array();
             $data['site_switch'] = 0;
@@ -70,6 +64,7 @@ class Setting extends Base
                     }
                 }
             }
+
             if (db('setting')->update($data)!==false) {
                 $this->success('操作成功', 'edit');
             } else {

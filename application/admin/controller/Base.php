@@ -38,7 +38,10 @@ class  Base extends Controller
                 break;
         }
         $setting= db('setting')->where('language_id',$language_id)->select();
-        $this->assign('setting', $setting[0]);
+        if($setting){
+            $this->assign('setting', $setting[0]);
+        }
+        
         $request= Request::instance();
         $current_action=$request->controller().'/'.$request->action();
         $this->assign("current_action", $current_action);

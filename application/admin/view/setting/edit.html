@@ -18,7 +18,7 @@
                 <!-- Page Body -->
                 <div class="page-body">
                     <form class="form-horizontal" role="form" action="" enctype="multipart/form-data"  method="post">
-                        <input name='id'  value="1" type="hidden">
+                        <input name='id'  value="{$or_data.id}" type="hidden">
                         <div class="form-group">
                             <label for="site_name" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_title}</label>
                             <div class="col-sm-6">
@@ -65,14 +65,21 @@
                         </div>
                         
                         <div class="form-group">
-                            <label for="site_desciption" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_desciption}</label>
+                            <label for="site_description" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_desciption}</label>
                             <div class="col-sm-6">
-                                <textarea name='site_desciption' id='site_desciption' class="form-control" rows="3"  placeholder="{$or_data.site_desciption}"></textarea>
+                                <textarea name='site_description' id='site_desciption' class="form-control" rows="3"  placeholder="{$or_data.site_description}"></textarea>
                                
                             </div>
                             
                         </div>
-                        
+                        <div class="form-group">
+                            <label for="site_copyright" class="col-sm-2 control-label no-padding-right">{$Think.lang.copyright}</label>
+                            <div class="col-sm-6">
+                                <textarea name='site_copyright' id='site_desciption' class="form-control" rows="3" value='{$or_data.site_copyright}' placeholder='{$or_data.site_copyright}'></textarea>
+                               
+                            </div>
+                            
+                        </div>
                         <div class="form-group">
                             <label for="site_templet" class="col-sm-2 control-label no-padding-right">{$Think.lang.site_templet}</label>
                             <div class="col-sm-6">                                
