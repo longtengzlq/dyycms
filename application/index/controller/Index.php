@@ -59,7 +59,7 @@ class Index extends Base {
         $cate = db('category')->where('id', $cate_id)->find();
         $model=db('model_type')->where('id',$cate['model_type_id'])->find();
         $this->assign('cate', $cate);
-        $tmp_path = '../../../public/template/';
+        $tmp_path = 'template/';
         $view_suffix= \think\Config::get('template.view_suffix');
         return $this->fetch($tmp_path . str_ireplace('.'.$view_suffix,'', $model['model_detail_page']));
     }
