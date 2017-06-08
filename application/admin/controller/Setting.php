@@ -42,9 +42,17 @@ class Setting extends Base
         } else {
             $this->error('你没有权限','index/index');
         }
-
-
-         $or_data = '';
+        $template_path='template/';
+        $temp= scandir($template_path);
+        $templates=array();
+        foreach ($temp as $key => $value) {
+            if(is_dir($template_path.$value)&&$value!='.'&&$value!='..'){
+                array_push($templates, $value);
+            }
+        }
+        
+        $this->assign('templates',$templates);
+        $or_data = '';
          set_language_id();
          $language_id= get_language_id();
          $or_data= db('setting')->where(array('language_id'=>$language_id))->find();  
