@@ -17,7 +17,7 @@ use think\Db;
 use think\Config;
 $rq= Request::instance();
 $step = trim($rq->param('step')) ? trim($rq->param('step')) : 1;
-$sqlstr = file_get_contents('admin.sql');
+$sqlstr = file_get_contents('mlcms.sql');
 
 //整理创建数据库文件
 //$sqlstr = file_get_contents('phpcms_db.sql');

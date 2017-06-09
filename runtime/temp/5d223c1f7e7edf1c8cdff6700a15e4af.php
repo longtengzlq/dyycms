@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:62:"C:\myweb\TP\public/../application/admin\view\setting\edit.html";i:1496931060;s:63:"C:\myweb\TP\public/../application/admin\view\common\header.html";i:1496919045;s:61:"C:\myweb\TP\public/../application/admin\view\common\left.html";i:1496908348;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:62:"C:\myweb\TP\public/../application/admin\view\setting\edit.html";i:1496959613;s:63:"C:\myweb\TP\public/../application/admin\view\common\header.html";i:1496919045;s:61:"C:\myweb\TP\public/../application/admin\view\common\left.html";i:1496908348;}*/ ?>
 
 	<!DOCTYPE html>
 <html>
@@ -305,16 +305,6 @@
                         </div>
                         
                          <div class="form-group">
-                            <label for="site_switch" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_switch'); ?></label>
-                            <div class="col-sm-6">
-                                <label>
-                                    <input class="checkbox-slider colored-success " id='site_switch' <?php if($or_data['site_switch'] == 1): ?> checked="checked" <?php endif; ?> name="site_switch" type="checkbox">
-                                    <span class="text"></span>
-                                </label>
-                            </div>
-                            
-                        </div>
-                        <div class="form-group">
                             <label for="site_switch" class="col-sm-2 control-label no-padding-right"><?php echo \think\Lang::get('site_switch'); ?></label>
                             <div class="col-sm-6">
                                 <label>

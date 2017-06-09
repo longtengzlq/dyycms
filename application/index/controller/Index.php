@@ -11,12 +11,7 @@ class Index extends Base {
     
 
     public function index() {
-        $system= db('setting')->where(array('language_id'=>'1'))->find();
-        if($system['site_switch']==0){
-                $this->redirect('building');
-                //定义全局变量，通知所有程序站点关闭，将来所有控制器均要检查站点是否关闭，没有关闭，才开始工作
-                define('SITE_SWITCH','OFF');
-            }
+        
         $rec_cate = db('category')->where(array('language_id' => '1', 'is_recommond' => 1))->limit(8)->select();
         $foot_cate = db('category')->where(array('language_id' => '1', 'is_footer' => 1, 'pid' => 0))->select();
         $this->sort_cate($foot_cate);

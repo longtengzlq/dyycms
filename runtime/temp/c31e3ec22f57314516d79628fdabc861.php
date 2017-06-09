@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:65:"C:\myweb\TP\public/../application/admin\view\auth_group\list.html";i:1496063813;s:63:"C:\myweb\TP\public/../application/admin\view\common\header.html";i:1496919045;s:61:"C:\myweb\TP\public/../application/admin\view\common\left.html";i:1496908348;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:65:"C:\myweb\TP\public/../application/admin\view\auth_group\list.html";i:1496963907;s:63:"C:\myweb\TP\public/../application/admin\view\common\header.html";i:1496919045;s:61:"C:\myweb\TP\public/../application/admin\view\common\left.html";i:1496908348;}*/ ?>
     <!DOCTYPE html>
 <html>
     <head>
@@ -422,7 +422,7 @@
               url:"<?php echo url('updateStatus'); ?>",
                 data:{'id':id,'field_name':field_name,'field_value':field_value},
                 success:function(msg){
-                    alert('success');
+                //    alert('success');
                 },
                 error:function (XMLHttpRequest, textStatus, errorThrown) {
                     alert(errorThrown)
