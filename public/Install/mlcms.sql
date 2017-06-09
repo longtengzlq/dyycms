@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 2017-06-09 11:47:24
+-- Generation Time: 2017-06-09 12:09:53
 -- 服务器版本： 5.6.10
 -- PHP Version: 5.6.29
 
@@ -46,13 +46,6 @@ CREATE TABLE `mlcms_admin` (
   `sort` int(11) DEFAULT '0' COMMENT '管理员排序',
   `language_id` int(1) DEFAULT '1' COMMENT '中英文管理权限'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- 转存表中的数据 `mlcms_admin`
---
-
-INSERT INTO `mlcms_admin` (`id`, `username`, `password`, `create_time`, `create_IP`, `creator`, `last_log_time`, `last_log_IP`, `expiry_time`, `status`, `autority`, `group_id`, `email`, `telephone`, `QQ`, `address`, `sort`, `language_id`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 1496906068, NULL, NULL, 1496922698, NULL, NULL, 1, NULL, 0, NULL, NULL, NULL, NULL, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -131,16 +124,8 @@ CREATE TABLE `mlcms_auth_group` (
 
 INSERT INTO `mlcms_auth_group` (`id`, `title`, `status`, `rules`) VALUES
 (4, '超级管理员', 1, '46,28,30,33,32,31,29,34,35,36,38,37,39,43,42,41,40,45,7,8,5,14,15,17,16,23,27,26,25,24,18,22,21,20,19,1,11,10,9,12,13,3'),
-(3, '中文编辑', 0, '46,5,14,15,17,16,18,22,21,20,19'),
-(6, '英文编辑', 1, '45,5,14,15,17,16,23,27,26,25,24,18,22,21,20,19,1,11,10,9,12,13,3'),
-(7, 'bbb', 1, '1'),
-(8, 'dd', 1, '1'),
-(9, 'sss', 1, '1'),
-(16, 'sssa', 1, '7,8'),
-(11, '22', 1, '1'),
-(13, 'ddddf', 1, '1'),
-(14, 'sssss', 1, '1,3,4,5,6'),
-(15, 'dddd', 1, '1,3,4,5,6');
+(3, '中文编辑', 1, '46,5,14,15,17,16,18,22,21,20,19'),
+(6, '英文编辑', 1, '45,5,14,15,17,16,23,27,26,25,24,18,22,21,20,19,1,11,10,9,12,13,3');
 
 -- --------------------------------------------------------
 
@@ -158,7 +143,9 @@ CREATE TABLE `mlcms_auth_group_access` (
 --
 
 INSERT INTO `mlcms_auth_group_access` (`uid`, `group_id`) VALUES
+(1, 3),
 (1, 4),
+(1, 6),
 (3, 3),
 (5, 6),
 (6, 3);
@@ -373,8 +360,8 @@ CREATE TABLE `mlcms_setting` (
 --
 
 INSERT INTO `mlcms_setting` (`id`, `site_name`, `site_domain`, `site_switch`, `site_keywords`, `site_description`, `site_copyright`, `site_templet`, `upload_size`, `upload_type`, `GD_test`, `GD_test_switch`, `watermart_condition`, `watermark_image`, `watermark_transparency`, `watermark_position`, `site_type`, `language_id`) VALUES
-(1, '我的网站bb', 'http://www.a.com', 1, '关键字', '描述', 'Copyright &#169; 2016-2020 慧智互动传媒版权所有&#160;&#160;&#160;<a href=\"www.h5za.com\">京ICP备15019740号', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 7, 'ch', 1),
-(2, 'abc', 'http://www.a.com', 1, 'keywords', 'description', 'Copyright &#169; 2016-2020 HZ5A &#160;&#160;&#160;<a href=\"www.h5za.com\">Jing ICP Number:15019740', 'Default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 6, 'en', 2);
+(1, '多语言企业系统', 'http://www.hz5a.com', 1, '我的网站', '描述', 'Copyright &#169; 2016-2020 慧智互动传媒版权所有&#160;&#160;&#160;<a href=\"www.h5za.com\">京ICP备15019740号', 'default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 7, 'ch', 1),
+(2, 'MLCMS-HZ5A', 'http://www.a.com', 1, 'keywords', 'description', 'Copyright &#169; 2016-2020 HZ5A &#160;&#160;&#160;<a href=\"www.h5za.com\">Jing ICP Number:15019740', 'default', 2048, 'png|gif|jpeg', 1, 0, 'condition', 'image', 80, 6, 'en', 2);
 
 --
 -- Indexes for dumped tables
@@ -484,11 +471,6 @@ ALTER TABLE `mlcms_links`
 --
 ALTER TABLE `mlcms_model_type`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '模型ID，唯一性标识', AUTO_INCREMENT=9;
---
--- 使用表AUTO_INCREMENT `mlcms_setting`
---
-ALTER TABLE `mlcms_setting`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '网站ID', AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
