@@ -52,8 +52,6 @@ class Category extends Base {
 
         if (request()->isPost()) {
             $data = input();
-            dump($data);
-
             $data['status'] = 0;
             $data['is_recommond'] = 0;
             if (input('status')) {
